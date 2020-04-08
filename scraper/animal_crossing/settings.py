@@ -69,7 +69,7 @@ ITEM_PIPELINES = {
     'animal_crossing.pipelines.JsonWriterPipeline': 300,
 }
 
-IMAGES_STORE = 'output/images'
+IMAGES_STORE = '../public/images'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

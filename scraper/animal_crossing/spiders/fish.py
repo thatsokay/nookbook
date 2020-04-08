@@ -46,18 +46,21 @@ class FishSpider(scrapy.Spider):
         }
 
         data['price'] = int(data['price'])
-        data['shadow_size'] = int(data['shadow_size'])
 
         # Parse start and end time. Assumes end time is exclusive.
         if data['time'] == 'All day':
-            start_time, end_time = 0, 0
+            times = [{
+                'start_time': 0,
+                'end_time': 0,
+            }]
+        elif '&' in data['time']:
+            # Handle piranha case
+            times = [
+                self.parse_time_range(time_range)
+                for time_range in data['time'].split(' & ')
+            ]
         else:
-            times = data['time'].split(' - ')
-            start_time, end_time = (
-                # Convert 12-hour to 24-hour time
-                int(strftime('%H', strptime(time, '%I %p')))
-                for time in times
-            )
+            times = [self.parse_time_range(data['time'])]
         del data['time']
 
         # Find start and end months. Look for rising or falling edges in
@@ -80,8 +83,18 @@ class FishSpider(scrapy.Spider):
 
         return {
             **data,
-            'start_time': start_time,
-            'end_time': end_time,
+            'times': times,
             'start_month': start_month,
             'end_month': end_month,
+        }
+
+    def parse_time_range(self, time_range):
+        start_time, end_time = (
+            # Convert 12-hour to 24-hour time
+            int(strftime('%H', strptime(time, '%I %p')))
+            for time in time_range.split(' - ')
+        )
+        return {
+            'start_time': start_time,
+            'end_time': end_time,
         }
