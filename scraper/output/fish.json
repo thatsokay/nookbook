@@ -1,0 +1,587 @@
+[
+    {
+        "name": "Bitterling",
+        "price": 900,
+        "location": "River",
+        "shadow_size": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 11,
+        "end_month": 3,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Icon-bitterling.png/revision/latest?cb=20200401003128",
+            "path": "full/5ec00a02a895596b5a820d908a669bd2742db8eb.jpg",
+            "checksum": "55c61fe9fc62086a52569bfbf5694dd4"
+        }
+    },
+    {
+        "name": "Pale chub",
+        "price": 200,
+        "location": "River",
+        "shadow_size": 1,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png/revision/latest?cb=20200401003129",
+            "path": "full/d2f2dd85a6d0ac4fa8651c88cf7c005a62fcfd97.jpg",
+            "checksum": "2fbd90f2b0d6e96c2ab0a249403101a7"
+        }
+    },
+    {
+        "name": "Crucian carp",
+        "price": 160,
+        "location": "River",
+        "shadow_size": 2,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Icon-cruciancarp.png/revision/latest?cb=20200401003129",
+            "path": "full/a9ed4236e7cfd831a0e2152c1278db7322f31d86.jpg",
+            "checksum": "37c54418199854ea63fdea4c9616e7bf"
+        }
+    },
+    {
+        "name": "Dace",
+        "price": 240,
+        "location": "River",
+        "shadow_size": 3,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-dace.png/revision/latest?cb=20200401003129",
+            "path": "full/4ea558566e34bf65982b68273a1bccdd290f4455.jpg",
+            "checksum": "d246b6067d001a887eb4c46ead1e8b69"
+        }
+    },
+    {
+        "name": "Carp",
+        "price": 300,
+        "location": "Pond",
+        "shadow_size": 4,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-carp.png/revision/latest?cb=20200401003129",
+            "path": "full/a2954ba25654e285fd606c24dd589233f01d2e83.jpg",
+            "checksum": "9a3aedbecf0e8df679315acd9ee3fef7"
+        }
+    },
+    {
+        "name": "Koi",
+        "price": 4000,
+        "location": "Pond",
+        "shadow_size": 4,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/74/NH-Icon-koi.png/revision/latest?cb=20200401003129",
+            "path": "full/f09e365d154f2450530724e4a8175708fcc9cd80.jpg",
+            "checksum": "50a920d05ba5a41e0a11ceb832253c97"
+        }
+    },
+    {
+        "name": "Goldfish",
+        "price": 1300,
+        "location": "Pond",
+        "shadow_size": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Icon-goldfish.png/revision/latest?cb=20200401003129",
+            "path": "full/de7758d6fef2fdad4a4c3df131ac3fecbe3be162.jpg",
+            "checksum": "ded4f85a1adcdf2c6b099ff9c81ec7d7"
+        }
+    },
+    {
+        "name": "Pop-eyed goldfish",
+        "price": 1300,
+        "location": "Pond",
+        "shadow_size": 1,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Icon-popeyedgoldfish.png/revision/latest?cb=20200401003129",
+            "path": "full/d461f60fabc27c06f30461eb12c8473a5833274b.jpg",
+            "checksum": "63eb47228c6860151160c55b5ace52c2"
+        }
+    },
+    {
+        "name": "Ranchu goldfish",
+        "price": 4500,
+        "location": "Pond",
+        "shadow_size": 2,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/NH-Icon-ranchugoldfish.png/revision/latest?cb=20200401003129",
+            "path": "full/6d25c501d7f99b97b94d2535df7c8fee2f03057c.jpg",
+            "checksum": "0b85b78df55861609fb8e01a9fa5f48c"
+        }
+    },
+    {
+        "name": "Killifish",
+        "price": 300,
+        "location": "Pond",
+        "shadow_size": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 4,
+        "end_month": 8,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-killifish.png/revision/latest?cb=20200401003129",
+            "path": "full/3b55483650d550c78112f31a3e56ac3c3443cf89.jpg",
+            "checksum": "2f11ad7050fc1df8314de51e33262ad1"
+        }
+    },
+    {
+        "name": "Crawfish",
+        "price": 200,
+        "location": "Pond",
+        "shadow_size": 2,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 4,
+        "end_month": 9,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Icon-crawfish.png/revision/latest?cb=20200401003129",
+            "path": "full/ebb0397467564f3617facf37450b0c7474daef71.jpg",
+            "checksum": "1d56e867be0002f3edebd0b69e3b325b"
+        }
+    },
+    {
+        "name": "Soft-shelled turtle",
+        "price": 3750,
+        "location": "River",
+        "shadow_size": 4,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 8,
+        "end_month": 9,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-softshelledturtle.png/revision/latest?cb=20200401003129",
+            "path": "full/9c2786888332532a972cc880e89a48abc56be74e.jpg",
+            "checksum": "e50bcba9c27b7ea59448d5b085542ef8"
+        }
+    },
+    {
+        "name": "Snapping Turtle",
+        "price": 5000,
+        "location": "River",
+        "shadow_size": 5,
+        "start_time": 21,
+        "end_time": 4,
+        "start_month": 4,
+        "end_month": 10,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-snappingturtle.png/revision/latest?cb=20200401003129",
+            "path": "full/473444fe7351352bf89a57755d2538c97da0ac5e.jpg",
+            "checksum": "f2101044d78cbb31f5af6f3d0f4e382a"
+        }
+    },
+    {
+        "name": "Tadpole",
+        "price": 100,
+        "location": "Pond",
+        "shadow_size": 1,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 3,
+        "end_month": 7,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-tadpole.png/revision/latest?cb=20200401003129",
+            "path": "full/34a32000a36f8cc1f596d3e9075d7756c34611a6.jpg",
+            "checksum": "11b64cfcad67f9c94f0c211c5bd605d0"
+        }
+    },
+    {
+        "name": "Frog",
+        "price": 120,
+        "location": "Pond",
+        "shadow_size": 2,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 5,
+        "end_month": 8,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Icon-frog.png/revision/latest?cb=20200401003129",
+            "path": "full/35bcf82938e91b8ee311fa1d7c2dcda661dff9a5.jpg",
+            "checksum": "39b0f08aad4b9ce3c9776722aa41f01e"
+        }
+    },
+    {
+        "name": "Freshwater goby",
+        "price": 400,
+        "location": "River",
+        "shadow_size": 2,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Icon-freshwatergoby.png/revision/latest?cb=20200401003129",
+            "path": "full/e7ae35704b535c9d834a9df97d96114facc828b4.jpg",
+            "checksum": "4702ec3d6f08ced47a08fe69796f6703"
+        }
+    },
+    {
+        "name": "Loach",
+        "price": 400,
+        "location": "River",
+        "shadow_size": 2,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 3,
+        "end_month": 5,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-Icon-loach.png/revision/latest?cb=20200401003129",
+            "path": "full/421592b466185ca1427c00435193f9e90851ba90.jpg",
+            "checksum": "ebb22742d533c35b335acea24103b2f5"
+        }
+    },
+    {
+        "name": "Catfish",
+        "price": 800,
+        "location": "Pond",
+        "shadow_size": 4,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 5,
+        "end_month": 10,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Icon-catfish.png/revision/latest?cb=20200401003129",
+            "path": "full/cc99a57c915cd762a5d47405c9d5b01771b6a453.jpg",
+            "checksum": "b06d288866373e3781e917225fa998f9"
+        }
+    },
+    {
+        "name": "Giant snakehead",
+        "price": 5500,
+        "location": "Pond",
+        "shadow_size": 5,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 6,
+        "end_month": 8,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-giantsnakehead.png/revision/latest?cb=20200401003129",
+            "path": "full/a3360d9ec2b81f612f0f82bb7083ecbcd2c207d2.jpg",
+            "checksum": "a018258fea286c251e1ed16442c52b2e"
+        }
+    },
+    {
+        "name": "Bluegill",
+        "price": 180,
+        "location": "River",
+        "shadow_size": 2,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Icon-bluegill.png/revision/latest?cb=20200401003129",
+            "path": "full/7a8f790a7d00d658a542f13c1da56d799190dc89.jpg",
+            "checksum": "a8ea919cbdd6c7f641fc0bcf7cdfdf2e"
+        }
+    },
+    {
+        "name": "Yellow perch",
+        "price": 300,
+        "location": "River",
+        "shadow_size": 3,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 10,
+        "end_month": 3,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1d/NH-Icon-yellowperch.png/revision/latest?cb=20200401003129",
+            "path": "full/0fd9da0f3979e2cf80c83e07702dbf337e81b228.jpg",
+            "checksum": "05d67b8fabab3f9e4638a3b2021feccd"
+        }
+    },
+    {
+        "name": "Black bass",
+        "price": 400,
+        "location": "River",
+        "shadow_size": 4,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 1,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-blackbass.png/revision/latest?cb=20200401003129",
+            "path": "full/e58d4846678002796408757a125bef08ca565dc1.jpg",
+            "checksum": "9b04f0a101aa0e44cfbb8cff48978c63"
+        }
+    },
+    {
+        "name": "Tilapia",
+        "price": 800,
+        "location": "River",
+        "shadow_size": 3,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 6,
+        "end_month": 10,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/53/NH-Icon-tilapia.png/revision/latest?cb=20200401003129",
+            "path": "full/27ed14c8f829dff5f4e33e44c5766d5282b1f538.jpg",
+            "checksum": "aa3136fb94719f8f351b12748a8ef8cd"
+        }
+    },
+    {
+        "name": "Pike",
+        "price": 1800,
+        "location": "River",
+        "shadow_size": 5,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 9,
+        "end_month": 12,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-pike.png/revision/latest?cb=20200401003130",
+            "path": "full/21814e6330639e62dba42fe2a22dff1ba32ee508.jpg",
+            "checksum": "74bab291fb3c2b38060f28f6a1f77d23"
+        }
+    },
+    {
+        "name": "Pond smelt",
+        "price": 500,
+        "location": "River",
+        "shadow_size": 2,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 12,
+        "end_month": 2,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Icon-pondsmelt.png/revision/latest?cb=20200401003130",
+            "path": "full/933e20eb3f65f1e6a9db3dfbbcf39c666e958e11.jpg",
+            "checksum": "c3a7f3bf71619bb7e34a0876695873c9"
+        }
+    },
+    {
+        "name": "Sweetfish",
+        "price": 900,
+        "location": "River",
+        "shadow_size": 3,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 7,
+        "end_month": 9,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/NH-Icon-sweetfish.png/revision/latest?cb=20200401003129",
+            "path": "full/9d39ab494adc3d1cad23fd6197472c91de365048.jpg",
+            "checksum": "0b41dc13f1c793168c72c910e08011d4"
+        }
+    },
+    {
+        "name": "Cherry salmon",
+        "price": 1000,
+        "location": "River (Clifftop)",
+        "shadow_size": 3,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 9,
+        "end_month": 11,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Icon-cherrysalmon.png/revision/latest?cb=20200401003129",
+            "path": "full/1a798065a8f42ba119425277b30ab22b17c6fdb0.jpg",
+            "checksum": "e8d0cd66eb81cd42008f0753a78db2d5"
+        }
+    },
+    {
+        "name": "Char",
+        "price": 3800,
+        "location": "River (Clifftop)  Pond",
+        "shadow_size": 3,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 9,
+        "end_month": 11,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Icon-char.png/revision/latest?cb=20200401003129",
+            "path": "full/1c93fea005867a4ecd25012d3728273e87605274.jpg",
+            "checksum": "14ce639becdbdfb13fb6963017605ab2"
+        }
+    },
+    {
+        "name": "Golden trout",
+        "price": 15000,
+        "location": "River (Clifftop)",
+        "shadow_size": 3,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 9,
+        "end_month": 11,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Icon-goldentrout.png/revision/latest?cb=20200401003129",
+            "path": "full/a15b079a7d7435c6b959d120749df164517a38ef.jpg",
+            "checksum": "5f94112ae2274d0fd700dd04a533219b"
+        }
+    },
+    {
+        "name": "Stringfish",
+        "price": 15000,
+        "location": "River (Clifftop)",
+        "shadow_size": 5,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 12,
+        "end_month": 3,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-stringfish.png/revision/latest?cb=20200401003129",
+            "path": "full/16a46b027da66afb00ff286abd177af5d17d4253.jpg",
+            "checksum": "da980b08c3e51451971bf132ba31e2b0"
+        }
+    },
+    {
+        "name": "Salmon",
+        "price": 700,
+        "location": "River (Mouth)",
+        "shadow_size": 4,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 9,
+        "end_month": 9,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Icon-salmon.png/revision/latest?cb=20200401003129",
+            "path": "full/978b147f05e1ea096ec46f5438baf2d8af640420.jpg",
+            "checksum": "c23faf204e6fa49ceff62cda1832eb9d"
+        }
+    },
+    {
+        "name": "King salmon",
+        "price": 1800,
+        "location": "River (Mouth)",
+        "shadow_size": 6,
+        "start_time": 0,
+        "end_time": 0,
+        "start_month": 9,
+        "end_month": 9,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Icon-kingsalmon.png/revision/latest?cb=20200401003129",
+            "path": "full/7c5bb5c40afad0ec2aa621abea33e543012d5cbc.jpg",
+            "checksum": "8a3e1b5b8f926fab14ce413bdaba2a0c"
+        }
+    },
+    {
+        "name": "Mitten crab",
+        "price": 2000,
+        "location": "River",
+        "shadow_size": 2,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 9,
+        "end_month": 11,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-mittencrab.png/revision/latest?cb=20200401003129",
+            "path": "full/8b67f2a3079f30027f02e9473a7646b2846e0245.jpg",
+            "checksum": "a054903fc6f681d8a1bf366e3a524f78"
+        }
+    },
+    {
+        "name": "Guppy",
+        "price": 1300,
+        "location": "River",
+        "shadow_size": 1,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 4,
+        "end_month": 11,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-guppy.png/revision/latest?cb=20200401003129",
+            "path": "full/2364cb8b150c52e6b16ff7933848d322c857f422.jpg",
+            "checksum": "fb15c3e15a5f7e367bd352f6a8fc338d"
+        }
+    },
+    {
+        "name": "Nibble fish",
+        "price": 1500,
+        "location": "River",
+        "shadow_size": 1,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 5,
+        "end_month": 9,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Icon-nibblefish.png/revision/latest?cb=20200401003129",
+            "path": "full/76550151f3f7a42c4e552a0d956e341821a5a015.jpg",
+            "checksum": "54945eecd5aa444c8785426e8d16ee57"
+        }
+    },
+    {
+        "name": "Angelfish",
+        "price": 3000,
+        "location": "River",
+        "shadow_size": 2,
+        "start_time": 16,
+        "end_time": 9,
+        "start_month": 5,
+        "end_month": 10,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-angelfish.png/revision/latest?cb=20200401003128",
+            "path": "full/e47074600634622f9b0e395657182732dfffce81.jpg",
+            "checksum": "b182304cedd63570336691cb11c8b3d1"
+        }
+    },
+    {
+        "name": "Betta",
+        "price": 2500,
+        "location": "River",
+        "shadow_size": 2,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 5,
+        "end_month": 10,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-betta.png/revision/latest?cb=20200401003129",
+            "path": "full/56dc6c45f771070c68c0f59c999a4cfc57dabc84.jpg",
+            "checksum": "1ef203e38b3031c2ea177e19c3916e56"
+        }
+    },
+    {
+        "name": "Neon tetra",
+        "price": 500,
+        "location": "River",
+        "shadow_size": 1,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 4,
+        "end_month": 11,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/da/NH-Icon-neontetra.png/revision/latest?cb=20200401003129",
+            "path": "full/58445bdc63b83f14ac159a58bcb80450a9fac0a3.jpg",
+            "checksum": "85e1f35714b8a4369463b1cca9f30e3d"
+        }
+    },
+    {
+        "name": "Rainbowfish",
+        "price": 800,
+        "location": "River",
+        "shadow_size": 1,
+        "start_time": 9,
+        "end_time": 16,
+        "start_month": 5,
+        "end_month": 10,
+        "image": {
+            "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/NH-Icon-rainbowfish.png/revision/latest?cb=20200401003129",
+            "path": "full/a86e40e5b266250d59d6b3c1362ebb6efd3adb27.jpg",
+            "checksum": "158fa5769005a9be790defd6553dbe08"
+        }
+    }
+]
