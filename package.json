@@ -2,8 +2,8 @@
   "name": "animal-crossing",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --mode=development",
-    "build": "webpack --progress --colors --mode=production",
+    "start": "BABEL_ENV=development webpack-dev-server --mode=development",
+    "build": "BABEL_ENV=production webpack --progress --colors --mode=production",
     "format": "prettier --write 'app/**/*.{ts,tsx,js,jsx}' 'webpack.config.js'"
   },
   "dependencies": {
@@ -11,11 +11,14 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react-app": "^9.1.2",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.0.4",
     "prettier": "^2.0.4",
-    "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",

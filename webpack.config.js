@@ -17,7 +17,27 @@ module.exports = {
     contentBase: './dist',
   },
   module: {
-    rules: [{test: /\.tsx?$/, loader: 'ts-loader', exclude: /node_modules/}],
+    rules: [
+      {
+        test: /\.tsx?$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        // Copied from CRA config.
+        // https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/config/webpack.config.js#L453
+        options: {
+          customize: require.resolve(
+            'babel-preset-react-app/webpack-overrides',
+          ),
+          presets: ['react-app'],
+        },
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        // No ES module so importing with `require` doesn't need `.default`.
+        options: {esModule: false},
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({inject: true, template: './public/index.html'}),
