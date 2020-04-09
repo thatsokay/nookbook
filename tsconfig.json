@@ -15,7 +15,7 @@
     "resolveJsonModule": true
   },
   "include": [
-    "app/index.tsx",
+    "src/index.tsx",
   ],
   "exclude": [
     "node_modules"

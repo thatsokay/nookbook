@@ -7,14 +7,14 @@ module.exports = {
   },
   stats: 'minimal',
   entry: {
-    app: './app/index.tsx',
+    app: './src/index.tsx',
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'js/[name].js',
   },
   devServer: {
-    contentBase: './dist',
+    contentBase: './build',
   },
   module: {
     rules: [
