@@ -1,6 +1,6 @@
 import React from 'react'
 
-import fish from '../../public/fish.json'
+import fish from '../../assets/fish.json'
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <h1>Animal Crossing</h1>
       {fish.map(({name, image}) => (
         <p>
-          <img src={require(`../../public/images/${image.path}`)} />
+          <img src={require(`../../assets/${image.path}`)} />
           {name}
         </p>
       ))}

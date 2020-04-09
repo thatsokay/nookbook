@@ -1,5 +1,6 @@
 from itertools import tee
 from time import strftime, strptime
+from re import sub
 import scrapy
 
 
@@ -21,7 +22,7 @@ class FishSpider(scrapy.Spider):
             del data['image_url']
             yield {
                 **data,
-                'image_urls': [image_url],
+                'file_urls': [image_url],
             }
 
     def parse_data_row(self, selector):
@@ -45,6 +46,12 @@ class FishSpider(scrapy.Spider):
             for (name, selector), cell in zip(cell_selectors, cells)
         }
 
+        # End url after file name
+        data['image_url'] = sub(
+            r'/revision/latest\?.*$',
+            '',
+            data['image_url']
+        )
         data['price'] = int(data['price'])
 
         # Parse start and end time. Assumes end time is exclusive.
