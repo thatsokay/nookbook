@@ -56,18 +56,19 @@ class FishSpider(scrapy.Spider):
 
         if data['shadow_size'] == 'Narrow':
             shadow = {
-                'shadow_size': 4,
-                'shadow_comment': '(narrow)',
+                'size': 4,
+                'comment': '(Narrow)',
             }
         else:
             # Handle shadow size '6 (fin)'
             shadow_split = data['shadow_size'].split(maxsplit=1)
             shadow_size = int(shadow_split[0])
             shadow = {
-                'shadow_size': shadow_size,
+                'size': shadow_size,
             }
             if (len(shadow_split) > 1):
-                shadow['shadow_comments'] = shadow_split[1]
+                shadow['comment'] = shadow_split[1]
+        del data['shadow_size']
 
         # Parse start and end time. Assumes end time is exclusive.
         if data['time'] == 'All day':

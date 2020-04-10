@@ -3,6 +3,8 @@ import {Box, Grid, Card, CardContent, Typography} from '@material-ui/core'
 
 import fish from '../../assets/fish.json'
 
+const shadowSizes = ['Tiny', 'Small', 'Medium', 'Large', 'Very Large', 'Huge']
+
 const App = () => {
   return (
     <>
@@ -22,7 +24,8 @@ const App = () => {
                       {fish.name}
                     </Typography>
                     <Typography variant="body2">
-                      {fish.location} • ₿{fish.price}
+                      ₿{fish.price} • {fish.location} •{' '}
+                      {shadowSizes[fish.shadow.size - 1]} {fish.shadow.comment}
                     </Typography>
                   </Box>
                 </Box>
