@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {
   CssBaseline,
   Container,
@@ -7,6 +7,9 @@ import {
   Card,
   CardContent,
   Typography,
+  FormGroup,
+  FormControlLabel,
+  Switch,
 } from '@material-ui/core'
 
 import fishData from '../../assets/fish.json'
@@ -20,7 +23,32 @@ const shadowSizes = [
   'Huge',
 ] as const
 
+const moduloBetween = (
+  {start, end}: {start: number; end: number},
+  between: number,
+) =>
+  /* Given cyclic `start` and `end` boundaries, returns true if `between` is
+   * between them and false otherwise.
+   */
+  start < end
+    ? between >= start && between < end
+    : between >= start || between < end
+
 const App = () => {
+  const [filterActive, setFilterActive] = useState(false)
+
+  const now = new Date()
+  const month = now.getMonth()
+  const hour = now.getHours()
+
+  const filteredFish = filterActive
+    ? fishData.filter(
+        (fish) =>
+          fish.months.some((bounds) => moduloBetween(bounds, month)) &&
+          fish.hours.some((bounds) => moduloBetween(bounds, hour)),
+      )
+    : fishData
+
   return (
     <>
       <CssBaseline />
@@ -28,8 +56,20 @@ const App = () => {
         <Typography variant="h2" component="h1" align="center">
           Animal Crossing Fish
         </Typography>
+        <FormGroup row>
+          <FormControlLabel
+            control={
+              <Switch
+                checked={filterActive}
+                onChange={(event) => setFilterActive(event.target.checked)}
+              />
+            }
+            label="Active now"
+            labelPlacement="start"
+          />
+        </FormGroup>
         <Grid container spacing={3}>
-          {fishData.map((fish) => (
+          {filteredFish.map((fish) => (
             <Grid item xs={12} sm={6} md={4} lg={3}>
               <Card>
                 <CardContent>

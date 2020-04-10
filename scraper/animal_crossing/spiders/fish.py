@@ -72,20 +72,20 @@ class FishSpider(scrapy.Spider):
 
         # Parse start and end time. Assumes end time is exclusive.
         if data['time'] == 'All day':
-            times = [{'start': 0, 'end': 0,}]
+            hours = [{'start': 0, 'end': 0,}]
         elif '&' in data['time']:
             # Handle piranha case
-            times = [
+            hours = [
                 self.parse_time_range(time_range)
                 for time_range in data['time'].split(' & ')
             ]
         else:
-            times = [self.parse_time_range(data['time'])]
+            hours = [self.parse_time_range(data['time'])]
         del data['time']
 
         # Find start and end months. Look for rising or falling edges in
-        # `months`. Start and end months are 1-indexed and inclusive on both
-        # ends.
+        # `months`. Start and end months are 0-indexed, inclusive start and
+        # exclusive end.
         months = [
             month.strip() == '✓'
             for month in cells[6:].css(selectors['text']).getall()
@@ -97,12 +97,12 @@ class FishSpider(scrapy.Spider):
                 continue
             if current:
                 # Rising edge. `current` is start month.
-                start_months.append(i + 2) # +1 for 1-indexing, +1 from `prev` to `current` index
+                start_months.append(i + 1) # +1 from `prev` to `current` index
                 continue
             # Falling edge. `prev` is end month
-            end_months.append(i + 1) # +1 for 1-indexing
+            end_months.append(i + 1) # +1 from `prev` to `current` index
         if start_months == []:
-            months = [{'start': 1, 'end': 12}]
+            months = [{'start': 0, 'end': 0}]
         else:
             if months[0] == '✓':
                 # Rotate `start_months` to match last start month with first end month
@@ -115,7 +115,7 @@ class FishSpider(scrapy.Spider):
         return {
             **data,
             'shadow': shadow,
-            'times': times,
+            'hours': hours,
             'months': months,
         }
 
@@ -124,12 +124,12 @@ class FishSpider(scrapy.Spider):
         Takes a time range string (eg. '9 AM - 4 PM') and returns a dict with
         the start and end times as 24-hour integers.
         """
-        start_time, end_time = (
+        start, end = (
             # Convert 12-hour to 24-hour time
             int(strftime('%H', strptime(time, '%I %p')))
             for time in time_range.split(' - ')
         )
         return {
-            'start': start_time,
-            'end': end_time,
+            'start': start,
+            'end': end,
         }
