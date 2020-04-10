@@ -4,7 +4,7 @@
   "scripts": {
     "start": "BABEL_ENV=development webpack-dev-server --mode=development",
     "build": "BABEL_ENV=production webpack --progress --colors --mode=production",
-    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}' 'webpack.config.js'"
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}' 'assets/**/*.json' 'webpack.config.js'"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.9",
