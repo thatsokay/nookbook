@@ -9,9 +9,16 @@ import {
   Typography,
 } from '@material-ui/core'
 
-import fish from '../../assets/fish.json'
+import fishData from '../../assets/fish.json'
 
-const shadowSizes = ['Tiny', 'Small', 'Medium', 'Large', 'Very Large', 'Huge']
+const shadowSizes = [
+  'Tiny',
+  'Small',
+  'Medium',
+  'Large',
+  'Very Large',
+  'Huge',
+] as const
 
 const App = () => {
   return (
@@ -22,26 +29,11 @@ const App = () => {
           Animal Crossing Fish
         </Typography>
         <Grid container spacing={3}>
-          {fish.map((fish) => (
+          {fishData.map((fish) => (
             <Grid item xs={12} sm={6} md={4} lg={3}>
               <Card>
                 <CardContent>
-                  <Box display="flex">
-                    <img
-                      src={require(`../../assets/${fish.image.path}`)}
-                      style={{height: '4rem', alignSelf: 'center'}}
-                    />
-                    <Box paddingLeft="0.5rem">
-                      <Typography variant="h6" component="h2">
-                        {fish.name}
-                      </Typography>
-                      <Typography variant="body2">
-                        ₿{fish.price} • {fish.location} •{' '}
-                        {shadowSizes[fish.shadow.size - 1]}{' '}
-                        {fish.shadow.comment}
-                      </Typography>
-                    </Box>
-                  </Box>
+                  <FishContent fish={fish} />
                 </CardContent>
               </Card>
             </Grid>
@@ -51,5 +43,23 @@ const App = () => {
     </>
   )
 }
+
+const FishContent = ({fish}: {fish: typeof fishData[number]}) => (
+  <Box display="flex">
+    <img
+      src={require(`../../assets/${fish.image.path}`)}
+      style={{height: '3.25rem'}}
+    />
+    <Box paddingLeft="0.5rem">
+      <Typography variant="h6" component="h2">
+        {fish.name}
+      </Typography>
+      <Typography variant="body2">
+        ₿{fish.price} • {fish.location} • {shadowSizes[fish.shadow.size - 1]}{' '}
+        {fish.shadow.comment}
+      </Typography>
+    </Box>
+  </Box>
+)
 
 export default App
