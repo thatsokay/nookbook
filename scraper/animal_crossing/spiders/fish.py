@@ -71,10 +71,7 @@ class FishSpider(scrapy.Spider):
 
         # Parse start and end time. Assumes end time is exclusive.
         if data['time'] == 'All day':
-            times = [{
-                'start_time': 0,
-                'end_time': 0,
-            }]
+            times = [{'start': 0, 'end': 0,}]
         elif '&' in data['time']:
             # Handle piranha case
             times = [
@@ -92,32 +89,46 @@ class FishSpider(scrapy.Spider):
             month.strip() == '✓'
             for month in cells[6:].css(selectors['text']).getall()
         ]
-        start_month, end_month = 1, 12
+        start_months = []
+        end_months = []
         for i, (prev, current) in enumerate(zip(months, months[1:])):
             if prev == current:
                 continue
             if current:
                 # Rising edge. `current` is start month.
-                start_month = i + 2 # +1 for 1-indexing, +1 from `prev` to `current` index
+                start_months.append(i + 2) # +1 for 1-indexing, +1 from `prev` to `current` index
                 continue
             # Falling edge. `prev` is end month
-            end_month = i + 1 # +1 for 1-indexing
+            end_months.append(i + 1) # +1 for 1-indexing
+        if start_months == []:
+            months = [{'start': 1, 'end': 12}]
+        else:
+            if months[0] == '✓':
+                # Rotate `start_months` to match last start month with first end month
+                start_months = start_months[-1] + start_months[:-1]
+            months = [
+                {'start': start, 'end': end}
+                for start, end in zip(start_months, end_months)
+            ]
 
         return {
             **data,
             'shadow': shadow,
             'times': times,
-            'start_month': start_month,
-            'end_month': end_month,
+            'months': months,
         }
 
     def parse_time_range(self, time_range):
+        """
+        Takes a time range string (eg. '9 AM - 4 PM') and returns a dict with
+        the start and end times as 24-hour integers.
+        """
         start_time, end_time = (
             # Convert 12-hour to 24-hour time
             int(strftime('%H', strptime(time, '%I %p')))
             for time in time_range.split(' - ')
         )
         return {
-            'start_time': start_time,
-            'end_time': end_time,
+            'start': start_time,
+            'end': end_time,
         }

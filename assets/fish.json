@@ -9,12 +9,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 11,
-        "end_month": 3,
+        "months": [
+            {
+                "start": 11,
+                "end": 3
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Icon-bitterling.png",
             "path": "full/2668708294a03991a3b6b7e64acaea9f65e1593b.png",
@@ -31,12 +35,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png",
             "path": "full/0cc17e19704933a17af4a7de3117a1086d1aaf38.png",
@@ -53,12 +61,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Icon-cruciancarp.png",
             "path": "full/d179bda2319cb9fb36aafebca6c161a968d2036c.png",
@@ -75,12 +87,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-dace.png",
             "path": "full/e60f2630ccd28fc227f0d03d6fc5996f2c399b71.png",
@@ -97,12 +113,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-carp.png",
             "path": "full/6ea3485fd25338abbab830982113b43395f95173.png",
@@ -119,12 +139,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/74/NH-Icon-koi.png",
             "path": "full/2d0f8631e59df19721f56c62a2882db69fe598f3.png",
@@ -141,12 +165,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Icon-goldfish.png",
             "path": "full/1c718fe9f4393194663dd26d37d40732c5111bfe.png",
@@ -163,12 +191,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Icon-popeyedgoldfish.png",
             "path": "full/7e6505eb5c6d039028b227a84c52bceb8009132d.png",
@@ -185,12 +217,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/NH-Icon-ranchugoldfish.png",
             "path": "full/f56e93dd167929add59ed4df4550559f7dbe890c.png",
@@ -207,12 +243,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 4,
-        "end_month": 8,
+        "months": [
+            {
+                "start": 4,
+                "end": 8
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-killifish.png",
             "path": "full/3ebb1876e7aa4884dd8f2b2288df5f576dbb9f76.png",
@@ -229,12 +269,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 4,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 4,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Icon-crawfish.png",
             "path": "full/ce06801ce55034c22719b39dcee06bd132d7d96c.png",
@@ -251,12 +295,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 8,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 8,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-softshelledturtle.png",
             "path": "full/586debd1f3fbdd7a22b159cc307fd0a6c07d2a7c.png",
@@ -273,12 +321,16 @@
         },
         "times": [
             {
-                "start_time": 21,
-                "end_time": 4
+                "start": 21,
+                "end": 4
             }
         ],
-        "start_month": 4,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 4,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-snappingturtle.png",
             "path": "full/828a2349a32479c26fddc39dabc7422072be041a.png",
@@ -295,12 +347,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 3,
-        "end_month": 7,
+        "months": [
+            {
+                "start": 3,
+                "end": 7
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-tadpole.png",
             "path": "full/f60174d977523745b2bfa2c5d7dc482cd81f0965.png",
@@ -317,12 +373,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 5,
-        "end_month": 8,
+        "months": [
+            {
+                "start": 5,
+                "end": 8
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Icon-frog.png",
             "path": "full/fde2607085eb13b237628d8a24fde673b177c51d.png",
@@ -339,12 +399,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Icon-freshwatergoby.png",
             "path": "full/07c6fa3c44226a8c34c1ce1a5351865db9f9834e.png",
@@ -361,12 +425,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 3,
-        "end_month": 5,
+        "months": [
+            {
+                "start": 3,
+                "end": 5
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-Icon-loach.png",
             "path": "full/43d7f22fa69b6fa902737ae536e5c6329f904d90.png",
@@ -383,12 +451,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 5,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 5,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Icon-catfish.png",
             "path": "full/46fbbb27f13d04d281b0c63422a45365ec0bc6a7.png",
@@ -405,12 +477,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 6,
-        "end_month": 8,
+        "months": [
+            {
+                "start": 6,
+                "end": 8
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-giantsnakehead.png",
             "path": "full/3b7639275537ac30bd19dbe296430d4efcaddbf2.png",
@@ -427,12 +503,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Icon-bluegill.png",
             "path": "full/35a785a52f08ca5321b855abd4cd78116f9b283a.png",
@@ -449,12 +529,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 10,
-        "end_month": 3,
+        "months": [
+            {
+                "start": 10,
+                "end": 3
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1d/NH-Icon-yellowperch.png",
             "path": "full/db5a8221558bf73838f19c09bb57f4a02130dbeb.png",
@@ -471,12 +555,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-blackbass.png",
             "path": "full/a27f84d3ae01086777f536bb2a6224a3216dc9f3.png",
@@ -493,12 +581,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 6,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 6,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/53/NH-Icon-tilapia.png",
             "path": "full/0a5bda3a81236026b3d7562b4bcd8a5d3f7713ce.png",
@@ -515,12 +607,11 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 9,
-        "end_month": 12,
+        "months": [],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-pike.png",
             "path": "full/03eb11de420f1217f50af38a5c9ad0d4b9d0c136.png",
@@ -537,12 +628,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 12,
-        "end_month": 2,
+        "months": [
+            {
+                "start": 12,
+                "end": 2
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Icon-pondsmelt.png",
             "path": "full/095f4bdf9cfcf59491ae1f26aef35611ab1d7f32.png",
@@ -559,12 +654,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 7,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 7,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/NH-Icon-sweetfish.png",
             "path": "full/7a3860d8447558b55b07f8b977b3ab0d43f6c0a1.png",
@@ -581,12 +680,20 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 9,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 3,
+                "end": 6
+            },
+            {
+                "start": 9,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Icon-cherrysalmon.png",
             "path": "full/cb5c27cd79b2f63e7e0a4963aaaa2512d62d75de.png",
@@ -603,12 +710,20 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 9,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 3,
+                "end": 6
+            },
+            {
+                "start": 9,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Icon-char.png",
             "path": "full/475ed71189ed9d8c4030c7377634ba1808220ce3.png",
@@ -625,12 +740,20 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 9,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 3,
+                "end": 5
+            },
+            {
+                "start": 9,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Icon-goldentrout.png",
             "path": "full/7a5b98f0999049502c30eb2ec1eb7bec83079c8b.png",
@@ -647,12 +770,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 12,
-        "end_month": 3,
+        "months": [
+            {
+                "start": 12,
+                "end": 3
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-stringfish.png",
             "path": "full/5320026f64d3362c9389c5132419e434701fd499.png",
@@ -669,12 +796,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 9,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 9,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Icon-salmon.png",
             "path": "full/7a2240b7c51206f9a3aec08d8b765d766c012e59.png",
@@ -691,12 +822,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 9,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 9,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Icon-kingsalmon.png",
             "path": "full/751655168db6fd07678c9f3332e78ece22fe4632.png",
@@ -713,12 +848,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 9,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 9,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-mittencrab.png",
             "path": "full/b572ef08b6c4eae6ae534e516e68329480236ec5.png",
@@ -735,12 +874,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 4,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 4,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-guppy.png",
             "path": "full/e0af1890aef2ab7faaf98000ffd605c010618182.png",
@@ -757,12 +900,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 5,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 5,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Icon-nibblefish.png",
             "path": "full/6228d00cb373ceb0ac272f8fd7ea899f310c6658.png",
@@ -779,12 +926,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 5,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 5,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-angelfish.png",
             "path": "full/21670302addd4c709dfb1baecc8b43a2aef808c7.png",
@@ -801,12 +952,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 5,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 5,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-betta.png",
             "path": "full/03e443c118a0eaf8c508065cec2af6da433458c4.png",
@@ -823,12 +978,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 4,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 4,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/da/NH-Icon-neontetra.png",
             "path": "full/341cf120c08ac02b7ed281ce85c6e314a0accf2a.png",
@@ -845,12 +1004,16 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             }
         ],
-        "start_month": 5,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 5,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/NH-Icon-rainbowfish.png",
             "path": "full/3e7dce988dc40d338d12f305a7efc553a18b7ae5.png",
@@ -867,16 +1030,20 @@
         },
         "times": [
             {
-                "start_time": 9,
-                "end_time": 16
+                "start": 9,
+                "end": 16
             },
             {
-                "start_time": 21,
-                "end_time": 4
+                "start": 21,
+                "end": 4
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-piranha.png",
             "path": "full/798b023ad36b0a43f69052cd03c45584021c74a8.png",
@@ -893,12 +1060,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Icon-arowana.png",
             "path": "full/0f11111774dd1a802de82e78033c9921b99d7bfb.png",
@@ -915,12 +1086,16 @@
         },
         "times": [
             {
-                "start_time": 4,
-                "end_time": 21
+                "start": 4,
+                "end": 21
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/NH-Icon-dorado.png",
             "path": "full/8f413b44011fa07dab6f2f329656c1d536023c95.png",
@@ -937,12 +1112,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9f/NH-Icon-gar.png",
             "path": "full/27b98e44c7da3c31af2e65be4aae6cd02232d206.png",
@@ -959,12 +1138,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-arapaima.png",
             "path": "full/b0b53af2dcfaaa0f732ff31f64c34cf9df561b6e.png",
@@ -981,12 +1164,16 @@
         },
         "times": [
             {
-                "start_time": 21,
-                "end_time": 4
+                "start": 21,
+                "end": 4
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a0/NH-Icon-saddledbichir.png",
             "path": "full/8722cfea8f863b11f8d84754d97802bb26e0571d.png",
@@ -1003,12 +1190,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 9,
-        "end_month": 3,
+        "months": [
+            {
+                "start": 9,
+                "end": 3
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/NH-Icon-sturgeon.png",
             "path": "full/989634a6158326a1a74d76d46c217cfcefa3ab3d.png",
@@ -1025,12 +1216,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 12,
-        "end_month": 3,
+        "months": [
+            {
+                "start": 12,
+                "end": 3
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-seabutterfly.png",
             "path": "full/328165ea8b40ab8637c6f9a5bc7a68efdfa2210e.png",
@@ -1047,12 +1242,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 4,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 4,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-seahorse.png",
             "path": "full/e2686efcf237e3cd1406b7f1bdee97eb8963b773.png",
@@ -1069,12 +1268,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 4,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 4,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-clownfish.png",
             "path": "full/05d606e1b2a4f5bcf49e35a844ce87b9ea38721f.png",
@@ -1091,12 +1294,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 4,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 4,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Icon-surgeonfish.png",
             "path": "full/d83f1bbc9609d2387787db496e7e24dcb8037f88.png",
@@ -1113,12 +1320,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 4,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 4,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Icon-butterflyfish.png",
             "path": "full/89eae6793093fd1e13ede9847379e55dd981dc7f.png",
@@ -1135,12 +1346,16 @@
         },
         "times": [
             {
-                "start_time": 4,
-                "end_time": 21
+                "start": 4,
+                "end": 21
             }
         ],
-        "start_month": 7,
-        "end_month": 8,
+        "months": [
+            {
+                "start": 7,
+                "end": 8
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-Icon-napoleonfish.png",
             "path": "full/1b2afce08dae6ead27e1ba6aecbc42897df9d5d8.png",
@@ -1157,12 +1372,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 4,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 4,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-zebraturkeyfish.png",
             "path": "full/4f1d78612d2a2acf1b518397833ca7e007e1b8af.png",
@@ -1179,12 +1398,16 @@
         },
         "times": [
             {
-                "start_time": 21,
-                "end_time": 4
+                "start": 21,
+                "end": 4
             }
         ],
-        "start_month": 11,
-        "end_month": 2,
+        "months": [
+            {
+                "start": 11,
+                "end": 2
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/39/NH-Icon-blowfish.png",
             "path": "full/10fe9a540147a9e25a9a30f47e868de421f3e108.png",
@@ -1201,12 +1424,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 7,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 7,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Icon-pufferfish.png",
             "path": "full/07de329bbfcd1b85279847fabc7a1a71d4dc658e.png",
@@ -1223,12 +1450,16 @@
         },
         "times": [
             {
-                "start_time": 4,
-                "end_time": 21
+                "start": 4,
+                "end": 21
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-anchovy.png",
             "path": "full/0818a344daa6c64bb76bde5fb38c16cf32b4270a.png",
@@ -1245,12 +1476,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/NH-Icon-horsemackerel.png",
             "path": "full/54ea72c248bff76a1796e60675234ee1cda433fe.png",
@@ -1267,12 +1502,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 3,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 3,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8c/NH-Icon-barredknifejaw.png",
             "path": "full/43a28048263d1ae49231c7dd534e4430ce39f52b.png",
@@ -1289,12 +1528,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-seabass.png",
             "path": "full/0343508df95c33016935f9968de3afb43b3d7884.png",
@@ -1311,12 +1554,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-redsnapper.png",
             "path": "full/9ff1bdee06aa7ad585d609ad60e1d45f082b2c1b.png",
@@ -1333,12 +1580,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 10,
-        "end_month": 4,
+        "months": [
+            {
+                "start": 10,
+                "end": 4
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Icon-dab.png",
             "path": "full/8e094ba966c069137714a696d358bd26d98521be.png",
@@ -1355,12 +1606,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-oliveflounder.png",
             "path": "full/52583efce46ae31f1745a7405df27d2e3d53fbbb.png",
@@ -1377,12 +1632,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 12,
-        "end_month": 8,
+        "months": [
+            {
+                "start": 12,
+                "end": 8
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3b/NH-Icon-squid.png",
             "path": "full/5cdfe0aa009139ccea0c35aaf18a341d5bfc3884.png",
@@ -1400,12 +1659,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 8,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 8,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Icon-morayeel.png",
             "path": "full/2f3f7d31bc764e33adbd0fff9b819847848e45ab.png",
@@ -1423,12 +1686,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 6,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 6,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Icon-ribboneel.png",
             "path": "full/e5134742010a5f1a9341f305bd6409b8e7c5a3db.png",
@@ -1445,12 +1712,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 11,
-        "end_month": 4,
+        "months": [
+            {
+                "start": 11,
+                "end": 4
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Icon-tuna.png",
             "path": "full/e6f6795bcf78577e11019a15ed6bf8566d7a2c9a.png",
@@ -1467,12 +1738,20 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 11,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 7,
+                "end": 4
+            },
+            {
+                "start": 11,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-bluemarlin.png",
             "path": "full/a4abf0066fbed40be6f1f6740db28cf107dae10d.png",
@@ -1489,12 +1768,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 5,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 5,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-gianttrevally.png",
             "path": "full/0a6ee20bc3877f26313e568849eead8cb3f946bd.png",
@@ -1511,12 +1794,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 5,
-        "end_month": 10,
+        "months": [
+            {
+                "start": 5,
+                "end": 10
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-mahimahi.png",
             "path": "full/ee9037252e603f1e43237aa8965e9c32f0736e40.png",
@@ -1534,12 +1821,16 @@
         },
         "times": [
             {
-                "start_time": 4,
-                "end_time": 21
+                "start": 4,
+                "end": 21
             }
         ],
-        "start_month": 7,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 7,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Icon-oceansunfish.png",
             "path": "full/8962c913d2b2d6f77b640513721c18255ea91c47.png",
@@ -1556,12 +1847,16 @@
         },
         "times": [
             {
-                "start_time": 4,
-                "end_time": 21
+                "start": 4,
+                "end": 21
             }
         ],
-        "start_month": 8,
-        "end_month": 11,
+        "months": [
+            {
+                "start": 8,
+                "end": 11
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Icon-ray.png",
             "path": "full/2c07270e3617f0ea6736ade7c95780dc5d551d08.png",
@@ -1579,12 +1874,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-Icon-sawshark.png",
             "path": "full/9f44da16bb47b68c6fcff9682d6d8e296b344153.png",
@@ -1602,12 +1901,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-hammerheadshark.png",
             "path": "full/4f04006244220f049c93821cd1aed2be440b2682.png",
@@ -1625,12 +1928,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/38/NH-Icon-greatwhiteshark.png",
             "path": "full/25e25b1d402719646a869574576f56a44e6394c0.png",
@@ -1648,12 +1955,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-whaleshark.png",
             "path": "full/8775595c954f12bac9a80614ac255fd5938522b6.png",
@@ -1671,12 +1982,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 6,
-        "end_month": 9,
+        "months": [
+            {
+                "start": 6,
+                "end": 9
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-suckerfish.png",
             "path": "full/4c79a715223845afb61dd49d2a90268c555a93d0.png",
@@ -1693,12 +2008,16 @@
         },
         "times": [
             {
-                "start_time": 16,
-                "end_time": 9
+                "start": 16,
+                "end": 9
             }
         ],
-        "start_month": 11,
-        "end_month": 3,
+        "months": [
+            {
+                "start": 11,
+                "end": 3
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Icon-footballfish.png",
             "path": "full/445e49ddb096bc502de93b38fae669fad0caf540.png",
@@ -1715,12 +2034,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 12,
-        "end_month": 5,
+        "months": [
+            {
+                "start": 12,
+                "end": 5
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Icon-oarfish.png",
             "path": "full/574ae5f5eea5f9422d12dad9e96062b207090e4a.png",
@@ -1737,12 +2060,16 @@
         },
         "times": [
             {
-                "start_time": 21,
-                "end_time": 4
+                "start": 21,
+                "end": 4
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-barreleye.png",
             "path": "full/47f2765fe05fe29ca3933607794cec85a4bf3024.png",
@@ -1759,12 +2086,16 @@
         },
         "times": [
             {
-                "start_time": 0,
-                "end_time": 0
+                "start": 0,
+                "end": 0
             }
         ],
-        "start_month": 1,
-        "end_month": 12,
+        "months": [
+            {
+                "start": 1,
+                "end": 12
+            }
+        ],
         "image": {
             "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png",
             "path": "full/1bf6714f500489a11e7b7b46262f0ef0d97ab1cd.png",
