@@ -4,6 +4,9 @@
         "price": 900,
         "location": "River",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 0,
@@ -23,6 +26,9 @@
         "price": 200,
         "location": "River",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 9,
@@ -42,6 +48,9 @@
         "price": 160,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 0,
@@ -61,6 +70,9 @@
         "price": 192,
         "location": "River",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 16,
@@ -80,6 +92,9 @@
         "price": 300,
         "location": "Pond",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 0,
@@ -99,6 +114,9 @@
         "price": 4000,
         "location": "Pond",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 16,
@@ -118,6 +136,9 @@
         "price": 1300,
         "location": "Pond",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 0,
@@ -137,6 +158,9 @@
         "price": 1300,
         "location": "Pond",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 9,
@@ -156,6 +180,9 @@
         "price": 4500,
         "location": "Pond",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 9,
@@ -175,6 +202,9 @@
         "price": 300,
         "location": "Pond",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 0,
@@ -194,6 +224,9 @@
         "price": 200,
         "location": "Pond",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 0,
@@ -213,6 +246,9 @@
         "price": 3750,
         "location": "River",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 16,
@@ -232,6 +268,9 @@
         "price": 5000,
         "location": "River",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 21,
@@ -251,6 +290,9 @@
         "price": 100,
         "location": "Pond",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 0,
@@ -270,6 +312,9 @@
         "price": 120,
         "location": "Pond",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 0,
@@ -289,6 +334,9 @@
         "price": 400,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 16,
@@ -308,6 +356,9 @@
         "price": 400,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 0,
@@ -327,6 +378,9 @@
         "price": 800,
         "location": "Pond",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 16,
@@ -346,6 +400,9 @@
         "price": 5500,
         "location": "Pond",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 9,
@@ -365,6 +422,9 @@
         "price": 180,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 9,
@@ -384,6 +444,9 @@
         "price": 300,
         "location": "River",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 0,
@@ -403,6 +466,9 @@
         "price": 320,
         "location": "River",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 0,
@@ -422,6 +488,9 @@
         "price": 800,
         "location": "River",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 0,
@@ -441,6 +510,9 @@
         "price": 1800,
         "location": "River",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 0,
@@ -460,6 +532,9 @@
         "price": 500,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 0,
@@ -479,6 +554,9 @@
         "price": 900,
         "location": "River",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 0,
@@ -498,6 +576,9 @@
         "price": 800,
         "location": "River (Clifftop)",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 16,
@@ -517,6 +598,9 @@
         "price": 3800,
         "location": "River (Clifftop)  Pond",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 16,
@@ -536,6 +620,9 @@
         "price": 15000,
         "location": "River (Clifftop)",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 16,
@@ -555,6 +642,9 @@
         "price": 15000,
         "location": "River (Clifftop)",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 16,
@@ -574,6 +664,9 @@
         "price": 700,
         "location": "River (Mouth)",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 0,
@@ -593,6 +686,9 @@
         "price": 1800,
         "location": "River (Mouth)",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 0,
@@ -612,6 +708,9 @@
         "price": 2000,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 16,
@@ -631,6 +730,9 @@
         "price": 1300,
         "location": "River",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 9,
@@ -650,6 +752,9 @@
         "price": 1500,
         "location": "River",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 9,
@@ -669,6 +774,9 @@
         "price": 3000,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 16,
@@ -688,6 +796,9 @@
         "price": 2500,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 9,
@@ -707,6 +818,9 @@
         "price": 500,
         "location": "River",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 9,
@@ -726,6 +840,9 @@
         "price": 800,
         "location": "River",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 9,
@@ -745,6 +862,9 @@
         "price": 2500,
         "location": "River",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 9,
@@ -768,6 +888,9 @@
         "price": 10000,
         "location": "River",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 16,
@@ -787,6 +910,9 @@
         "price": 15000,
         "location": "River",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 4,
@@ -806,6 +932,9 @@
         "price": 6000,
         "location": "Pond",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 16,
@@ -825,6 +954,9 @@
         "price": 10000,
         "location": "River",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 16,
@@ -844,6 +976,9 @@
         "price": 4000,
         "location": "River",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 21,
@@ -863,6 +998,9 @@
         "price": 10000,
         "location": "River (Mouth)",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 0,
@@ -882,6 +1020,9 @@
         "price": 1000,
         "location": "Sea",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 0,
@@ -901,6 +1042,9 @@
         "price": 1100,
         "location": "Sea",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 0,
@@ -920,6 +1064,9 @@
         "price": 650,
         "location": "Sea",
         "shadow_size": "1",
+        "shadow": {
+            "shadow_size": 1
+        },
         "times": [
             {
                 "start_time": 0,
@@ -939,6 +1086,9 @@
         "price": 1000,
         "location": "Sea",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 0,
@@ -958,6 +1108,9 @@
         "price": 1000,
         "location": "Sea",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 0,
@@ -977,6 +1130,9 @@
         "price": 10000,
         "location": "Sea",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 4,
@@ -996,6 +1152,9 @@
         "price": 500,
         "location": "Sea",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1015,6 +1174,9 @@
         "price": 5000,
         "location": "Sea",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 21,
@@ -1034,6 +1196,9 @@
         "price": 250,
         "location": "Sea",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1053,6 +1218,9 @@
         "price": 200,
         "location": "Sea",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 4,
@@ -1072,6 +1240,9 @@
         "price": 150,
         "location": "Sea",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1091,6 +1262,9 @@
         "price": 5000,
         "location": "Sea",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1110,6 +1284,9 @@
         "price": 400,
         "location": "Sea",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1129,6 +1306,9 @@
         "price": 3000,
         "location": "Sea",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1148,6 +1328,9 @@
         "price": 300,
         "location": "Sea",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1167,6 +1350,9 @@
         "price": 800,
         "location": "Sea",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1186,6 +1372,9 @@
         "price": 500,
         "location": "Sea",
         "shadow_size": "3",
+        "shadow": {
+            "shadow_size": 3
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1205,6 +1394,10 @@
         "price": 2000,
         "location": "Sea",
         "shadow_size": "Narrow",
+        "shadow": {
+            "shadow_size": 4,
+            "shadow_comment": "(narrow)"
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1224,6 +1417,10 @@
         "price": 600,
         "location": "Sea",
         "shadow_size": "Narrow",
+        "shadow": {
+            "shadow_size": 4,
+            "shadow_comment": "(narrow)"
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1243,6 +1440,9 @@
         "price": 7000,
         "location": "Pier",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1262,6 +1462,9 @@
         "price": 10000,
         "location": "Pier",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1281,6 +1484,9 @@
         "price": 4500,
         "location": "Pier",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1300,6 +1506,9 @@
         "price": 6000,
         "location": "Pier",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1319,6 +1528,10 @@
         "price": 4000,
         "location": "Sea",
         "shadow_size": "6 (Fin)",
+        "shadow": {
+            "shadow_size": 6,
+            "shadow_comments": "(Fin)"
+        },
         "times": [
             {
                 "start_time": 4,
@@ -1338,6 +1551,9 @@
         "price": 3000,
         "location": "Sea",
         "shadow_size": "5",
+        "shadow": {
+            "shadow_size": 5
+        },
         "times": [
             {
                 "start_time": 4,
@@ -1357,6 +1573,10 @@
         "price": 12000,
         "location": "Sea",
         "shadow_size": "6 (Fin)",
+        "shadow": {
+            "shadow_size": 6,
+            "shadow_comments": "(Fin)"
+        },
         "times": [
             {
                 "start_time": 16,
@@ -1376,6 +1596,10 @@
         "price": 8000,
         "location": "Sea",
         "shadow_size": "6 (Fin)",
+        "shadow": {
+            "shadow_size": 6,
+            "shadow_comments": "(Fin)"
+        },
         "times": [
             {
                 "start_time": 16,
@@ -1395,6 +1619,10 @@
         "price": 15000,
         "location": "Sea",
         "shadow_size": "6 (Fin)",
+        "shadow": {
+            "shadow_size": 6,
+            "shadow_comments": "(Fin)"
+        },
         "times": [
             {
                 "start_time": 16,
@@ -1414,6 +1642,10 @@
         "price": 13000,
         "location": "Sea",
         "shadow_size": "6 (Fin)",
+        "shadow": {
+            "shadow_size": 6,
+            "shadow_comments": "(Fin)"
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1433,6 +1665,10 @@
         "price": 1500,
         "location": "Sea",
         "shadow_size": "4 (Fin)",
+        "shadow": {
+            "shadow_size": 4,
+            "shadow_comments": "(Fin)"
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1452,6 +1688,9 @@
         "price": 2500,
         "location": "Sea",
         "shadow_size": "4",
+        "shadow": {
+            "shadow_size": 4
+        },
         "times": [
             {
                 "start_time": 16,
@@ -1471,6 +1710,9 @@
         "price": 9000,
         "location": "Sea",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 0,
@@ -1490,6 +1732,9 @@
         "price": 15000,
         "location": "Sea",
         "shadow_size": "2",
+        "shadow": {
+            "shadow_size": 2
+        },
         "times": [
             {
                 "start_time": 21,
@@ -1509,6 +1754,9 @@
         "price": 15000,
         "location": "Sea",
         "shadow_size": "6",
+        "shadow": {
+            "shadow_size": 6
+        },
         "times": [
             {
                 "start_time": 0,
