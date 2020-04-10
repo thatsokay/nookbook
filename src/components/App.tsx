@@ -7,20 +7,11 @@ import {
   Card,
   CardContent,
   Typography,
-  ButtonGroup,
-  Button,
 } from '@material-ui/core'
 
+import RadioButtons from './RadioButtons'
+import FishContent from './FishContent'
 import fishData from '../../assets/fish.json'
-
-const shadowSizes = [
-  'Tiny',
-  'Small',
-  'Medium',
-  'Large',
-  'Very Large',
-  'Huge',
-] as const
 
 const moduloBetween = (
   {start, end}: {start: number; end: number},
@@ -34,7 +25,9 @@ const moduloBetween = (
     : between >= start || between < end
 
 const App = () => {
-  const [fishFilter, setFishFilter] = useState<'all' | 'now' | 'month'>('all')
+  const [fishFilter, setFishFilter] = useState<
+    'anytime' | 'now' | 'this month'
+  >('anytime')
 
   const now = new Date()
   const month = now.getMonth()
@@ -42,7 +35,7 @@ const App = () => {
 
   const filteredFish = (() => {
     switch (fishFilter) {
-      case 'all':
+      case 'anytime':
         return fishData
       case 'now':
         return fishData.filter(
@@ -50,7 +43,7 @@ const App = () => {
             fish.months.some((bounds) => moduloBetween(bounds, month)) &&
             fish.hours.some((bounds) => moduloBetween(bounds, hour)),
         )
-      case 'month':
+      case 'this month':
         return fishData.filter((fish) =>
           fish.months.some((bounds) => moduloBetween(bounds, month)),
         )
@@ -65,30 +58,12 @@ const App = () => {
           Animal Crossing Fish
         </Typography>
         <Box margin="1rem 0">
-        <Typography variant="button">Filter: </Typography>
-        <ButtonGroup variant="contained">
-          <Button
-            onClick={() => setFishFilter('all')}
-            color={fishFilter === 'all' ? 'primary' : 'default'}
-            disableElevation
-          >
-            All
-          </Button>
-          <Button
-            onClick={() => setFishFilter('now')}
-            color={fishFilter === 'now' ? 'primary' : 'default'}
-            disableElevation
-          >
-            Active now
-          </Button>
-          <Button
-            onClick={() => setFishFilter('month')}
-            color={fishFilter === 'month' ? 'primary' : 'default'}
-            disableElevation
-          >
-            Active this month
-          </Button>
-        </ButtonGroup>
+          <RadioButtons
+            label="Active"
+            options={['anytime', 'now', 'this month']}
+            selected={fishFilter}
+            onChange={setFishFilter}
+          />
         </Box>
         <Grid container spacing={3}>
           {filteredFish.map((fish) => (
@@ -105,23 +80,5 @@ const App = () => {
     </>
   )
 }
-
-const FishContent = ({fish}: {fish: typeof fishData[number]}) => (
-  <Box display="flex">
-    <img
-      src={require(`../../assets/${fish.image.path}`)}
-      style={{height: '3.25rem'}}
-    />
-    <Box paddingLeft="0.5rem">
-      <Typography variant="h6" component="h2">
-        {fish.name}
-      </Typography>
-      <Typography variant="body2">
-        ₿{fish.price} • {fish.location} • {shadowSizes[fish.shadow.size - 1]}{' '}
-        {fish.shadow.comment}
-      </Typography>
-    </Box>
-  </Box>
-)
 
 export default App
