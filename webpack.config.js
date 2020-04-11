@@ -1,3 +1,4 @@
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
@@ -35,11 +36,12 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
         // No ES module so importing with `require` doesn't need `.default`.
-        options: {esModule: false},
+        options: {outputPath: 'img', esModule: false},
       },
     ],
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({inject: true, template: './public/index.html'}),
   ],
 }

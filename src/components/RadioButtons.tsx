@@ -1,28 +1,29 @@
 import React from 'react'
-import {
-  Typography,
-  ButtonGroup,
-  Button,
-} from '@material-ui/core'
+import {Typography, ButtonGroup, Button} from '@material-ui/core'
 
 interface Props<T> {
   label: string
-  options: T[]
+  options: {
+    name: string
+    value: T
+  }[]
   selected: T
   onChange: (selected: T) => void
 }
 
-const RadioButtons = <T extends string>(props: Props<T>) => (
+// `extends unknown` is needed so TS doesn't think it's JSX
+const RadioButtons = <T extends unknown>(props: Props<T>) => (
   <>
     <Typography variant="button">{props.label}: </Typography>
     <ButtonGroup variant="contained">
       {props.options.map((option) => (
         <Button
-          onClick={() => props.onChange(option)}
-          color={props.selected === option ? 'primary' : 'default'}
+          onClick={() => props.onChange(option.value)}
+          color={props.selected === option.value ? 'primary' : 'default'}
           disableElevation
+          key={`${option.name}-${option.value}`}
         >
-          {option}
+          {option.name}
         </Button>
       ))}
     </ButtonGroup>

@@ -25,17 +25,17 @@ const moduloBetween = (
     : between >= start || between < end
 
 const App = () => {
-  const [fishFilter, setFishFilter] = useState<
-    'anytime' | 'now' | 'this month'
-  >('anytime')
+  const [fishActiveFilter, setActiveFishFilter] = useState<
+    'any' | 'now' | 'month'
+  >('any')
 
   const now = new Date()
   const month = now.getMonth()
   const hour = now.getHours()
 
   const filteredFish = (() => {
-    switch (fishFilter) {
-      case 'anytime':
+    switch (fishActiveFilter) {
+      case 'any':
         return fishData
       case 'now':
         return fishData.filter(
@@ -43,7 +43,7 @@ const App = () => {
             fish.months.some((bounds) => moduloBetween(bounds, month)) &&
             fish.hours.some((bounds) => moduloBetween(bounds, hour)),
         )
-      case 'this month':
+      case 'month':
         return fishData.filter((fish) =>
           fish.months.some((bounds) => moduloBetween(bounds, month)),
         )
@@ -60,14 +60,18 @@ const App = () => {
         <Box margin="1rem 0">
           <RadioButtons
             label="Active"
-            options={['anytime', 'now', 'this month']}
-            selected={fishFilter}
-            onChange={setFishFilter}
+            options={[
+              {name: 'Anytime', value: 'any'},
+              {name: 'Now', value: 'now'},
+              {name: 'This month', value: 'month'},
+            ]}
+            selected={fishActiveFilter}
+            onChange={setActiveFishFilter}
           />
         </Box>
         <Grid container spacing={3}>
           {filteredFish.map((fish) => (
-            <Grid item xs={12} sm={6} md={4} lg={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3} key={fish.name}>
               <Card>
                 <CardContent>
                   <FishContent fish={fish} />
