@@ -56,7 +56,7 @@ class FishSpider(scrapy.Spider):
 
         if data['shadow_size'] == 'Narrow':
             shadow = {
-                'size': 4,
+                'size': 3,
                 'comment': '(Narrow)',
             }
         else:
