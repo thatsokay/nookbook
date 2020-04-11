@@ -11,8 +11,10 @@ pages:
   stage: deploy
   script:
     - CI=true npm run build
+    - rm -rf public
+    - mv build public
   artifacts:
     paths:
-      - build
+      - public
   only:
     - master
