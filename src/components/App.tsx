@@ -28,9 +28,11 @@ const moduloBetween = (
 const useStyles = makeStyles({
   filters: {
     display: 'flex',
+    flexWrap: 'wrap',
     margin: '1.5rem 0',
-    '& > *:not(:first-child)': {
-      marginLeft: '1.5rem',
+    '& > *:not(:last-child)': {
+      marginBottom: '0.5rem',
+      marginRight: '1.5rem',
     },
   },
 })
