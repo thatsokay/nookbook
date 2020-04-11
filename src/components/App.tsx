@@ -26,9 +26,12 @@ const moduloBetween = (
 
 const App = () => {
   const [hemisphere, setHemisphere] = useState<'north' | 'south'>('north')
-  const [fishActiveFilter, setActiveFishFilter] = useState<
+  const [activeTimeFilter, setActiveTimeFilter] = useState<
     'any' | 'now' | 'month'
   >('any')
+  const [locationFilter, setLocationFilter] = useState<
+    'all' | 'river' | 'pond' | 'sea' | 'pier'
+  >('all')
 
   const hemisphereFish =
     hemisphere == 'north'
@@ -44,8 +47,8 @@ const App = () => {
   const now = new Date()
   const month = now.getMonth()
   const hour = now.getHours()
-  const filteredFish = (() => {
-    switch (fishActiveFilter) {
+  const activeTimeFilteredFish = (() => {
+    switch (activeTimeFilter) {
       case 'any':
         return hemisphereFish
       case 'now':
@@ -57,6 +60,17 @@ const App = () => {
       case 'month':
         return hemisphereFish.filter((fish) =>
           fish.months.some((bounds) => moduloBetween(bounds, month)),
+        )
+    }
+  })()
+
+  const locationFilteredFish = (() => {
+    switch (locationFilter) {
+      case 'all':
+        return activeTimeFilteredFish
+      default:
+        return activeTimeFilteredFish.filter((fish) =>
+          fish.location.toLowerCase().startsWith(locationFilter),
         )
     }
   })()
@@ -76,8 +90,8 @@ const App = () => {
               {name: 'Now', value: 'now'},
               {name: 'This month', value: 'month'},
             ]}
-            selected={fishActiveFilter}
-            onChange={setActiveFishFilter}
+            selected={activeTimeFilter}
+            onChange={setActiveTimeFilter}
           />
           <RadioButtons
             label="Hemisphere"
@@ -88,9 +102,21 @@ const App = () => {
             selected={hemisphere}
             onChange={setHemisphere}
           />
+          <RadioButtons
+            label="Location"
+            options={[
+              {name: 'All', value: 'all'},
+              {name: 'River', value: 'river'},
+              {name: 'Pond', value: 'pond'},
+              {name: 'Sea', value: 'sea'},
+              {name: 'Pier', value: 'pier'},
+            ]}
+            selected={locationFilter}
+            onChange={setLocationFilter}
+          />
         </Box>
         <Grid container spacing={3}>
-          {filteredFish.map((fish) => (
+          {locationFilteredFish.map((fish) => (
             <Grid item xs={12} sm={6} md={4} lg={3} key={fish.name}>
               <Card>
                 <CardContent>
