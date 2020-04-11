@@ -2,19 +2,19 @@ import React from 'react'
 import {Typography, ButtonGroup, Button} from '@material-ui/core'
 
 interface Props<T> {
-  label: string
   options: {
     name: string
     value: T
   }[]
   selected: T
   onChange: (selected: T) => void
+  label?: string
 }
 
 // `extends unknown` is needed so TS doesn't think it's JSX
 const RadioButtons = <T extends unknown>(props: Props<T>) => (
   <>
-    <Typography variant="button">{props.label}: </Typography>
+    {props.label && <Typography variant="button">{props.label}: </Typography>}
     <ButtonGroup variant="contained">
       {props.options.map((option) => (
         <Button

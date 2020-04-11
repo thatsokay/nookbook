@@ -25,26 +25,37 @@ const moduloBetween = (
     : between >= start || between < end
 
 const App = () => {
+  const [hemisphere, setHemisphere] = useState<'north' | 'south'>('north')
   const [fishActiveFilter, setActiveFishFilter] = useState<
     'any' | 'now' | 'month'
   >('any')
 
+  const hemisphereFish =
+    hemisphere == 'north'
+      ? fishData
+      : fishData.map((fish) => ({
+          ...fish,
+          months: fish.months.map((months) => ({
+            start: (months.start + 6) % 12,
+            end: (months.end + 6) % 12,
+          })),
+        }))
+
   const now = new Date()
   const month = now.getMonth()
   const hour = now.getHours()
-
   const filteredFish = (() => {
     switch (fishActiveFilter) {
       case 'any':
-        return fishData
+        return hemisphereFish
       case 'now':
-        return fishData.filter(
+        return hemisphereFish.filter(
           (fish) =>
             fish.months.some((bounds) => moduloBetween(bounds, month)) &&
             fish.hours.some((bounds) => moduloBetween(bounds, hour)),
         )
       case 'month':
-        return fishData.filter((fish) =>
+        return hemisphereFish.filter((fish) =>
           fish.months.some((bounds) => moduloBetween(bounds, month)),
         )
     }
@@ -67,6 +78,15 @@ const App = () => {
             ]}
             selected={fishActiveFilter}
             onChange={setActiveFishFilter}
+          />
+          <RadioButtons
+            label="Hemisphere"
+            options={[
+              {name: 'Northern', value: 'north'},
+              {name: 'Southern', value: 'south'},
+            ]}
+            selected={hemisphere}
+            onChange={setHemisphere}
           />
         </Box>
         <Grid container spacing={3}>
