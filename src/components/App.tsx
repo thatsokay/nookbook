@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {
+  makeStyles,
   CssBaseline,
   Container,
   Box,
@@ -24,7 +25,19 @@ const moduloBetween = (
     ? between >= start && between < end
     : between >= start || between < end
 
+const useStyles = makeStyles({
+  filters: {
+    display: 'flex',
+    margin: '1.5rem 0',
+    '& > *:not(:first-child)': {
+      marginLeft: '1.5rem',
+    },
+  },
+})
+
 const App = () => {
+  const classes = useStyles()
+
   const [hemisphere, setHemisphere] = useState<'north' | 'south'>('north')
   const [activeTimeFilter, setActiveTimeFilter] = useState<
     'any' | 'now' | 'month'
@@ -82,7 +95,16 @@ const App = () => {
         <Typography variant="h2" component="h1" align="center" gutterBottom>
           Animal Crossing Fish
         </Typography>
-        <Box margin="1rem 0">
+        <Box className={classes.filters}>
+          <RadioButtons
+            label="Hemisphere"
+            options={[
+              {name: 'Northern', value: 'north'},
+              {name: 'Southern', value: 'south'},
+            ]}
+            selected={hemisphere}
+            onChange={setHemisphere}
+          />
           <RadioButtons
             label="Active"
             options={[
@@ -92,15 +114,6 @@ const App = () => {
             ]}
             selected={activeTimeFilter}
             onChange={setActiveTimeFilter}
-          />
-          <RadioButtons
-            label="Hemisphere"
-            options={[
-              {name: 'Northern', value: 'north'},
-              {name: 'Southern', value: 'south'},
-            ]}
-            selected={hemisphere}
-            onChange={setHemisphere}
           />
           <RadioButtons
             label="Location"

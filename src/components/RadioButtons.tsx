@@ -1,5 +1,5 @@
 import React from 'react'
-import {Typography, ButtonGroup, Button} from '@material-ui/core'
+import {Box, Typography, ButtonGroup, Button} from '@material-ui/core'
 
 interface Props<T> {
   options: {
@@ -13,9 +13,13 @@ interface Props<T> {
 
 // `extends unknown` is needed so TS doesn't think it's JSX
 const RadioButtons = <T extends unknown>(props: Props<T>) => (
-  <>
-    {props.label && <Typography variant="button">{props.label}: </Typography>}
-    <ButtonGroup variant="contained">
+  <Box>
+    {props.label && (
+      <Typography variant="button" component="p">
+        {props.label}
+      </Typography>
+    )}
+    <ButtonGroup variant="contained" size="small">
       {props.options.map((option) => (
         <Button
           onClick={() => props.onChange(option.value)}
@@ -27,7 +31,7 @@ const RadioButtons = <T extends unknown>(props: Props<T>) => (
         </Button>
       ))}
     </ButtonGroup>
-  </>
+  </Box>
 )
 
 export default RadioButtons
