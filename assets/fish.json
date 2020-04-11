@@ -834,7 +834,7 @@
     "name": "Moray eel",
     "price": 2000,
     "location": "Sea",
-    "shadow": {"size": 4, "comment": "(Narrow)"},
+    "shadow": {"size": 3, "comment": "(Narrow)"},
     "hours": [{"start": 0, "end": 0}],
     "months": [{"start": 7, "end": 10}],
     "image": {
@@ -847,7 +847,7 @@
     "name": "Ribbon eel",
     "price": 600,
     "location": "Sea",
-    "shadow": {"size": 4, "comment": "(Narrow)"},
+    "shadow": {"size": 3, "comment": "(Narrow)"},
     "hours": [{"start": 0, "end": 0}],
     "months": [{"start": 5, "end": 10}],
     "image": {

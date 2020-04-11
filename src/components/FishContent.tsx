@@ -23,7 +23,7 @@ const FishContent = ({fish}: {fish: typeof fishData[number]}) => (
         {fish.name}
       </Typography>
       <Typography variant="body2">
-        ₿{fish.price} • {fish.location} • {shadowSizes[fish.shadow.size - 1]}{' '}
+        ฿{fish.price} • {fish.location} • {shadowSizes[fish.shadow.size - 1]}{' '}
         {fish.shadow.comment}
       </Typography>
     </Box>
