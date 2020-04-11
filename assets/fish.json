@@ -876,8 +876,8 @@
     "shadow": {"size": 6},
     "hours": [{"start": 0, "end": 0}],
     "months": [
-      {"start": 6, "end": 4},
-      {"start": 10, "end": 9}
+      {"start": 10, "end": 4},
+      {"start": 6, "end": 9}
     ],
     "image": {
       "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-bluemarlin.png",

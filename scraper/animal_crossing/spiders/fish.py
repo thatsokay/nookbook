@@ -104,9 +104,9 @@ class FishSpider(scrapy.Spider):
         if start_months == []:
             months = [{'start': 0, 'end': 0}]
         else:
-            if months[0] == months[-1] == '✓':
+            if months[0] == months[-1] == True:
                 # Rotate `start_months` to match last start month with first end month
-                start_months = start_months[-1] + start_months[:-1]
+                start_months = [start_months[-1]] + start_months[:-1]
             months = [
                 {'start': start, 'end': end}
                 for start, end in zip(start_months, end_months)
