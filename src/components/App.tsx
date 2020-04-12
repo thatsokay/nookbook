@@ -8,6 +8,7 @@ import {
   Container,
   Box,
   Grid,
+  IconButton,
   Card,
   CardContent,
   Typography,
@@ -33,10 +34,12 @@ const moduloBetween = (
     : between >= start || between < end
 
 const useStyles = makeStyles({
-  themeToggle: {
+  themeToggleButton: {
     position: 'absolute',
-    top: '1.2rem',
+    top: '0.8rem',
     right: '0',
+  },
+  themeToggleIcon: {
     width: '2rem',
     height: '2rem',
   },
@@ -264,10 +267,12 @@ const App = () => {
       <CssBaseline />
       <Container>
         <Box position="relative">
-          <Brightness6
-            className={classes.themeToggle}
+          <IconButton
+            className={classes.themeToggleButton}
             onClick={() => setDarkMode(!darkMode)}
-          />
+          >
+            <Brightness6 className={classes.themeToggleIcon} />
+          </IconButton>
           <Typography variant="h2" component="h1" align="center" gutterBottom>
             Animal Crossing Fish
           </Typography>
