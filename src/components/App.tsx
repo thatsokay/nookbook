@@ -27,10 +27,9 @@ const moduloBetween = (
     : between >= start || between < end
 
 const useStyles = makeStyles({
-  filters: {
+  controls: {
     display: 'flex',
     flexWrap: 'wrap',
-    margin: '1.5rem 0',
     '& > *:not(:last-child)': {
       marginBottom: '0.5rem',
       marginRight: '1.5rem',
@@ -131,61 +130,69 @@ const App = () => {
         <Typography variant="h2" component="h1" align="center" gutterBottom>
           Animal Crossing Fish
         </Typography>
-        <Box className={classes.filters}>
-          <RadioButtons
-            label="Hemisphere"
-            options={[
-              {name: 'Northern', value: 'north'},
-              {name: 'Southern', value: 'south'},
-            ]}
-            selected={hemisphere}
-            onChange={setHemisphere}
-          />
-          <RadioButtons
-            label="Active"
-            options={[
-              {name: 'Anytime', value: 'any'},
-              {name: 'Now', value: 'now'},
-              {name: 'This month', value: 'month'},
-            ]}
-            selected={activeTimeFilter}
-            onChange={setActiveTimeFilter}
-          />
-          <RadioButtons
-            label="Location"
-            options={[
-              {name: 'All', value: 'all'},
-              {name: 'River', value: 'river'},
-              {name: 'Pond', value: 'pond'},
-              {name: 'Sea', value: 'sea'},
-              {name: 'Pier', value: 'pier'},
-            ]}
-            selected={locationFilter}
-            onChange={setLocationFilter}
-          />
-          <RadioButtons
-            label="Sort by"
-            options={[
-              {name: 'Default', value: 'default'},
-              {name: 'Name', value: 'name'},
-              {name: 'Price', value: 'price'},
-              {name: 'Size', value: 'size'},
-            ]}
-            selected={sortBy}
-            onChange={setSortBy}
-          />
+        <Box
+          className={classes.controls}
+          justifyContent="space-between"
+          margin="1.5rem 0"
+        >
+          <Box className={classes.controls}>
+            <RadioButtons
+              label="Hemisphere"
+              options={[
+                {name: 'Northern', value: 'north'},
+                {name: 'Southern', value: 'south'},
+              ]}
+              selected={hemisphere}
+              onChange={setHemisphere}
+            />
+            <RadioButtons
+              label="Active"
+              options={[
+                {name: 'Anytime', value: 'any'},
+                {name: 'Now', value: 'now'},
+                {name: 'This month', value: 'month'},
+              ]}
+              selected={activeTimeFilter}
+              onChange={setActiveTimeFilter}
+            />
+            <RadioButtons
+              label="Location"
+              options={[
+                {name: 'All', value: 'all'},
+                {name: 'River', value: 'river'},
+                {name: 'Pond', value: 'pond'},
+                {name: 'Sea', value: 'sea'},
+                {name: 'Pier', value: 'pier'},
+              ]}
+              selected={locationFilter}
+              onChange={setLocationFilter}
+            />
+          </Box>
+          <Box className={classes.controls}>
+            <RadioButtons
+              label="Sort by"
+              options={[
+                {name: 'Default', value: 'default'},
+                {name: 'Name', value: 'name'},
+                {name: 'Price', value: 'price'},
+                {name: 'Size', value: 'size'},
+              ]}
+              selected={sortBy}
+              onChange={setSortBy}
+            />
 
-          <RadioButtons
-            label={
-              <SortByAlpha style={{display: 'block'}} viewBox="0 0 26 26" />
-            }
-            options={[
-              {name: 'Asc', value: 'asc'},
-              {name: 'Desc', value: 'desc'},
-            ]}
-            selected={sortDirection}
-            onChange={setSortDirection}
-          />
+            <RadioButtons
+              label={
+                <SortByAlpha style={{display: 'block'}} viewBox="0 0 26 26" />
+              }
+              options={[
+                {name: 'Asc', value: 'asc'},
+                {name: 'Desc', value: 'desc'},
+              ]}
+              selected={sortDirection}
+              onChange={setSortDirection}
+            />
+          </Box>
         </Box>
         <Grid container spacing={3}>
           {sortedFish.map((fish) => (
