@@ -47,6 +47,9 @@ const App = () => {
   const [locationFilter, setLocationFilter] = useState<
     'all' | 'river' | 'pond' | 'sea' | 'pier'
   >('all')
+  const [sortBy, setSortBy] = useState<'default' | 'name' | 'price' | 'size'>(
+    'default',
+  )
 
   const hemisphereFish =
     hemisphere == 'north'
@@ -90,6 +93,23 @@ const App = () => {
     }
   })()
 
+  const sortedFish = (() => {
+    switch (sortBy) {
+      case 'default':
+        return locationFilteredFish
+      case 'name':
+        return [...locationFilteredFish].sort((a, b) =>
+          a.name.localeCompare(b.name),
+        )
+      case 'price':
+        return [...locationFilteredFish].sort((a, b) => a.price - b.price)
+      case 'size':
+        return [...locationFilteredFish].sort(
+          (a, b) => a.shadow.size - b.shadow.size,
+        )
+    }
+  })()
+
   return (
     <>
       <CssBaseline />
@@ -129,9 +149,20 @@ const App = () => {
             selected={locationFilter}
             onChange={setLocationFilter}
           />
+          <RadioButtons
+            label="Sort by"
+            options={[
+              {name: 'Default', value: 'default'},
+              {name: 'Name', value: 'name'},
+              {name: 'Price', value: 'price'},
+              {name: 'Size', value: 'size'},
+            ]}
+            selected={sortBy}
+            onChange={setSortBy}
+          />
         </Box>
         <Grid container spacing={3}>
-          {locationFilteredFish.map((fish) => (
+          {sortedFish.map((fish) => (
             <Grid item xs={12} sm={6} md={4} lg={3} key={fish.name}>
               <Card>
                 <CardContent>
