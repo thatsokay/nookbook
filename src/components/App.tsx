@@ -130,7 +130,7 @@ const App = () => {
     }
   })()
 
-  const Controls = () => (
+  const Controls = (
     <Box className={classes.controls} justifyContent="space-between">
       <Box className={classes.controls}>
         <RadioButtons
@@ -200,15 +200,13 @@ const App = () => {
         </Typography>
         <Box margin="1.5rem 0">
           {mdViewport ? (
-            <Controls />
+            Controls
           ) : (
             <ExpansionPanel>
               <ExpansionPanelSummary expandIcon={<ExpandMore />}>
                 <Typography variant="button">Filters</Typography>
               </ExpansionPanelSummary>
-              <ExpansionPanelDetails>
-                <Controls />
-              </ExpansionPanelDetails>
+              <ExpansionPanelDetails>{Controls}</ExpansionPanelDetails>
             </ExpansionPanel>
           )}
         </Box>

@@ -8,7 +8,7 @@ interface Props<T> {
   }[]
   selected: T
   onChange: (selected: T) => void
-  label?: string | React.ReactElement
+  label?: string | JSX.Element
 }
 
 // `extends unknown` is needed so TS doesn't think it's JSX
