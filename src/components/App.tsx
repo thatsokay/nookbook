@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useMemo} from 'react'
 import {
   makeStyles,
   useMediaQuery,
@@ -59,21 +59,24 @@ const App = () => {
   )
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc')
 
-  const hemisphereFish =
-    hemisphere == 'north'
-      ? fishData
-      : fishData.map((fish) => ({
-          ...fish,
-          months: fish.months.map((months) => ({
-            start: (months.start + 6) % 12,
-            end: (months.end + 6) % 12,
+  const hemisphereFish = useMemo(
+    () =>
+      hemisphere == 'north'
+        ? fishData
+        : fishData.map((fish) => ({
+            ...fish,
+            months: fish.months.map((months) => ({
+              start: (months.start + 6) % 12,
+              end: (months.end + 6) % 12,
+            })),
           })),
-        }))
+    [hemisphere],
+  )
 
-  const now = new Date()
-  const month = now.getMonth()
-  const hour = now.getHours()
-  const activeTimeFilteredFish = (() => {
+  const activeTimeFilteredFish = useMemo(() => {
+    const now = new Date()
+    const month = now.getMonth()
+    const hour = now.getHours()
     switch (activeTimeFilter) {
       case 'any':
         return hemisphereFish
@@ -88,9 +91,9 @@ const App = () => {
           fish.months.some((bounds) => moduloBetween(bounds, month)),
         )
     }
-  })()
+  }, [activeTimeFilter, hemisphereFish])
 
-  const locationFilteredFish = (() => {
+  const locationFilteredFish = useMemo(() => {
     switch (locationFilter) {
       case 'all':
         return activeTimeFilteredFish
@@ -99,9 +102,9 @@ const App = () => {
           fish.location.toLowerCase().startsWith(locationFilter),
         )
     }
-  })()
+  }, [locationFilter, activeTimeFilteredFish])
 
-  const sortedFish = (() => {
+  const sortedFish = useMemo(() => {
     switch (sortBy) {
       case 'default':
         return sortDirection === 'asc'
@@ -128,67 +131,83 @@ const App = () => {
               (a, b) => b.shadow.size - a.shadow.size,
             )
     }
-  })()
+  }, [locationFilteredFish, sortBy, sortDirection])
 
-  const Controls = (
-    <Box className={classes.controls} justifyContent="space-between">
-      <Box className={classes.controls}>
-        <RadioButtons
-          label="Hemisphere"
-          options={[
-            {name: 'Northern', value: 'north'},
-            {name: 'Southern', value: 'south'},
-          ]}
-          selected={hemisphere}
-          onChange={setHemisphere}
-        />
-        <RadioButtons
-          label="Active"
-          options={[
-            {name: 'Anytime', value: 'any'},
-            {name: 'Now', value: 'now'},
-            {name: 'This month', value: 'month'},
-          ]}
-          selected={activeTimeFilter}
-          onChange={setActiveTimeFilter}
-        />
-        <RadioButtons
-          label="Location"
-          options={[
-            {name: 'All', value: 'all'},
-            {name: 'River', value: 'river'},
-            {name: 'Pond', value: 'pond'},
-            {name: 'Sea', value: 'sea'},
-            {name: 'Pier', value: 'pier'},
-          ]}
-          selected={locationFilter}
-          onChange={setLocationFilter}
-        />
-      </Box>
-      <Box className={classes.controls}>
-        <RadioButtons
-          label="Sort by"
-          options={[
-            {name: 'Default', value: 'default'},
-            {name: 'Name', value: 'name'},
-            {name: 'Price', value: 'price'},
-            {name: 'Size', value: 'size'},
-          ]}
-          selected={sortBy}
-          onChange={setSortBy}
-        />
+  const Controls = useMemo(
+    () => (
+      <Box className={classes.controls} justifyContent="space-between">
+        <Box className={classes.controls}>
+          <RadioButtons
+            label="Hemisphere"
+            options={[
+              {name: 'Northern', value: 'north'},
+              {name: 'Southern', value: 'south'},
+            ]}
+            selected={hemisphere}
+            onChange={setHemisphere}
+          />
+          <RadioButtons
+            label="Active"
+            options={[
+              {name: 'Anytime', value: 'any'},
+              {name: 'Now', value: 'now'},
+              {name: 'This month', value: 'month'},
+            ]}
+            selected={activeTimeFilter}
+            onChange={setActiveTimeFilter}
+          />
+          <RadioButtons
+            label="Location"
+            options={[
+              {name: 'All', value: 'all'},
+              {name: 'River', value: 'river'},
+              {name: 'Pond', value: 'pond'},
+              {name: 'Sea', value: 'sea'},
+              {name: 'Pier', value: 'pier'},
+            ]}
+            selected={locationFilter}
+            onChange={setLocationFilter}
+          />
+        </Box>
+        <Box className={classes.controls}>
+          <RadioButtons
+            label="Sort by"
+            options={[
+              {name: 'Default', value: 'default'},
+              {name: 'Name', value: 'name'},
+              {name: 'Price', value: 'price'},
+              {name: 'Size', value: 'size'},
+            ]}
+            selected={sortBy}
+            onChange={setSortBy}
+          />
 
-        <RadioButtons
-          label={<SortByAlpha style={{display: 'block'}} viewBox="0 0 26 26" />}
-          options={[
-            {name: 'Asc', value: 'asc'},
-            {name: 'Desc', value: 'desc'},
-          ]}
-          selected={sortDirection}
-          onChange={setSortDirection}
-        />
+          <RadioButtons
+            label={
+              <SortByAlpha style={{display: 'block'}} viewBox="0 0 26 26" />
+            }
+            options={[
+              {name: 'Asc', value: 'asc'},
+              {name: 'Desc', value: 'desc'},
+            ]}
+            selected={sortDirection}
+            onChange={setSortDirection}
+          />
+        </Box>
       </Box>
-    </Box>
+    ),
+    [
+      hemisphere,
+      setHemisphere,
+      activeTimeFilter,
+      setActiveTimeFilter,
+      locationFilter,
+      setLocationFilter,
+      sortBy,
+      setSortBy,
+      sortDirection,
+      setSortDirection,
+    ],
   )
 
   return (
