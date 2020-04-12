@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import {
   makeStyles,
+  useMediaQuery,
+  useTheme,
   CssBaseline,
   Container,
   Box,
@@ -8,8 +10,11 @@ import {
   Card,
   CardContent,
   Typography,
+  ExpansionPanel,
+  ExpansionPanelSummary,
+  ExpansionPanelDetails,
 } from '@material-ui/core'
-import {SortByAlpha} from '@material-ui/icons'
+import {SortByAlpha, ExpandMore} from '@material-ui/icons'
 
 import RadioButtons from './RadioButtons'
 import FishContent from './FishContent'
@@ -39,6 +44,8 @@ const useStyles = makeStyles({
 
 const App = () => {
   const classes = useStyles()
+  const theme = useTheme()
+  const mdViewport = useMediaQuery(theme.breakpoints.up('md'))
 
   const [hemisphere, setHemisphere] = useState<'north' | 'south'>('north')
   const [activeTimeFilter, setActiveTimeFilter] = useState<
@@ -123,6 +130,67 @@ const App = () => {
     }
   })()
 
+  const Controls = () => (
+    <Box className={classes.controls} justifyContent="space-between">
+      <Box className={classes.controls}>
+        <RadioButtons
+          label="Hemisphere"
+          options={[
+            {name: 'Northern', value: 'north'},
+            {name: 'Southern', value: 'south'},
+          ]}
+          selected={hemisphere}
+          onChange={setHemisphere}
+        />
+        <RadioButtons
+          label="Active"
+          options={[
+            {name: 'Anytime', value: 'any'},
+            {name: 'Now', value: 'now'},
+            {name: 'This month', value: 'month'},
+          ]}
+          selected={activeTimeFilter}
+          onChange={setActiveTimeFilter}
+        />
+        <RadioButtons
+          label="Location"
+          options={[
+            {name: 'All', value: 'all'},
+            {name: 'River', value: 'river'},
+            {name: 'Pond', value: 'pond'},
+            {name: 'Sea', value: 'sea'},
+            {name: 'Pier', value: 'pier'},
+          ]}
+          selected={locationFilter}
+          onChange={setLocationFilter}
+        />
+      </Box>
+      <Box className={classes.controls}>
+        <RadioButtons
+          label="Sort by"
+          options={[
+            {name: 'Default', value: 'default'},
+            {name: 'Name', value: 'name'},
+            {name: 'Price', value: 'price'},
+            {name: 'Size', value: 'size'},
+          ]}
+          selected={sortBy}
+          onChange={setSortBy}
+        />
+
+        <RadioButtons
+          label={<SortByAlpha style={{display: 'block'}} viewBox="0 0 26 26" />}
+          options={[
+            {name: 'Asc', value: 'asc'},
+            {name: 'Desc', value: 'desc'},
+          ]}
+          selected={sortDirection}
+          onChange={setSortDirection}
+        />
+      </Box>
+    </Box>
+  )
+
   return (
     <>
       <CssBaseline />
@@ -130,69 +198,19 @@ const App = () => {
         <Typography variant="h2" component="h1" align="center" gutterBottom>
           Animal Crossing Fish
         </Typography>
-        <Box
-          className={classes.controls}
-          justifyContent="space-between"
-          margin="1.5rem 0"
-        >
-          <Box className={classes.controls}>
-            <RadioButtons
-              label="Hemisphere"
-              options={[
-                {name: 'Northern', value: 'north'},
-                {name: 'Southern', value: 'south'},
-              ]}
-              selected={hemisphere}
-              onChange={setHemisphere}
-            />
-            <RadioButtons
-              label="Active"
-              options={[
-                {name: 'Anytime', value: 'any'},
-                {name: 'Now', value: 'now'},
-                {name: 'This month', value: 'month'},
-              ]}
-              selected={activeTimeFilter}
-              onChange={setActiveTimeFilter}
-            />
-            <RadioButtons
-              label="Location"
-              options={[
-                {name: 'All', value: 'all'},
-                {name: 'River', value: 'river'},
-                {name: 'Pond', value: 'pond'},
-                {name: 'Sea', value: 'sea'},
-                {name: 'Pier', value: 'pier'},
-              ]}
-              selected={locationFilter}
-              onChange={setLocationFilter}
-            />
-          </Box>
-          <Box className={classes.controls}>
-            <RadioButtons
-              label="Sort by"
-              options={[
-                {name: 'Default', value: 'default'},
-                {name: 'Name', value: 'name'},
-                {name: 'Price', value: 'price'},
-                {name: 'Size', value: 'size'},
-              ]}
-              selected={sortBy}
-              onChange={setSortBy}
-            />
-
-            <RadioButtons
-              label={
-                <SortByAlpha style={{display: 'block'}} viewBox="0 0 26 26" />
-              }
-              options={[
-                {name: 'Asc', value: 'asc'},
-                {name: 'Desc', value: 'desc'},
-              ]}
-              selected={sortDirection}
-              onChange={setSortDirection}
-            />
-          </Box>
+        <Box margin="1.5rem 0">
+          {mdViewport ? (
+            <Controls />
+          ) : (
+            <ExpansionPanel>
+              <ExpansionPanelSummary expandIcon={<ExpandMore />}>
+                <Typography variant="button">Filters</Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Controls />
+              </ExpansionPanelDetails>
+            </ExpansionPanel>
+          )}
         </Box>
         <Grid container spacing={3}>
           {sortedFish.map((fish) => (
