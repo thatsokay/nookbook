@@ -2,7 +2,8 @@ import React, {useState, useMemo} from 'react'
 import {
   makeStyles,
   useMediaQuery,
-  useTheme,
+  createMuiTheme,
+  ThemeProvider,
   CssBaseline,
   Container,
   Box,
@@ -44,8 +45,7 @@ const useStyles = makeStyles({
 
 const App = () => {
   const classes = useStyles()
-  const theme = useTheme()
-  const mdViewport = useMediaQuery(theme.breakpoints.up('md'))
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)')
 
   const [hemisphere, setHemisphere] = useState<'north' | 'south'>('north')
   const [activeTimeFilter, setActiveTimeFilter] = useState<
@@ -58,6 +58,17 @@ const App = () => {
     'default',
   )
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc')
+
+  const theme = React.useMemo(
+    () =>
+      createMuiTheme({
+        palette: {
+          type: prefersDarkMode ? 'dark' : 'light',
+        },
+      }),
+    [prefersDarkMode],
+  )
+  const mdViewport = useMediaQuery(theme.breakpoints.up('md'))
 
   const hemisphereFish = useMemo(
     () =>
@@ -211,7 +222,7 @@ const App = () => {
   )
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container>
         <Typography variant="h2" component="h1" align="center" gutterBottom>
@@ -241,7 +252,7 @@ const App = () => {
           ))}
         </Grid>
       </Container>
-    </>
+    </ThemeProvider>
   )
 }
 
