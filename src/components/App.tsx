@@ -1,4 +1,4 @@
-import React, {useState, useMemo} from 'react'
+import React, {useState, useEffect, useMemo} from 'react'
 import {
   makeStyles,
   useMediaQuery,
@@ -15,7 +15,7 @@ import {
   ExpansionPanelSummary,
   ExpansionPanelDetails,
 } from '@material-ui/core'
-import {SortByAlpha, ExpandMore} from '@material-ui/icons'
+import {Brightness6, SortByAlpha, ExpandMore} from '@material-ui/icons'
 
 import RadioButtons from './RadioButtons'
 import FishContent from './FishContent'
@@ -33,6 +33,13 @@ const moduloBetween = (
     : between >= start || between < end
 
 const useStyles = makeStyles({
+  themeToggle: {
+    position: 'absolute',
+    top: '1.2rem',
+    right: '0',
+    width: '2rem',
+    height: '2rem',
+  },
   controls: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -47,6 +54,7 @@ const App = () => {
   const classes = useStyles()
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)')
 
+  const [darkMode, setDarkMode] = useState(prefersDarkMode)
   const [hemisphere, setHemisphere] = useState<'north' | 'south'>('north')
   const [activeTimeFilter, setActiveTimeFilter] = useState<
     'any' | 'now' | 'month'
@@ -59,14 +67,17 @@ const App = () => {
   )
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc')
 
+  // `preferDarkMode` starts as false then changes to true when the query
+  // return true. `useEffect` needed to corret the initial `darkMode` value.
+  useEffect(() => setDarkMode(prefersDarkMode), [prefersDarkMode])
   const theme = React.useMemo(
     () =>
       createMuiTheme({
         palette: {
-          type: prefersDarkMode ? 'dark' : 'light',
+          type: darkMode ? 'dark' : 'light',
         },
       }),
-    [prefersDarkMode],
+    [darkMode],
   )
   const mdViewport = useMediaQuery(theme.breakpoints.up('md'))
 
@@ -225,32 +236,38 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container>
-        <Typography variant="h2" component="h1" align="center" gutterBottom>
-          Animal Crossing Fish
-        </Typography>
-        <Box margin="1.5rem 0">
-          {mdViewport ? (
-            Controls
-          ) : (
-            <ExpansionPanel>
-              <ExpansionPanelSummary expandIcon={<ExpandMore />}>
-                <Typography variant="button">Filters</Typography>
-              </ExpansionPanelSummary>
-              <ExpansionPanelDetails>{Controls}</ExpansionPanelDetails>
-            </ExpansionPanel>
-          )}
+        <Box position="relative">
+          <Brightness6
+            className={classes.themeToggle}
+            onClick={() => setDarkMode(!darkMode)}
+          />
+          <Typography variant="h2" component="h1" align="center" gutterBottom>
+            Animal Crossing Fish
+          </Typography>
+          <Box margin="1.5rem 0">
+            {mdViewport ? (
+              Controls
+            ) : (
+              <ExpansionPanel>
+                <ExpansionPanelSummary expandIcon={<ExpandMore />}>
+                  <Typography variant="button">Filters</Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>{Controls}</ExpansionPanelDetails>
+              </ExpansionPanel>
+            )}
+          </Box>
+          <Grid container spacing={3}>
+            {sortedFish.map((fish) => (
+              <Grid item xs={12} sm={6} md={4} lg={3} key={fish.name}>
+                <Card>
+                  <CardContent>
+                    <FishContent fish={fish} />
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
         </Box>
-        <Grid container spacing={3}>
-          {sortedFish.map((fish) => (
-            <Grid item xs={12} sm={6} md={4} lg={3} key={fish.name}>
-              <Card>
-                <CardContent>
-                  <FishContent fish={fish} />
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
       </Container>
     </ThemeProvider>
   )
