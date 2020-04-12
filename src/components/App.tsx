@@ -9,6 +9,7 @@ import {
   CardContent,
   Typography,
 } from '@material-ui/core'
+import {SortByAlpha} from '@material-ui/icons'
 
 import RadioButtons from './RadioButtons'
 import FishContent from './FishContent'
@@ -50,6 +51,7 @@ const App = () => {
   const [sortBy, setSortBy] = useState<'default' | 'name' | 'price' | 'size'>(
     'default',
   )
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc')
 
   const hemisphereFish =
     hemisphere == 'north'
@@ -96,17 +98,29 @@ const App = () => {
   const sortedFish = (() => {
     switch (sortBy) {
       case 'default':
-        return locationFilteredFish
+        return sortDirection === 'asc'
+          ? locationFilteredFish
+          : [...locationFilteredFish].reverse()
       case 'name':
-        return [...locationFilteredFish].sort((a, b) =>
-          a.name.localeCompare(b.name),
-        )
+        return sortDirection === 'asc'
+          ? [...locationFilteredFish].sort((a, b) =>
+              a.name.localeCompare(b.name),
+            )
+          : [...locationFilteredFish].sort((a, b) =>
+              b.name.localeCompare(a.name),
+            )
       case 'price':
-        return [...locationFilteredFish].sort((a, b) => a.price - b.price)
+        return sortDirection === 'asc'
+          ? [...locationFilteredFish].sort((a, b) => a.price - b.price)
+          : [...locationFilteredFish].sort((a, b) => b.price - a.price)
       case 'size':
-        return [...locationFilteredFish].sort(
-          (a, b) => a.shadow.size - b.shadow.size,
-        )
+        return sortDirection === 'asc'
+          ? [...locationFilteredFish].sort(
+              (a, b) => a.shadow.size - b.shadow.size,
+            )
+          : [...locationFilteredFish].sort(
+              (a, b) => b.shadow.size - a.shadow.size,
+            )
     }
   })()
 
@@ -159,6 +173,18 @@ const App = () => {
             ]}
             selected={sortBy}
             onChange={setSortBy}
+          />
+
+          <RadioButtons
+            label={
+              <SortByAlpha style={{display: 'block'}} viewBox="0 0 26 26" />
+            }
+            options={[
+              {name: 'Asc', value: 'asc'},
+              {name: 'Desc', value: 'desc'},
+            ]}
+            selected={sortDirection}
+            onChange={setSortDirection}
           />
         </Box>
         <Grid container spacing={3}>
