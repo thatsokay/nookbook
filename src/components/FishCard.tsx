@@ -92,16 +92,15 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
       </CardContent>
       <Collapse in={expanded}>
         <CardContent>
-          <Box display="flex">
-            <Box
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              width="3.25rem"
-            >
-              <CalendarToday viewBox="-4 -1 32 32" />
+          <Box
+            display="grid"
+            gridGap="0.5rem"
+            gridTemplateColumns="3.25rem 1fr"
+          >
+            <Box display="flex" justifyContent="center" alignItems="center">
+              <CalendarToday viewBox="-3 0 30 30" />
             </Box>
-            <Box flex={1} paddingLeft="0.5rem">
+            <Box>
               {fish.months.map(({start, end}) => (
                 <Typography variant="body2" component="p">
                   {start === 0 && end === 0
@@ -110,17 +109,10 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
                 </Typography>
               ))}
             </Box>
-          </Box>
-          <Box display="flex">
-            <Box
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              width="3.25rem"
-            >
-              <Schedule viewBox="-4 -1 32 32" />
+            <Box display="flex" justifyContent="center" alignItems="center">
+              <Schedule viewBox="-3 0 30 30" />
             </Box>
-            <Box flex={1} paddingLeft="0.5rem">
+            <Box>
               {fish.hours.map(({start, end}) => (
                 <Typography variant="body2" component="p">
                   {start === 0 && end === 0
