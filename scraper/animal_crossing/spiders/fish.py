@@ -92,21 +92,21 @@ class FishSpider(scrapy.Spider):
         ]
         start_months = []
         end_months = []
-        for i, (prev, current) in enumerate(zip(months, months[1:])):
+        for i, (prev, current) in enumerate(zip(months[-1:] + months[:-1], months)):
             if prev == current:
                 continue
             if current:
                 # Rising edge. `current` is start month.
-                start_months.append(i + 1) # +1 from `prev` to `current` index
+                start_months.append(i)
                 continue
-            # Falling edge. `prev` is end month
-            end_months.append(i + 1) # +1 from `prev` to `current` index
-        if start_months == []:
+            # Falling edge. `current` is end month (exclusive).
+            end_months.append(i)
+        if start_months == [] and end_months == []:
             months = [{'start': 0, 'end': 0}]
         else:
-            if months[0] == months[-1] == True:
+            if months[-1] == True:
                 # Rotate `start_months` to match last start month with first end month
-                start_months = [start_months[-1]] + start_months[:-1]
+                start_months = start_months[-1:] + start_months[:-1]
             months = [
                 {'start': start, 'end': end}
                 for start, end in zip(start_months, end_months)
