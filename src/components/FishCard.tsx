@@ -103,9 +103,11 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
             <Box>
               {fish.months.map(({start, end}) => (
                 <Typography variant="body2" component="p">
-                  {start === 0 && end === 0
-                    ? 'All year'
-                    : `${monthNames[start]} - ${monthNames[end]}`}
+                  {
+                    start === 0 && end === 0
+                      ? 'All year'
+                      : monthNames[start] + ' - ' + monthNames[(end - 1) % 12] // Change end month to inclusive
+                  }
                 </Typography>
               ))}
             </Box>
