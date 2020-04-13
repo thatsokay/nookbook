@@ -99,7 +99,7 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
               alignItems="center"
               width="3.25rem"
             >
-              <CalendarToday />
+              <CalendarToday viewBox="-4 -1 32 32" />
             </Box>
             <Box flex={1} paddingLeft="0.5rem">
               {fish.months.map(({start, end}) => (
@@ -118,7 +118,7 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
               alignItems="center"
               width="3.25rem"
             >
-              <Schedule />
+              <Schedule viewBox="-4 -1 32 32" />
             </Box>
             <Box flex={1} paddingLeft="0.5rem">
               {fish.hours.map(({start, end}) => (

@@ -233,7 +233,7 @@ const App = () => {
   const sortDirectionControl = useMemo(
     () => (
       <RadioButtons
-        label={<SortByAlpha style={{display: 'block'}} viewBox="0 -1 24 25" />}
+        label={<SortByAlpha style={{display: 'block'}} viewBox="0 0 25 25" />}
         options={[
           {name: 'Asc', value: 'asc'},
           {name: 'Desc', value: 'desc'},
