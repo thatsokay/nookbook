@@ -9,8 +9,6 @@ import {
   Box,
   Grid,
   IconButton,
-  Card,
-  CardContent,
   Typography,
   ExpansionPanel,
   ExpansionPanelSummary,
@@ -19,7 +17,7 @@ import {
 import {Brightness6, SortByAlpha, ExpandMore} from '@material-ui/icons'
 
 import RadioButtons from './RadioButtons'
-import FishContent from './FishContent'
+import FishCard from './FishCard'
 import fishData from '../../assets/fish.json'
 
 const moduloBetween = (
@@ -35,8 +33,8 @@ const moduloBetween = (
 
 const imageCache = (
   <Box hidden>
-    {fishData.map(({image}) => (
-      <img src={require(`../../assets/${image.path}`)} />
+    {fishData.map(({image}, i) => (
+      <img src={require(`../../assets/${image.path}`)} key={i} />
     ))}
   </Box>
 )
@@ -300,11 +298,7 @@ const App = () => {
           <Grid container spacing={3}>
             {sortedFish.map((fish) => (
               <Grid item xs={12} sm={6} md={4} lg={3} key={fish.name}>
-                <Card>
-                  <CardContent>
-                    <FishContent fish={fish} />
-                  </CardContent>
-                </Card>
+                <FishCard fish={fish} />
               </Grid>
             ))}
           </Grid>
