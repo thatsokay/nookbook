@@ -82,7 +82,7 @@ const App = () => {
       }),
     [darkMode],
   )
-  const mdViewport = useMediaQuery(theme.breakpoints.up('md'))
+  const lgViewport = useMediaQuery(theme.breakpoints.up('lg'))
 
   const hemisphereFish = useMemo(
     () =>
@@ -277,7 +277,7 @@ const App = () => {
             Animal Crossing Fish
           </Typography>
           <Box margin="1.5rem 0">
-            {mdViewport ? (
+            {lgViewport ? (
               Controls
             ) : (
               <ExpansionPanel>

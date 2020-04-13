@@ -102,6 +102,7 @@ class FishSpider(scrapy.Spider):
             # Falling edge. `current` is end month (exclusive).
             end_months.append(i)
         if start_months == [] and end_months == []:
+            # Assume no edges means active all year
             months = [{'start': 0, 'end': 0}]
         else:
             if months[-1] == True:
