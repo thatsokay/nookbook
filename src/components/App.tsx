@@ -33,6 +33,14 @@ const moduloBetween = (
     ? between >= start && between < end
     : between >= start || between < end
 
+const imageCache = (
+  <Box hidden>
+    {fishData.map(({image}) => (
+      <img src={require(`../../assets/${image.path}`)} />
+    ))}
+  </Box>
+)
+
 const useStyles = makeStyles({
   themeToggleButton: {
     position: 'absolute',
@@ -265,6 +273,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      {imageCache}
       <Container>
         <Box position="relative">
           <IconButton
