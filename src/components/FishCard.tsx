@@ -103,11 +103,14 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
             <Box>
               {fish.months.map(({start, end}) => (
                 <Typography variant="body2" component="p">
-                  {
-                    start === 0 && end === 0
-                      ? 'All year'
-                      : monthNames[start] + ' - ' + monthNames[(end - 1) % 12] // Change end month to inclusive
-                  }
+                  {start === 0 && end === 0
+                    ? 'All year'
+                    : monthNames[start] +
+                      ' - ' +
+                      // Change end month to inclusive.
+                      // Javascript `%` is remainder rather than modulo and
+                      // returns negative when the first argument is negative.
+                      monthNames[(end + 12 - 1) % 12]}
                 </Typography>
               ))}
             </Box>
