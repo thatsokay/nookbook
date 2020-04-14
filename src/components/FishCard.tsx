@@ -103,7 +103,7 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
             <Box>
               {fish.months.map(({start, end}) => (
                 <Typography variant="body2" component="p">
-                  {start === 0 && end === 0
+                  {start === end
                     ? 'All year'
                     : monthNames[start] +
                       ' - ' +
@@ -120,7 +120,7 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
             <Box>
               {fish.hours.map(({start, end}) => (
                 <Typography variant="body2" component="p">
-                  {start === 0 && end === 0
+                  {start === end
                     ? 'All day'
                     : `${start}`.padStart(2, '0') +
                       ':00 - ' +
