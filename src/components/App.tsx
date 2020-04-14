@@ -18,18 +18,13 @@ import {Brightness6, SortByAlpha, ExpandMore} from '@material-ui/icons'
 
 import RadioButtons from './RadioButtons'
 import FishCard from './FishCard'
+import {
+  useHemisphere,
+  useActiveTimeFilter,
+  useLocationFilter,
+  useSort,
+} from '../filters'
 import fishData from '../../assets/fish.json'
-
-const moduloBetween = (
-  {start, end}: {start: number; end: number},
-  between: number,
-) =>
-  /* Given cyclic `start` and `end` boundaries, returns true if `between` is
-   * between them and false otherwise.
-   */
-  start < end
-    ? between >= start && between < end
-    : between >= start || between < end
 
 const imageCache = (
   <Box hidden>
@@ -64,17 +59,24 @@ const App = () => {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)')
 
   const [darkMode, setDarkMode] = useState(prefersDarkMode)
-  const [hemisphere, setHemisphere] = useState<'north' | 'south'>('north')
-  const [activeTimeFilter, setActiveTimeFilter] = useState<
-    'any' | 'now' | 'month'
-  >('any')
-  const [locationFilter, setLocationFilter] = useState<
-    'all' | 'river' | 'pond' | 'sea' | 'pier'
-  >('all')
-  const [sortBy, setSortBy] = useState<'default' | 'name' | 'price' | 'size'>(
-    'default',
-  )
-  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc')
+  const {hemisphere, setHemisphere, hemisphereFish} = useHemisphere(fishData)
+  const {
+    activeTimeFilter,
+    setActiveTimeFilter,
+    activeTimeFilteredFish,
+  } = useActiveTimeFilter(hemisphereFish)
+  const {
+    locationFilter,
+    setLocationFilter,
+    locationFilteredFish,
+  } = useLocationFilter(activeTimeFilteredFish)
+  const {
+    sortBy,
+    setSortBy,
+    sortDirection,
+    setSortDirection,
+    sortedFish,
+  } = useSort(locationFilteredFish)
 
   // `preferDarkMode` starts as false then changes to true when the query
   // return true. `useEffect` needed to corret the initial `darkMode` value.
@@ -89,80 +91,6 @@ const App = () => {
     [darkMode],
   )
   const lgViewport = useMediaQuery(theme.breakpoints.up('lg'))
-
-  const hemisphereFish = useMemo(
-    () =>
-      hemisphere == 'north'
-        ? fishData
-        : fishData.map((fish) => ({
-            ...fish,
-            months: fish.months.map((months) => ({
-              start: (months.start + 6) % 12,
-              end: (months.end + 6) % 12,
-            })),
-          })),
-    [hemisphere],
-  )
-
-  const activeTimeFilteredFish = useMemo(() => {
-    const now = new Date()
-    const month = now.getMonth()
-    const hour = now.getHours()
-    switch (activeTimeFilter) {
-      case 'any':
-        return hemisphereFish
-      case 'now':
-        return hemisphereFish.filter(
-          (fish) =>
-            fish.months.some((bounds) => moduloBetween(bounds, month)) &&
-            fish.hours.some((bounds) => moduloBetween(bounds, hour)),
-        )
-      case 'month':
-        return hemisphereFish.filter((fish) =>
-          fish.months.some((bounds) => moduloBetween(bounds, month)),
-        )
-    }
-  }, [activeTimeFilter, hemisphereFish])
-
-  const locationFilteredFish = useMemo(() => {
-    switch (locationFilter) {
-      case 'all':
-        return activeTimeFilteredFish
-      default:
-        return activeTimeFilteredFish.filter((fish) =>
-          fish.location.toLowerCase().startsWith(locationFilter),
-        )
-    }
-  }, [locationFilter, activeTimeFilteredFish])
-
-  const sortedFish = useMemo(() => {
-    switch (sortBy) {
-      case 'default':
-        return sortDirection === 'asc'
-          ? locationFilteredFish
-          : [...locationFilteredFish].reverse()
-      case 'name':
-        return sortDirection === 'asc'
-          ? [...locationFilteredFish].sort((a, b) =>
-              a.name.localeCompare(b.name),
-            )
-          : [...locationFilteredFish].sort((a, b) =>
-              b.name.localeCompare(a.name),
-            )
-      case 'price':
-        return sortDirection === 'asc'
-          ? [...locationFilteredFish].sort((a, b) => a.price - b.price)
-          : [...locationFilteredFish].sort((a, b) => b.price - a.price)
-      case 'size':
-        return sortDirection === 'asc'
-          ? [...locationFilteredFish].sort(
-              (a, b) => a.shadow.size - b.shadow.size,
-            )
-          : [...locationFilteredFish].sort(
-              (a, b) => b.shadow.size - a.shadow.size,
-            )
-    }
-  }, [locationFilteredFish, sortBy, sortDirection])
 
   const hemisphereControl = useMemo(
     () => (
