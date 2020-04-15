@@ -13,7 +13,7 @@ class JsonWriterPipeline(object):
         self.items = []
 
     def close_spider(self, spider):
-        with open('../assets/fish.json', 'w') as f:
+        with open('assets/fish.json', 'w') as f:
             f.write(json.dumps(self.items))
 
     def process_item(self, item, spider):

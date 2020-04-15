@@ -40,7 +40,7 @@
   },
   {
     "name": "Dace",
-    "price": 192,
+    "price": 240,
     "location": "River",
     "shadow": {"size": 3},
     "hours": [{"start": 16, "end": 9}],

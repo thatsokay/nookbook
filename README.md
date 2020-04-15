@@ -22,7 +22,6 @@ npm install
 ### Run scraper
 
 ```bash
-cd scraper
 scrapy crawl fish
 ```
 

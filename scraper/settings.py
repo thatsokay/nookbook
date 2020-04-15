@@ -11,8 +11,8 @@
 
 BOT_NAME = 'animal_crossing'
 
-SPIDER_MODULES = ['animal_crossing.spiders']
-NEWSPIDER_MODULE = 'animal_crossing.spiders'
+SPIDER_MODULES = ['scraper.spiders']
+NEWSPIDER_MODULE = 'scraper.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -66,10 +66,10 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'scrapy.pipelines.files.FilesPipeline': 1,
-    'animal_crossing.pipelines.JsonWriterPipeline': 300,
+    'scraper.pipelines.JsonWriterPipeline': 300,
 }
 
-FILES_STORE = '../assets'
+FILES_STORE = 'assets'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
