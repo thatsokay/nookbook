@@ -105,6 +105,8 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
                 <Typography variant="body2" component="p">
                   {start === end
                     ? 'All year'
+                    : end - start === 1
+                    ? monthNames[start] // 1 month duration
                     : monthNames[start] +
                       ' - ' +
                       // Change end month to inclusive.
