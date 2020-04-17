@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useMemo} from 'react'
+import React, {useState, useMemo} from 'react'
 import {
   makeStyles,
   useMediaQuery,
@@ -56,9 +56,7 @@ const useStyles = makeStyles({
 
 const App = () => {
   const classes = useStyles()
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)')
 
-  const [darkMode, setDarkMode] = useState(prefersDarkMode)
   const {hemisphere, setHemisphere, hemisphereFish} = useHemisphere(fishData)
   const {
     activeTimeFilter,
@@ -78,9 +76,9 @@ const App = () => {
     sortedFish,
   } = useSort(locationFilteredFish)
 
-  // `preferDarkMode` starts as false then changes to true when the query
-  // return true. `useEffect` needed to corret the initial `darkMode` value.
-  useEffect(() => setDarkMode(prefersDarkMode), [prefersDarkMode])
+  const [darkMode, setDarkMode] = useState(
+    window.matchMedia('(prefers-color-scheme: dark)').matches,
+  )
   const theme = React.useMemo(
     () =>
       createMuiTheme({

@@ -97,45 +97,64 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
             gridGap="0.5rem"
             gridTemplateColumns="3.25rem 1fr"
           >
-            <Box display="flex" justifyContent="center" alignItems="center">
-              <CalendarToday viewBox="-3 0 30 30" />
-            </Box>
-            <Box>
-              {fish.months.map(({start, end}) => (
-                <Typography variant="body2" component="p">
-                  {start === end
-                    ? 'All year'
-                    : end - start === 1
-                    ? monthNames[start] // 1 month duration
-                    : monthNames[start] +
-                      ' - ' +
-                      // Change end month to inclusive.
-                      // Javascript `%` is remainder rather than modulo and
-                      // returns negative when the first argument is negative.
-                      monthNames[(end + 12 - 1) % 12]}
-                </Typography>
-              ))}
-            </Box>
-            <Box display="flex" justifyContent="center" alignItems="center">
-              <Schedule viewBox="-3 0 30 30" />
-            </Box>
-            <Box>
-              {fish.hours.map(({start, end}) => (
-                <Typography variant="body2" component="p">
-                  {start === end
-                    ? 'All day'
-                    : `${start}`.padStart(2, '0') +
-                      ':00 - ' +
-                      `${end}`.padStart(2, '0') +
-                      ':00'}
-                </Typography>
-              ))}
-            </Box>
+            <DetailRow
+              icon={<CalendarToday viewBox="-3 0 30 30" />}
+              periods={fish.months}
+              periodFormatter={({start, end}) =>
+                start === end
+                  ? 'All year'
+                  : end - start === 1
+                  ? monthNames[start] // 1 month duration
+                  : monthNames[start] +
+                    ' - ' +
+                    // Change end month to inclusive.
+                    // Javascript `%` is remainder rather than modulo and
+                    // returns negative when the first argument is negative.
+                    monthNames[(end + 12 - 1) % 12]
+              }
+            />
+            <DetailRow
+              icon={<Schedule viewBox="-3 0 30 30" />}
+              periods={fish.hours}
+              periodFormatter={({start, end}) =>
+                start === end
+                  ? 'All day'
+                  : `${start}`.padStart(2, '0') +
+                    ':00 - ' +
+                    `${end}`.padStart(2, '0') +
+                    ':00'
+              }
+            />
           </Box>
         </CardContent>
       </Collapse>
     </Card>
   )
 }
+
+interface DetailRowProps {
+  icon: JSX.Element
+  periods: {start: number; end: number}[]
+  periodFormatter: (period: {start: number; end: number}) => string
+}
+
+const DetailRow = (props: DetailRowProps) => (
+  <>
+    <Box display="flex" justifyContent="center" alignItems="center">
+      {props.icon}
+    </Box>
+    <Box>
+      {props.periods.map((period) => (
+        <Typography
+          variant="body2"
+          component="p"
+          key={`${period.start}-${period.end}`}
+        >
+          {props.periodFormatter(period)}
+        </Typography>
+      ))}
+    </Box>
+  </>
+)
 
 export default FishCard
