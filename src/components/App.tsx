@@ -76,9 +76,11 @@ const App = () => {
     sortedFish,
   } = useSort(locationFilteredFish)
 
-  const [darkMode, setDarkMode] = useState(
-    window.matchMedia('(prefers-color-scheme: dark)').matches,
+  const prefersDarkMode = useMemo(
+    () => matchMedia('(prefers-color-scheme: dark)').matches,
+    [],
   )
+  const [darkMode, setDarkMode] = useState(prefersDarkMode)
   const theme = React.useMemo(
     () =>
       createMuiTheme({
