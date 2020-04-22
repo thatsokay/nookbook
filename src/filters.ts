@@ -39,10 +39,10 @@ export const useActiveTimeFilter = (fishData: typeof fishJson) => {
   const [activeTimeFilter, setActiveTimeFilter] = useState<
     'any' | 'now' | 'month'
   >('any')
+  const now = new Date()
+  const month = now.getMonth()
+  const hour = now.getHours()
   const activeTimeFilteredFish = useMemo(() => {
-    const now = new Date()
-    const month = now.getMonth()
-    const hour = now.getHours()
     switch (activeTimeFilter) {
       case 'any':
         return fishData
@@ -57,7 +57,7 @@ export const useActiveTimeFilter = (fishData: typeof fishJson) => {
           fish.months.some((bounds) => moduloBetween(bounds, month)),
         )
     }
-  }, [fishData, activeTimeFilter])
+  }, [fishData, activeTimeFilter, month, hour])
   return {
     activeTimeFilter,
     setActiveTimeFilter,

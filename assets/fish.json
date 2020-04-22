@@ -159,7 +159,7 @@
     "name": "Snapping Turtle",
     "price": 5000,
     "location": "River",
-    "shadow": {"size": 5},
+    "shadow": {"size": 4},
     "hours": [{"start": 21, "end": 4}],
     "months": [{"start": 3, "end": 10}],
     "image": {
@@ -237,7 +237,7 @@
     "name": "Giant snakehead",
     "price": 5500,
     "location": "Pond",
-    "shadow": {"size": 5},
+    "shadow": {"size": 4},
     "hours": [{"start": 9, "end": 16}],
     "months": [{"start": 5, "end": 8}],
     "image": {
@@ -274,7 +274,7 @@
   },
   {
     "name": "Black bass",
-    "price": 320,
+    "price": 400,
     "location": "River",
     "shadow": {"size": 4},
     "hours": [{"start": 0, "end": 0}],
@@ -561,7 +561,7 @@
     "name": "Gar",
     "price": 6000,
     "location": "Pond",
-    "shadow": {"size": 6},
+    "shadow": {"size": 5},
     "hours": [{"start": 16, "end": 9}],
     "months": [{"start": 5, "end": 9}],
     "image": {
