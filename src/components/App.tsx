@@ -1,4 +1,4 @@
-import React, {useState, useMemo} from 'react'
+import React, {useMemo} from 'react'
 import {
   makeStyles,
   useMediaQuery,
@@ -24,6 +24,7 @@ import {
   useLocationFilter,
   useSort,
 } from '../filters'
+import {useDarkMode} from '../utilities'
 import fishData from '../../assets/fish.json'
 
 const imageCache = (
@@ -76,11 +77,7 @@ const App = () => {
     sortedFish,
   } = useSort(locationFilteredFish)
 
-  const prefersDarkMode = useMemo(
-    () => matchMedia('(prefers-color-scheme: dark)').matches,
-    [],
-  )
-  const [darkMode, setDarkMode] = useState(prefersDarkMode)
+  const [darkMode, setDarkMode] = useDarkMode()
   const theme = React.useMemo(
     () =>
       createMuiTheme({
