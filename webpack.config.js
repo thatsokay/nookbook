@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const {GenerateSW} = require('workbox-webpack-plugin')
 const path = require('path')
+const fs = require('fs')
 
 module.exports = {
   resolve: {
@@ -46,7 +47,12 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({inject: true, template: './public/index.html'}),
-    new CopyPlugin([{from: 'public/manifest.json', to: 'manifest.json'}]),
+    new CopyPlugin(
+      fs
+        .readdirSync('public')
+        .filter((file) => file !== 'index.html')
+        .map((file) => ({from: `public/${file}`, to: file})),
+    ),
     new GenerateSW(),
   ],
 }
