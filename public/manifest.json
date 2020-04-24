@@ -1,0 +1,8 @@
+{
+  "short_name": "Animal Crossing Fish",
+  "name": "Animal Crossing Fish",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
