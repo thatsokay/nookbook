@@ -10,19 +10,13 @@ https://thatsokay.gitlab.io/animal-crossing
 ### Install dependencies
 
 ```bash
-# Python dependencies
-virtualenv venv
-. venv/bin/activate
-pip install scrapy
-
-# Node dependencies
 npm install
 ```
 
-### Run scraper
+### Fetch data
 
 ```bash
-scrapy crawl fish
+npm run fetch
 ```
 
 ### Start dev server
