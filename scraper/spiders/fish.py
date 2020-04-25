@@ -1,21 +1,19 @@
-from itertools import tee
 from time import strftime, strptime
 from re import sub
 import scrapy
 
 
 class FishSpider(scrapy.Spider):
-    name = "fish"
+    name = 'fish'
     start_urls = [
-        'https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)'
+        'https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)',
     ]
 
     def parse(self, response):
         table = response.css(
-            'div.tabbertab[title="Northern Hemisphere"] table table'
+            'div.tabbertab[title="Northern Hemisphere"] table table',
         )
         rows = table.css('tr')
-        # headings = rows[0].css('th::text').getall()
         data_rows = rows[1:]
         for data in map(self.parse_data_row, data_rows):
             image_url = data['image_url']
@@ -50,7 +48,7 @@ class FishSpider(scrapy.Spider):
         data['image_url'] = sub(
             r'/revision/latest\?.*$',
             '',
-            data['image_url']
+            data['image_url'],
         )
         data['price'] = int(data['price'])
 
@@ -72,7 +70,7 @@ class FishSpider(scrapy.Spider):
 
         # Parse start and end time. Assumes end time is exclusive.
         if data['time'] == 'All day':
-            hours = [{'start': 0, 'end': 0,}]
+            hours = [{'start': 0, 'end': 0}]
         elif '&' in data['time']:
             # Handle piranha case
             hours = [
