@@ -21,10 +21,13 @@ export const useHemisphere = (fishData: typeof fishJson) => {
         ? fishData
         : fishData.map((fish) => ({
             ...fish,
-            months: fish.months.map((months) => ({
-              start: (months.start + 6) % 12,
-              end: (months.end + 6) % 12,
-            })),
+            active: {
+              ...fish.active,
+              months: fish.active.months.map((months) => ({
+                start: (months.start + 6) % 12,
+                end: (months.end + 6) % 12,
+              })),
+            },
           })),
     [fishData, hemisphere],
   )
@@ -49,12 +52,12 @@ export const useActiveTimeFilter = (fishData: typeof fishJson) => {
       case 'now':
         return fishData.filter(
           (fish) =>
-            fish.months.some((bounds) => moduloBetween(bounds, month)) &&
-            fish.hours.some((bounds) => moduloBetween(bounds, hour)),
+            fish.active.months.some((bounds) => moduloBetween(bounds, month)) &&
+            fish.active.hours.some((bounds) => moduloBetween(bounds, hour)),
         )
       case 'month':
         return fishData.filter((fish) =>
-          fish.months.some((bounds) => moduloBetween(bounds, month)),
+          fish.active.months.some((bounds) => moduloBetween(bounds, month)),
         )
     }
   }, [fishData, activeTimeFilter, month, hour])
