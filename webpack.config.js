@@ -15,7 +15,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'js/[name].js',
+    filename: 'js/[name].[contenthash:8].js',
   },
   devServer: {
     contentBase: './build',
@@ -40,7 +40,11 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
         // No ES module so importing with `require` doesn't need `.default`.
-        options: {outputPath: 'img', esModule: false},
+        options: {
+          outputPath: 'img',
+          name: '[name].[hash:8].[ext]',
+          esModule: false,
+        },
       },
     ],
   },
