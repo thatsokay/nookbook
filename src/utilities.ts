@@ -1,15 +1,11 @@
-import {useState, useMemo} from 'react'
+import {useState, useEffect, useMemo, useCallback} from 'react'
 
-export const useLocalStorage = (key: string) => {
-  const storedValue = useMemo(() => localStorage.getItem(key), [])
-  const [item, setItem] = useState(storedValue)
-  return [
-    item,
-    (value: string) => {
-      localStorage.setItem(key, value)
-      setItem(value)
-    },
-  ] as const
+export const useLocalStorage = (key: string, initial: string) => {
+  const [item, setItem] = useState(() => {
+    return localStorage.getItem(key) ?? initial
+  })
+  useEffect(() => localStorage.setItem(key, item), [item])
+  return [item, setItem] as const
 }
 
 export const useDarkMode = () => {
@@ -17,7 +13,10 @@ export const useDarkMode = () => {
    * media query. Always set localStorage when setting dark mode.
    */
   const prefersDarkMode = matchMedia('(prefers-color-scheme: dark)').matches
-  const [storedDarkMode, setStoredDarkMode] = useLocalStorage('darkMode')
+  const [storedDarkMode, setStoredDarkMode] = useLocalStorage(
+    'darkMode',
+    `${prefersDarkMode}`,
+  )
   const darkMode = useMemo(() => {
     switch (storedDarkMode) {
       case 'true':
@@ -28,5 +27,9 @@ export const useDarkMode = () => {
         return prefersDarkMode
     }
   }, [prefersDarkMode, storedDarkMode])
-  return [darkMode, (dark: boolean) => setStoredDarkMode(`${dark}`)] as const
+  const setDarkMode = useCallback(
+    (dark: boolean) => setStoredDarkMode(`${dark}`),
+    [setStoredDarkMode],
+  )
+  return [darkMode, setDarkMode] as const
 }

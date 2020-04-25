@@ -1,5 +1,6 @@
-import {useState, useMemo} from 'react'
+import {useState, useMemo, useCallback} from 'react'
 
+import {useLocalStorage} from './utilities'
 import fishJson from '../assets/fish.json'
 
 const moduloBetween = (
@@ -14,10 +15,21 @@ const moduloBetween = (
     : between >= start || between < end
 
 export const useHemisphere = (fishData: typeof fishJson) => {
-  const [hemisphere, setHemisphere] = useState<'north' | 'south'>('north')
+  const [storedHemisphere, setStoredHemisphere] = useLocalStorage(
+    'hemisphere',
+    'north',
+  )
+  const hemisphere = useMemo(
+    () => (storedHemisphere === 'south' ? 'south' : 'north'),
+    [storedHemisphere],
+  )
+  const setHemisphere = useCallback(
+    (value: 'north' | 'south') => setStoredHemisphere(value),
+    [setStoredHemisphere],
+  )
   const hemisphereFish = useMemo(
     () =>
-      hemisphere == 'north'
+      hemisphere === 'north'
         ? fishData
         : fishData.map((fish) => ({
             ...fish,
