@@ -1,1057 +1,1944 @@
 [
   {
-    "name": "Bitterling",
+    "id": 1,
+    "fileName": "bitterling",
     "price": 900,
+    "name": {
+      "en": "Bitterling",
+      "cn": "红目鲫",
+      "de": "Bitterling",
+      "sp": "Amarguillo",
+      "fr": "Bouvière",
+      "it": "Rodeo",
+      "jp": "タナゴ",
+      "kr": "납줄개",
+      "nl": "Bittervoorn",
+      "ru": "Горчак"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 10, "end": 3}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 1},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 10, "end": 3}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Icon-bitterling.png",
-      "path": "full/2668708294a03991a3b6b7e64acaea9f65e1593b.png",
-      "checksum": "83b4242c051f6f05635e0a9b2bdd67b1"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Pale chub",
+    "id": 2,
+    "fileName": "pale_chub",
     "price": 200,
+    "name": {
+      "en": "Pale Chub",
+      "cn": "溪哥",
+      "de": "Döbel",
+      "sp": "Cacho",
+      "fr": "Chevaine",
+      "it": "Zacco",
+      "jp": "オイカワ",
+      "kr": "피라미",
+      "nl": "Japanse drakenvis",
+      "ru": "Светлый закко"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "River",
-    "shadow": {"size": 1},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png",
-      "path": "full/0cc17e19704933a17af4a7de3117a1086d1aaf38.png",
-      "checksum": "28f4b9858cc06b31ba29f3d995a56275"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Crucian carp",
+    "id": 3,
+    "fileName": "crucian_carp",
     "price": 160,
+    "name": {
+      "en": "Crucian carp",
+      "cn": "鲫鱼",
+      "de": "Karausche",
+      "sp": "Carpín",
+      "fr": "Carassin",
+      "it": "Carassio",
+      "jp": "フナ",
+      "kr": "붕어",
+      "nl": "Kroeskarper",
+      "ru": "Карась"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Icon-cruciancarp.png",
-      "path": "full/d179bda2319cb9fb36aafebca6c161a968d2036c.png",
-      "checksum": "9ed0a1a254d3c45ef5ec528f80bff527"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Dace",
+    "id": 4,
+    "fileName": "dace",
     "price": 240,
+    "name": {
+      "en": "Dace",
+      "cn": "雅罗鱼",
+      "de": "Hasel",
+      "sp": "Leucisco",
+      "fr": "Vandoise",
+      "it": "Lasca",
+      "jp": "ウグイ",
+      "kr": "황어",
+      "nl": "Serpeling",
+      "ru": "Елец"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River",
-    "shadow": {"size": 3},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-dace.png",
-      "path": "full/e60f2630ccd28fc227f0d03d6fc5996f2c399b71.png",
-      "checksum": "b34dec568aa87303bab8faf506f4ca39"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Carp",
+    "id": 5,
+    "fileName": "carp",
     "price": 300,
+    "name": {
+      "en": "Carp",
+      "cn": "鲤鱼",
+      "de": "Karpfen",
+      "sp": "Carpa",
+      "fr": "Carpe",
+      "it": "Carpa",
+      "jp": "コイ",
+      "kr": "잉어",
+      "nl": "Karper",
+      "ru": "Сазан"
+    },
+    "shadow": {"description": "Large", "size": 4},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Pond",
-    "shadow": {"size": 4},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-carp.png",
-      "path": "full/6ea3485fd25338abbab830982113b43395f95173.png",
-      "checksum": "dcb61b50bf74f5e0376902790a962a17"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Koi",
+    "id": 6,
+    "fileName": "koi",
     "price": 4000,
+    "name": {
+      "en": "Koi",
+      "cn": "锦鲤",
+      "de": "Koi-Karpfen",
+      "sp": "Koi",
+      "fr": "Carpe koï",
+      "it": "Koi",
+      "jp": "ニシキゴイ",
+      "kr": "비단잉어",
+      "nl": "Koikarper",
+      "ru": "Карп кои"
+    },
+    "shadow": {"description": "Large", "size": 4},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "Pond",
-    "shadow": {"size": 4},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/74/NH-Icon-koi.png",
-      "path": "full/2d0f8631e59df19721f56c62a2882db69fe598f3.png",
-      "checksum": "60c729d9949c806b10ed83e0a76dd35a"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Goldfish",
+    "id": 7,
+    "fileName": "goldfish",
     "price": 1300,
+    "name": {
+      "en": "Goldfish",
+      "cn": "金鱼",
+      "de": "Goldfisch",
+      "sp": "Pez dorado",
+      "fr": "Poisson rouge",
+      "it": "Pesce rosso",
+      "jp": "キンギョ",
+      "kr": "금붕어",
+      "nl": "Goudvis",
+      "ru": "Золотая рыбка"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Pond",
-    "shadow": {"size": 1},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Icon-goldfish.png",
-      "path": "full/1c718fe9f4393194663dd26d37d40732c5111bfe.png",
-      "checksum": "3dc9a4ef1b411152d8b8c5c4328aaa7b"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Pop-eyed goldfish",
+    "id": 8,
+    "fileName": "pop-eyed_goldfish",
     "price": 1300,
+    "name": {
+      "en": "Pop-eyed goldfish",
+      "cn": "龙睛金鱼",
+      "de": "Teleskopauge",
+      "sp": "Pez telescopio",
+      "fr": "Cyprin doré",
+      "it": "Pesce telescopio",
+      "jp": "デメキン",
+      "kr": "툭눈금붕어",
+      "nl": "Telescoopooggoudvis",
+      "ru": "Телескол"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "Pond",
-    "shadow": {"size": 1},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Icon-popeyedgoldfish.png",
-      "path": "full/7e6505eb5c6d039028b227a84c52bceb8009132d.png",
-      "checksum": "375bfe4af27a366a4cb46290a71fe2ad"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Ranchu goldfish",
+    "id": 9,
+    "fileName": "ranchu_goldfish",
     "price": 4500,
+    "name": {
+      "en": "Ranchu goldfish",
+      "cn": "兰寿金鱼",
+      "de": "Ranchu",
+      "sp": "Ranchú",
+      "fr": "Ranchu",
+      "it": "Ranchu",
+      "jp": "ランチュウ",
+      "kr": "난주",
+      "nl": "Buffelrug",
+      "ru": "Ранчу"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "Pond",
-    "shadow": {"size": 2},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/NH-Icon-ranchugoldfish.png",
-      "path": "full/f56e93dd167929add59ed4df4550559f7dbe890c.png",
-      "checksum": "bd7fb6d2ed182766ba19f71a7d73a109"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Killifish",
+    "id": 10,
+    "fileName": "killifish",
     "price": 300,
+    "name": {
+      "en": "Killifish",
+      "cn": "稻田鱼",
+      "de": "Killifisch",
+      "sp": "Killi",
+      "fr": "Fondule barré",
+      "it": "Killifish",
+      "jp": "メダカ",
+      "kr": "송사리",
+      "nl": "Killivis",
+      "ru": "Оризия"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 3, "end": 8}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Pond",
-    "shadow": {"size": 1},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 3, "end": 8}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-killifish.png",
-      "path": "full/3ebb1876e7aa4884dd8f2b2288df5f576dbb9f76.png",
-      "checksum": "d676469278d9257635251ee19066bf94"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Crawfish",
+    "id": 11,
+    "fileName": "crawfish",
     "price": 200,
+    "name": {
+      "en": "Crawfish",
+      "cn": "淡水龙虾",
+      "de": "Flusskrebs",
+      "sp": "Cangrejo de río",
+      "fr": "Écrevisse",
+      "it": "Gambero",
+      "jp": "ザリガニ",
+      "kr": "가재",
+      "nl": "Rode rivierkreeft",
+      "ru": "Рак"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 3, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Pond",
-    "shadow": {"size": 2},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 3, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Icon-crawfish.png",
-      "path": "full/ce06801ce55034c22719b39dcee06bd132d7d96c.png",
-      "checksum": "806a5ed3f486b645402c61ce96761482"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Soft-shelled turtle",
+    "id": 12,
+    "fileName": "soft-shelled_turtle",
     "price": 3750,
+    "altCatchPhrase": [
+      "I caught a soft-shelled turtle! I should take a shellfie!"
+    ],
+    "name": {
+      "en": "Soft-shelled turtle",
+      "cn": "鳖",
+      "de": "Weichschildkröte",
+      "sp": "Tortuga caparazón blando",
+      "fr": "Tortue trionyx",
+      "it": "Apalone ferox",
+      "jp": "スッポン",
+      "kr": "자라",
+      "nl": "Weekschildpad",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 4},
+    "active": {
+      "months": [{"start": 7, "end": 9}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River",
-    "shadow": {"size": 4},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 7, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-softshelledturtle.png",
-      "path": "full/586debd1f3fbdd7a22b159cc307fd0a6c07d2a7c.png",
-      "checksum": "3a40d23c3db35734b64a39b2ef01f152"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Snapping Turtle",
+    "id": 13,
+    "fileName": "snapping_turtle",
     "price": 5000,
+    "name": {
+      "en": "Snapping turtle",
+      "cn": "拟鳄龟",
+      "de": "Schnappschildkröte",
+      "sp": "Tortuga mordedora",
+      "fr": "Tortue serpentine",
+      "it": "Tartaruga azzannatrice",
+      "jp": "カミツキガメ",
+      "kr": "늑대거북",
+      "nl": "Bijtschildpad",
+      "ru": "Каймановая черепаха"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 3, "end": 10}],
+      "hours": [{"start": 21, "end": 4}]
+    },
     "location": "River",
-    "shadow": {"size": 4},
-    "hours": [{"start": 21, "end": 4}],
-    "months": [{"start": 3, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-snappingturtle.png",
-      "path": "full/828a2349a32479c26fddc39dabc7422072be041a.png",
-      "checksum": "79cbb422772300533725c8e564694eea"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Tadpole",
+    "id": 14,
+    "fileName": "tadpole",
     "price": 100,
+    "name": {
+      "en": "Tadpole",
+      "cn": "蝌蚪",
+      "de": "Kaulquappe",
+      "sp": "Renacuajo",
+      "fr": "Têtard",
+      "it": "Girino",
+      "jp": "オタマジャクシ",
+      "kr": "올챙이",
+      "nl": "Kikkervisje",
+      "ru": "Головастик"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 2, "end": 7}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Pond",
-    "shadow": {"size": 1},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 2, "end": 7}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-tadpole.png",
-      "path": "full/f60174d977523745b2bfa2c5d7dc482cd81f0965.png",
-      "checksum": "6b791e49c29981c5f9419c7f0c884bc0"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Frog",
+    "id": 15,
+    "fileName": "frog",
     "price": 120,
+    "name": {
+      "en": "Frog",
+      "cn": "青蛙",
+      "de": "Frosch",
+      "sp": "Rana",
+      "fr": "Grenouille",
+      "it": "Rana",
+      "jp": "カエル",
+      "kr": "개구리",
+      "nl": "Kikker",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 4, "end": 8}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Pond",
-    "shadow": {"size": 2},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 4, "end": 8}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Icon-frog.png",
-      "path": "full/fde2607085eb13b237628d8a24fde673b177c51d.png",
-      "checksum": "386fea67b084b45ef10dcee0ce655266"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Freshwater goby",
+    "id": 16,
+    "fileName": "freshwater_goby",
     "price": 400,
+    "name": {
+      "en": "Freshwater goby",
+      "cn": "塘鳢鱼",
+      "de": "Flussgrundel",
+      "sp": "Gobio de río",
+      "fr": "Gobie d'eau douce",
+      "it": "Ghiozzo",
+      "jp": "ドンコ",
+      "kr": "동사리",
+      "nl": "Zoetwatergrondel",
+      "ru": "Одонтобутис"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Icon-freshwatergoby.png",
-      "path": "full/07c6fa3c44226a8c34c1ce1a5351865db9f9834e.png",
-      "checksum": "83ed7bde8a9bf3f68a0a106981a3bc56"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Loach",
+    "id": 17,
+    "fileName": "loach",
     "price": 400,
+    "name": {
+      "en": "Loach",
+      "cn": "泥鳅",
+      "de": "Bachschmerle",
+      "sp": "Locha",
+      "fr": "Loche d'étang",
+      "it": "Cobite",
+      "jp": "ドジョウ",
+      "kr": "미꾸라지",
+      "nl": "Modderkruiper",
+      "ru": "Вьюн"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 2, "end": 5}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 2, "end": 5}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-Icon-loach.png",
-      "path": "full/43d7f22fa69b6fa902737ae536e5c6329f904d90.png",
-      "checksum": "9fd79f11287db989da077e928dc184dc"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Catfish",
+    "id": 18,
+    "fileName": "catfish",
     "price": 800,
+    "name": {
+      "en": "Catfish",
+      "cn": "鲶鱼",
+      "de": "Katzenwels",
+      "sp": "Siluro",
+      "fr": "Silure",
+      "it": "Pesce gatto",
+      "jp": "ナマズ",
+      "kr": "메기",
+      "nl": "Meerval",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 4},
+    "active": {
+      "months": [{"start": 4, "end": 10}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "Pond",
-    "shadow": {"size": 4},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 4, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Icon-catfish.png",
-      "path": "full/46fbbb27f13d04d281b0c63422a45365ec0bc6a7.png",
-      "checksum": "46d9b0dab6da18109a9a8b8e71db5cb0"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Giant snakehead",
+    "id": 19,
+    "fileName": "giant_snakehead",
     "price": 5500,
+    "name": {
+      "en": "Giant snakehead",
+      "cn": "黑鱼",
+      "de": "Schlangenkopf",
+      "sp": "Pez cabeza de serpiente",
+      "fr": "Tête-de-serpent",
+      "it": "Pesce serpente",
+      "jp": "ライギョ",
+      "kr": "가물치",
+      "nl": "Rode slangenkopvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 5, "end": 8}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "Pond",
-    "shadow": {"size": 4},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 5, "end": 8}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-giantsnakehead.png",
-      "path": "full/3b7639275537ac30bd19dbe296430d4efcaddbf2.png",
-      "checksum": "9f3019f95076d54d9ef54e93c214c850"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Bluegill",
+    "id": 20,
+    "fileName": "bluegill",
     "price": 180,
+    "name": {
+      "en": "Giant snakehead",
+      "cn": "蓝腮太阳鱼",
+      "de": "Sonnenbarsch",
+      "sp": "Pez sol",
+      "fr": "Crapet",
+      "it": "Pesce persico",
+      "jp": "ブルーギル",
+      "kr": "블루길",
+      "nl": "Zonnebaars",
+      "ru": "Солнечник"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Icon-bluegill.png",
-      "path": "full/35a785a52f08ca5321b855abd4cd78116f9b283a.png",
-      "checksum": "126f3b15ec2672498cf36af3ed05602f"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Yellow perch",
+    "id": 21,
+    "fileName": "yellow_perch",
     "price": 300,
+    "name": {
+      "en": "Yellow perch",
+      "cn": "黄鲈鱼",
+      "de": "Flussbarsch",
+      "sp": "Perca amarilla",
+      "fr": "Perche jaune",
+      "it": "Perca dorata",
+      "jp": "イエローパーチ",
+      "kr": "옐로우퍼치",
+      "nl": "Jackbaars",
+      "ru": "Желтый окунь"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 9, "end": 3}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 3},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 9, "end": 3}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1d/NH-Icon-yellowperch.png",
-      "path": "full/db5a8221558bf73838f19c09bb57f4a02130dbeb.png",
-      "checksum": "5fb4d62ae4387cbd0e1fb31ae08a4b42"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Black bass",
+    "id": 22,
+    "fileName": "black_bass",
     "price": 400,
+    "name": {
+      "en": "Black bass",
+      "cn": "黑鲈鱼",
+      "de": "Barsch",
+      "sp": "Perca",
+      "fr": "Bar",
+      "it": "Boccalone",
+      "jp": "ブラックバス",
+      "kr": "큰입배스",
+      "nl": "Forelbaars",
+      "ru": "Большеротый окунь"
+    },
+    "shadow": {"description": "Medium", "size": 4},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 4},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-blackbass.png",
-      "path": "full/a27f84d3ae01086777f536bb2a6224a3216dc9f3.png",
-      "checksum": "bb736843a753094930c46ef423477328"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Tilapia",
+    "id": 23,
+    "fileName": "tilapia",
     "price": 800,
+    "name": {
+      "en": "Black bass",
+      "cn": "吴郭鱼",
+      "de": "Tilapia",
+      "sp": "Tilapia",
+      "fr": "Tilapia",
+      "it": "Tilapia",
+      "jp": "ティラピア",
+      "kr": "틸라피아",
+      "nl": "Tilapia",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 5, "end": 10}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 3},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 5, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/53/NH-Icon-tilapia.png",
-      "path": "full/0a5bda3a81236026b3d7562b4bcd8a5d3f7713ce.png",
-      "checksum": "6bb59f17c37d73ba9b7dedebe00d7280"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Pike",
+    "id": 24,
+    "fileName": "pike",
     "price": 1800,
+    "name": {
+      "en": "Pike",
+      "cn": "白斑狗鱼",
+      "de": "Hecht",
+      "sp": "Lucio",
+      "fr": "Brochet",
+      "it": "Luccio nordico",
+      "jp": "パイク",
+      "kr": "강꼬치고기",
+      "nl": "Snoek",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 8, "end": 12}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 5},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 8, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-pike.png",
-      "path": "full/03eb11de420f1217f50af38a5c9ad0d4b9d0c136.png",
-      "checksum": "d488e722605ecccedcaabd062cf7e64e"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Pond smelt",
-    "price": 500,
+    "id": 25,
+    "fileName": "pond_smelt",
+    "price": 400,
+    "name": {
+      "en": "Pond smelt",
+      "cn": "西太公鱼",
+      "de": "Stint",
+      "sp": "Eperlano",
+      "fr": "Éperlan",
+      "it": "Pingo",
+      "jp": "ワカサギ",
+      "kr": "빙어",
+      "nl": "Spiering",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 11, "end": 2}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 11, "end": 2}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Icon-pondsmelt.png",
-      "path": "full/095f4bdf9cfcf59491ae1f26aef35611ab1d7f32.png",
-      "checksum": "6e21a58866a2e46ecc4629bda73c696e"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Sweetfish",
+    "id": 26,
+    "fileName": "sweetfish",
     "price": 900,
+    "name": {
+      "en": "Sweetfish",
+      "cn": "香鱼",
+      "de": "Ayu",
+      "sp": "Ayu",
+      "fr": "Ayu",
+      "it": "Ayu",
+      "jp": "アユ",
+      "kr": "은어",
+      "nl": "Ayu",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 6, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River",
-    "shadow": {"size": 3},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 6, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/NH-Icon-sweetfish.png",
-      "path": "full/7a3860d8447558b55b07f8b977b3ab0d43f6c0a1.png",
-      "checksum": "f5ea0b5904449bc4dbc6aa3852ee3a28"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Cherry salmon",
-    "price": 800,
+    "id": 27,
+    "fileName": "cherry_salmon",
+    "price": 1000,
+    "name": {
+      "en": "Cherry salmon",
+      "cn": "樱花钩吻鲑",
+      "de": "Masulachs",
+      "sp": "Salmón japonés",
+      "fr": "Saumon masou",
+      "it": "Salmone giapponese",
+      "jp": "ヤマメ",
+      "kr": "산천어",
+      "nl": "Japanse zalm",
+      "ru": "Сима"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [
+        {"start": 2, "end": 6},
+        {"start": 8, "end": 11}
+      ],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River (Clifftop)",
-    "shadow": {"size": 3},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [
-      {"start": 2, "end": 6},
-      {"start": 8, "end": 11}
-    ],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Icon-cherrysalmon.png",
-      "path": "full/cb5c27cd79b2f63e7e0a4963aaaa2512d62d75de.png",
-      "checksum": "4ba1a90faa39aeae6f94629119c08e2c"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Char",
+    "id": 28,
+    "fileName": "char",
     "price": 3800,
-    "location": "River (Clifftop)  Pond",
-    "shadow": {"size": 3},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [
-      {"start": 2, "end": 6},
-      {"start": 8, "end": 11}
-    ],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Icon-char.png",
-      "path": "full/475ed71189ed9d8c4030c7377634ba1808220ce3.png",
-      "checksum": "f003df0c09aca1c06c2a30a1e1ac0ec4"
-    }
+    "name": {
+      "en": "Char",
+      "cn": "花羔红点鲑",
+      "de": "Saibling",
+      "sp": "Trucha",
+      "fr": "Omble",
+      "it": "Salmerino alpino",
+      "jp": "オオイワナ",
+      "kr": "열목어",
+      "nl": "Bronforel",
+      "ru": "Голец"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [
+        {"start": 2, "end": 6},
+        {"start": 8, "end": 11}
+      ],
+      "hours": [{"start": 16, "end": 9}]
+    },
+    "location": "River (Clifftop) & Pond",
+    "rarity": "Uncommon"
   },
   {
-    "name": "Golden trout",
+    "id": 29,
+    "fileName": "golden_trout",
     "price": 15000,
+    "name": {
+      "en": "Golden trout",
+      "cn": "金鳟",
+      "de": "Goldforelle",
+      "sp": "Trucha dorada",
+      "fr": "Truite dorée",
+      "it": "Trota dorata",
+      "jp": "ゴールデントラウト",
+      "kr": "금송어",
+      "nl": "Goudforel",
+      "ru": "Золотая форель"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [
+        {"start": 2, "end": 5},
+        {"start": 8, "end": 11}
+      ],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River (Clifftop)",
-    "shadow": {"size": 3},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [
-      {"start": 2, "end": 5},
-      {"start": 8, "end": 11}
-    ],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Icon-goldentrout.png",
-      "path": "full/7a5b98f0999049502c30eb2ec1eb7bec83079c8b.png",
-      "checksum": "bb1b7c3c481e25d3590070f0507bd0a8"
-    }
+    "rarity": "Ultra-rare"
   },
   {
-    "name": "Stringfish",
+    "id": 30,
+    "fileName": "stringfish",
     "price": 15000,
+    "name": {
+      "en": "Stringfish",
+      "cn": "远东哲罗鱼",
+      "de": "Huchen",
+      "sp": "Taimén",
+      "fr": "Dai yu",
+      "it": "Taimen",
+      "jp": "イトウ",
+      "kr": "일본연어",
+      "nl": "Donauzalm",
+      "ru": "Таймень"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 11, "end": 3}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River (Clifftop)",
-    "shadow": {"size": 5},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 11, "end": 3}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-stringfish.png",
-      "path": "full/5320026f64d3362c9389c5132419e434701fd499.png",
-      "checksum": "4a89ec1d276465611f992549c38989e4"
-    }
+    "rarity": "Ultra-rare"
   },
   {
-    "name": "Salmon",
+    "id": 31,
+    "fileName": "salmon",
     "price": 700,
+    "name": {
+      "en": "Salmon",
+      "cn": "鲑鱼",
+      "de": "Lachs",
+      "sp": "Salmón",
+      "fr": "Saumon",
+      "it": "Salmone",
+      "jp": "サケ",
+      "kr": "연어",
+      "nl": "Zalm",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 4},
+    "active": {
+      "months": [{"start": 8, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River (Mouth)",
-    "shadow": {"size": 4},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 8, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Icon-salmon.png",
-      "path": "full/7a2240b7c51206f9a3aec08d8b765d766c012e59.png",
-      "checksum": "6404bca3fcaf2f416538e295d57e747d"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "King salmon",
+    "id": 32,
+    "fileName": "king_salmon",
     "price": 1800,
+    "name": {
+      "en": "King salmon",
+      "cn": "帝王鲑",
+      "de": "Königslachs",
+      "sp": "Salmón real",
+      "fr": "Saumon roi",
+      "it": "Salmone reale",
+      "jp": "キングサーモン",
+      "kr": "왕연어",
+      "nl": "Chinookzalm",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Largest", "size": 6},
+    "active": {
+      "months": [{"start": 8, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River (Mouth)",
-    "shadow": {"size": 6},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 8, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Icon-kingsalmon.png",
-      "path": "full/751655168db6fd07678c9f3332e78ece22fe4632.png",
-      "checksum": "ddfbdab301a596e5957900cec64193e6"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Mitten crab",
+    "id": 33,
+    "fileName": "mitten_crab",
     "price": 2000,
+    "name": {
+      "en": "Mitten crab",
+      "cn": "中华绒螯蟹",
+      "de": "Wollhandkrabbe",
+      "sp": "Cangrejo de Shanghái",
+      "fr": "Crabe chinois",
+      "it": "Granchio guantato",
+      "jp": "シャンハイガニ",
+      "kr": "참게",
+      "nl": "Wolhandkrab",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 8, "end": 11}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 8, "end": 11}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-mittencrab.png",
-      "path": "full/b572ef08b6c4eae6ae534e516e68329480236ec5.png",
-      "checksum": "61b9572e2c8d71f8725327a58a8c2e05"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Guppy",
+    "id": 34,
+    "fileName": "guppy",
     "price": 1300,
+    "name": {
+      "en": "Guppy",
+      "cn": "孔雀鱼",
+      "de": "Guppy",
+      "sp": "Gupi",
+      "fr": "Guppy",
+      "it": "Guppy",
+      "jp": "グッピー",
+      "kr": "구피",
+      "nl": "Guppy",
+      "ru": "Гуппи"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 3, "end": 11}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "River",
-    "shadow": {"size": 1},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 3, "end": 11}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-guppy.png",
-      "path": "full/e0af1890aef2ab7faaf98000ffd605c010618182.png",
-      "checksum": "f7ef323f1063feda6a99cbb19c71107b"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Nibble fish",
+    "id": 35,
+    "fileName": "nibble_fish",
     "price": 1500,
+    "name": {
+      "en": "Nibble fish",
+      "cn": "温泉医生鱼",
+      "de": "Saugbarbe",
+      "sp": "Pez doctor",
+      "fr": "Poisson docteur",
+      "it": "Garra rufa",
+      "jp": "ドクターフィッシュ",
+      "kr": "닥터피시",
+      "nl": "Knabbelvisje",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 4, "end": 9}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "River",
-    "shadow": {"size": 1},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 4, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Icon-nibblefish.png",
-      "path": "full/6228d00cb373ceb0ac272f8fd7ea899f310c6658.png",
-      "checksum": "1befd88299084eff34efe9b937181830"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Angelfish",
+    "id": 36,
+    "fileName": "angelfish",
     "price": 3000,
+    "name": {
+      "en": "Angelfish",
+      "cn": "神仙鱼",
+      "de": "Skalar",
+      "sp": "Pez ángel",
+      "fr": "Poisson-ange",
+      "it": "Pesce angelo",
+      "jp": "エンゼルフィッシュ",
+      "kr": "천사어",
+      "nl": "Maanvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 4, "end": 10}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 4, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-angelfish.png",
-      "path": "full/21670302addd4c709dfb1baecc8b43a2aef808c7.png",
-      "checksum": "49f8a2f8a2cddacd139464fbfce0c9ad"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Betta",
+    "id": 37,
+    "fileName": "betta",
     "price": 2500,
+    "name": {
+      "en": "Betta",
+      "cn": "斗鱼",
+      "de": "Kampffisch",
+      "sp": "Betta",
+      "fr": "Combattant",
+      "it": "Betta",
+      "jp": "ベタ",
+      "kr": "베타",
+      "nl": "Siamese kempvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 4, "end": 10}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 4, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-betta.png",
-      "path": "full/03e443c118a0eaf8c508065cec2af6da433458c4.png",
-      "checksum": "a1e9f22d9fc121d34651497feb90fa08"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Neon tetra",
+    "id": 38,
+    "fileName": "neon_tetra",
     "price": 500,
+    "name": {
+      "en": "Neon tetra",
+      "cn": "霓虹灯鱼",
+      "de": "Neonsalmler",
+      "sp": "Tetra neón",
+      "fr": "Néon bleu",
+      "it": "Pesce neon",
+      "jp": "ネオンテトラ",
+      "kr": "네온테트라",
+      "nl": "Neontetra",
+      "ru": "Голубой неон"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 3, "end": 11}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "River",
-    "shadow": {"size": 1},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 3, "end": 11}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/da/NH-Icon-neontetra.png",
-      "path": "full/341cf120c08ac02b7ed281ce85c6e314a0accf2a.png",
-      "checksum": "6880ecb61f83bb6c56eae48836c030e2"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Rainbowfish",
+    "id": 39,
+    "fileName": "rainbowfish",
     "price": 800,
+    "name": {
+      "en": "Rainbowfish",
+      "cn": "彩虹鱼",
+      "de": "Regenbogenfisch",
+      "sp": "Pez arcoíris",
+      "fr": "Poisson arc-en-ciel",
+      "it": "Pesce arcobaleno",
+      "jp": "レインボーフィッシュ",
+      "kr": "레인보우피시",
+      "nl": "Regenboogvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 4, "end": 10}],
+      "hours": [{"start": 9, "end": 16}]
+    },
     "location": "River",
-    "shadow": {"size": 1},
-    "hours": [{"start": 9, "end": 16}],
-    "months": [{"start": 4, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/NH-Icon-rainbowfish.png",
-      "path": "full/3e7dce988dc40d338d12f305a7efc553a18b7ae5.png",
-      "checksum": "72996790108d5796f87bea01570c4fd5"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Piranha",
+    "id": 40,
+    "fileName": "piranha",
     "price": 2500,
+    "name": {
+      "en": "Piranha",
+      "cn": "食人鱼",
+      "de": "Piranha",
+      "sp": "Piraña",
+      "fr": "Piranha",
+      "it": "Pesce piranha",
+      "jp": "ピラニア",
+      "kr": "피라니아",
+      "nl": "Piranha",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [
+        {"start": 9, "end": 16},
+        {"start": 21, "end": 4}
+      ]
+    },
     "location": "River",
-    "shadow": {"size": 2},
-    "hours": [
-      {"start": 9, "end": 16},
-      {"start": 21, "end": 4}
-    ],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-piranha.png",
-      "path": "full/798b023ad36b0a43f69052cd03c45584021c74a8.png",
-      "checksum": "3ae66cd4870add6f504d02c797c67fe1"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Arowana",
+    "id": 41,
+    "fileName": "arowana",
     "price": 10000,
+    "name": {
+      "en": "Arowana",
+      "cn": "骨舌鱼",
+      "de": "Arowana",
+      "sp": "Arowana",
+      "fr": "Arowana",
+      "it": "Arowana",
+      "jp": "アロワナ",
+      "kr": "아로와나",
+      "nl": "Arowana",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 4},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River",
-    "shadow": {"size": 4},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Icon-arowana.png",
-      "path": "full/0f11111774dd1a802de82e78033c9921b99d7bfb.png",
-      "checksum": "b89eed8c2aecc8851ec8452761c71a5d"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Dorado",
+    "id": 42,
+    "fileName": "dorado",
     "price": 15000,
+    "name": {
+      "en": "Dorado",
+      "cn": "黄金河虎",
+      "de": "Lachssalmler",
+      "sp": "Dorado",
+      "fr": "Dorade",
+      "it": "Dorado",
+      "jp": "ドラド",
+      "kr": "황금연어",
+      "nl": "Dorado",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 4, "end": 21}]
+    },
     "location": "River",
-    "shadow": {"size": 5},
-    "hours": [{"start": 4, "end": 21}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/NH-Icon-dorado.png",
-      "path": "full/8f413b44011fa07dab6f2f329656c1d536023c95.png",
-      "checksum": "e48b5987b2f3175bbbbcf75f7882fdf1"
-    }
+    "rarity": "Ultra-rare"
   },
   {
-    "name": "Gar",
+    "id": 43,
+    "fileName": "gar",
     "price": 6000,
+    "name": {
+      "en": "Gar",
+      "cn": "雀鳝",
+      "de": "Knochenhecht",
+      "sp": "Pez caimán",
+      "fr": "Gar",
+      "it": "Luccio",
+      "jp": "ガー",
+      "kr": "가아",
+      "nl": "Kaaimansnoek",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "Pond",
-    "shadow": {"size": 5},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9f/NH-Icon-gar.png",
-      "path": "full/27b98e44c7da3c31af2e65be4aae6cd02232d206.png",
-      "checksum": "9b09c7c74a3c95084ad5cb27fe823c8f"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Arapaima",
+    "id": 44,
+    "fileName": "arapaima",
     "price": 10000,
+    "name": {
+      "en": "Arapaima",
+      "cn": "巨骨舌鱼",
+      "de": "Arapaima",
+      "sp": "Pirarucú",
+      "fr": "Arapaïma",
+      "it": "Pirarucù",
+      "jp": "ピラルク",
+      "kr": "피라루쿠",
+      "nl": "Arapaima",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Largest", "size": 6},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "River",
-    "shadow": {"size": 6},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-arapaima.png",
-      "path": "full/b0b53af2dcfaaa0f732ff31f64c34cf9df561b6e.png",
-      "checksum": "09c7dae2472af12ab6eef3c856926dd9"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Saddled bichir",
+    "id": 45,
+    "fileName": "saddled_bichir",
     "price": 4000,
+    "name": {
+      "en": "Saddled bichir",
+      "cn": "恩氏多鳍鱼",
+      "de": "Flösselhecht",
+      "sp": "Bichir ensillado",
+      "fr": "Bichir",
+      "it": "Polipteride",
+      "jp": "エンドリケリー",
+      "kr": "엔드리케리",
+      "nl": "Kwastsnoek",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 4},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 21, "end": 4}]
+    },
     "location": "River",
-    "shadow": {"size": 4},
-    "hours": [{"start": 21, "end": 4}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a0/NH-Icon-saddledbichir.png",
-      "path": "full/8722cfea8f863b11f8d84754d97802bb26e0571d.png",
-      "checksum": "10fdec1d49c4d535b0193ac5f3b6ca09"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Sturgeon",
+    "id": 46,
+    "fileName": "sturgeon",
     "price": 10000,
+    "name": {
+      "en": "Sturgeon",
+      "cn": "鲟鱼",
+      "de": "Stör",
+      "sp": "Esturión",
+      "fr": "Esturgeon",
+      "it": "Storione",
+      "jp": "チョウザメ",
+      "kr": "철갑상어",
+      "nl": "Steur",
+      "ru": "Осетр"
+    },
+    "shadow": {"description": "Largest", "size": 6},
+    "active": {
+      "months": [{"start": 8, "end": 3}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "River (Mouth)",
-    "shadow": {"size": 6},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 8, "end": 3}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/NH-Icon-sturgeon.png",
-      "path": "full/989634a6158326a1a74d76d46c217cfcefa3ab3d.png",
-      "checksum": "f1b105d86214d6f590231280951f4584"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Sea butterfly",
+    "id": 47,
+    "fileName": "sea_butterfly",
     "price": 1000,
+    "name": {
+      "en": "Sea butterfly",
+      "cn": "海蝴蝶",
+      "de": "See-Engel",
+      "sp": "Mariposa marina",
+      "fr": "Clione",
+      "it": "Cavolinia",
+      "jp": "クリオネ",
+      "kr": "클리오네",
+      "nl": "Zeevlinder",
+      "ru": "Морской ангел"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 11, "end": 3}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 1},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 11, "end": 3}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-seabutterfly.png",
-      "path": "full/328165ea8b40ab8637c6f9a5bc7a68efdfa2210e.png",
-      "checksum": "ae1b9064da6abb560a3fc4251d46dde2"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Sea horse",
+    "id": 48,
+    "fileName": "sea_horse",
     "price": 1100,
+    "name": {
+      "en": "Sea horse",
+      "cn": "海马",
+      "de": "Seepferdchen",
+      "sp": "Caballito de mar",
+      "fr": "Hippocampe",
+      "it": "Ippocampo",
+      "jp": "タツノオトシゴ",
+      "kr": "해마",
+      "nl": "Zeepaardje",
+      "ru": "Морской конек"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 3, "end": 11}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 1},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 3, "end": 11}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-seahorse.png",
-      "path": "full/e2686efcf237e3cd1406b7f1bdee97eb8963b773.png",
-      "checksum": "618478a862ca771ba0b33de10495b7e9"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Clown fish",
+    "id": 49,
+    "fileName": "clownfish",
     "price": 650,
+    "name": {
+      "en": "Clownfish",
+      "cn": "小丑鱼",
+      "de": "Anemonenfisch",
+      "sp": "Pez payaso",
+      "fr": "Poisson-clown",
+      "it": "Pesce pagliaccio",
+      "jp": "クマノミ",
+      "kr": "흰동가리",
+      "nl": "Clownvis",
+      "ru": "Рыба-клоун"
+    },
+    "shadow": {"description": "Smallest", "size": 1},
+    "active": {
+      "months": [{"start": 3, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 1},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 3, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-clownfish.png",
-      "path": "full/05d606e1b2a4f5bcf49e35a844ce87b9ea38721f.png",
-      "checksum": "d005e41686402cf6480b02ec831bc308"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Surgeonfish",
+    "id": 50,
+    "fileName": "surgeonfish",
     "price": 1000,
+    "name": {
+      "en": "Surgeonfish",
+      "cn": "拟刺尾鲷",
+      "de": "Paletten-Doktorfisch",
+      "sp": "Pez cirujano",
+      "fr": "Poisson chirurgien",
+      "it": "Pesce chirurgo",
+      "jp": "ナンヨウハギ",
+      "kr": "블루탱",
+      "nl": "Doktersvis",
+      "ru": "Осетр"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 3, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 2},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 3, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Icon-surgeonfish.png",
-      "path": "full/d83f1bbc9609d2387787db496e7e24dcb8037f88.png",
-      "checksum": "08d07e4c0e5f8d1077408ae9408667d5"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Butterfly fish",
+    "id": 51,
+    "fileName": "butterfly_fish",
     "price": 1000,
+    "name": {
+      "en": "Butterfly fish",
+      "cn": "耳带蝴蝶鱼",
+      "de": "Falterfisch",
+      "sp": "Pez mariposa",
+      "fr": "Poisson-papillon",
+      "it": "Pesce farfalla",
+      "jp": "チョウチョウウオ",
+      "kr": "나비고기",
+      "nl": "Koraalvlinder",
+      "ru": "Рыба-бабочка"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 3, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 2},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 3, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Icon-butterflyfish.png",
-      "path": "full/89eae6793093fd1e13ede9847379e55dd981dc7f.png",
-      "checksum": "215f784f9c7a52c45741186e3a277ac6"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Napoleonfish",
+    "id": 52,
+    "fileName": "napoleonfish",
     "price": 10000,
+    "name": {
+      "en": "Napoleonfish",
+      "cn": "苏眉鱼",
+      "de": "Napoleonfisch",
+      "sp": "Pez napoleón",
+      "fr": "Napoléon",
+      "it": "Pesce napoleone",
+      "jp": "ナポレオンフィッシュ",
+      "kr": "나폴레옹피시",
+      "nl": "Napoleonvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Largest", "size": 6},
+    "active": {
+      "months": [{"start": 6, "end": 8}],
+      "hours": [{"start": 4, "end": 21}]
+    },
     "location": "Sea",
-    "shadow": {"size": 6},
-    "hours": [{"start": 4, "end": 21}],
-    "months": [{"start": 6, "end": 8}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-Icon-napoleonfish.png",
-      "path": "full/1b2afce08dae6ead27e1ba6aecbc42897df9d5d8.png",
-      "checksum": "408aa488b9c8702a3026262d23ab85a9"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Zebra turkeyfish",
+    "id": 53,
+    "fileName": "zebra_turkeyfish",
     "price": 500,
+    "name": {
+      "en": "Zebra turkeyfish",
+      "cn": "狮子鱼",
+      "de": "Rotfeuerfisch",
+      "sp": "Pez león",
+      "fr": "Poisson-scorpion",
+      "it": "Leone zebrato",
+      "jp": "ミノカサゴ",
+      "kr": "쏨뱅이",
+      "nl": "Koraalduivel",
+      "ru": "Крылатка"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 3, "end": 11}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 3},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 3, "end": 11}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-zebraturkeyfish.png",
-      "path": "full/4f1d78612d2a2acf1b518397833ca7e007e1b8af.png",
-      "checksum": "d81d005512095bfda76f60d965ed099e"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Blowfish",
+    "id": 54,
+    "fileName": "blowfish",
     "price": 5000,
+    "name": {
+      "en": "Blowfish",
+      "cn": "河豚",
+      "de": "Kugelfisch",
+      "sp": "Pez globo",
+      "fr": "Poisson-ballon",
+      "it": "Pesce palla",
+      "jp": "フグ",
+      "kr": "복어",
+      "nl": "Kogelvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 10, "end": 2}],
+      "hours": [{"start": 21, "end": 4}]
+    },
     "location": "Sea",
-    "shadow": {"size": 3},
-    "hours": [{"start": 21, "end": 4}],
-    "months": [{"start": 10, "end": 2}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/39/NH-Icon-blowfish.png",
-      "path": "full/10fe9a540147a9e25a9a30f47e868de421f3e108.png",
-      "checksum": "5d5155ab298a095a6b7c1c3abd1b9b41"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Puffer fish",
+    "id": 55,
+    "fileName": "puffer_fish",
     "price": 250,
+    "name": {
+      "en": "Puffer fish",
+      "cn": "刺豚",
+      "de": "Igelfisch",
+      "sp": "Pez erizo",
+      "fr": "Poisson-porc-épic",
+      "it": "Pesce istrice",
+      "jp": "ハリセンボン",
+      "kr": "가시복",
+      "nl": "Egelvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 6, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 3},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 6, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Icon-pufferfish.png",
-      "path": "full/07de329bbfcd1b85279847fabc7a1a71d4dc658e.png",
-      "checksum": "2290dd610957d85132e679619b71fb98"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Anchovy",
+    "id": 56,
+    "fileName": "anchovy",
     "price": 200,
+    "name": {
+      "en": "Anchovy",
+      "cn": "凤尾鱼",
+      "de": "Sardelle",
+      "sp": "Boquerón",
+      "fr": "Anchois",
+      "it": "Acciuga",
+      "jp": "アンチョビ",
+      "kr": "멸치",
+      "nl": "Ansjovis",
+      "ru": "Хамса"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 4, "end": 21}]
+    },
     "location": "Sea",
-    "shadow": {"size": 2},
-    "hours": [{"start": 4, "end": 21}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-anchovy.png",
-      "path": "full/0818a344daa6c64bb76bde5fb38c16cf32b4270a.png",
-      "checksum": "5b336d0b82beeaf43d783a69c7649663"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Horse mackerel",
+    "id": 57,
+    "fileName": "horse_mackerel",
     "price": 150,
+    "name": {
+      "en": "Horse mackerel",
+      "cn": "竹荚鱼",
+      "de": "Makrele",
+      "sp": "Jurel",
+      "fr": "Chinchard",
+      "it": "Sgombro",
+      "jp": "アジ",
+      "kr": "전갱이",
+      "nl": "Horsmakreel",
+      "ru": "Ставрида"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 2},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/NH-Icon-horsemackerel.png",
-      "path": "full/54ea72c248bff76a1796e60675234ee1cda433fe.png",
-      "checksum": "ff117895e1d784dc0e7c780b82f367d4"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Barred knifejaw",
+    "id": 58,
+    "fileName": "barred_knifejaw",
     "price": 5000,
+    "name": {
+      "en": "Barred knifejaw",
+      "cn": "条石鲷",
+      "de": "Schnabelbarsch",
+      "sp": "Dorada japonesa",
+      "fr": "Scarus",
+      "it": "Ishidai",
+      "jp": "イシダイ",
+      "kr": "돌돔",
+      "nl": "Kraaibek",
+      "ru": "Полосатый оплегнат"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 1, "end": 11}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 3},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 2, "end": 11}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8c/NH-Icon-barredknifejaw.png",
-      "path": "full/43a28048263d1ae49231c7dd534e4430ce39f52b.png",
-      "checksum": "794933ab30ca337d74be897f084eaab6"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Sea bass",
+    "id": 59,
+    "fileName": "sea_bass",
     "price": 400,
+    "name": {
+      "en": "Sea bass",
+      "cn": "鲈鱼",
+      "de": "Seebarsch",
+      "sp": "Lubina",
+      "fr": "Bar commun",
+      "it": "Spigola",
+      "jp": "スズキ",
+      "kr": "농어",
+      "nl": "Zeebaars",
+      "ru": "Морской судак"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 5},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-seabass.png",
-      "path": "full/0343508df95c33016935f9968de3afb43b3d7884.png",
-      "checksum": "8e2141177dd3bf569e30194084887470"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Red snapper",
+    "id": 60,
+    "fileName": "red_snapper",
     "price": 3000,
+    "name": {
+      "en": "Red snapper",
+      "cn": "鲷鱼",
+      "de": "Kaiserschnapper",
+      "sp": "Pargo rojo",
+      "fr": "Vivaneau",
+      "it": "Lutiano rosso",
+      "jp": "タイ",
+      "kr": "도미",
+      "nl": "Rode snapper",
+      "ru": "Красный луциан"
+    },
+    "shadow": {"description": "Medium", "size": 4},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 4},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-redsnapper.png",
-      "path": "full/9ff1bdee06aa7ad585d609ad60e1d45f082b2c1b.png",
-      "checksum": "0569c5c42721aa6694973e26b82b4715"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Dab",
+    "id": 61,
+    "fileName": "dab",
     "price": 300,
+    "name": {
+      "en": "Dab",
+      "cn": "鲽鱼",
+      "de": "Kliesche",
+      "sp": "Gallo",
+      "fr": "Limande",
+      "it": "Platessa",
+      "jp": "カレイ",
+      "kr": "가자미",
+      "nl": "Schar",
+      "ru": "Камбала"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 9, "end": 4}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 3},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 9, "end": 4}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Icon-dab.png",
-      "path": "full/8e094ba966c069137714a696d358bd26d98521be.png",
-      "checksum": "085827e423c1e17d4bb6d3b871ecf562"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Olive flounder",
+    "id": 62,
+    "fileName": "olive_flounder",
     "price": 800,
+    "name": {
+      "en": "Olive flounder",
+      "cn": "比目鱼",
+      "de": "Flunder",
+      "sp": "Rodaballo",
+      "fr": "Cardeau",
+      "it": "Sogliola",
+      "jp": "ヒラメ",
+      "kr": "넙치",
+      "nl": "Bot",
+      "ru": "Камбала"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 5},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-oliveflounder.png",
-      "path": "full/52583efce46ae31f1745a7405df27d2e3d53fbbb.png",
-      "checksum": "71c0983d0f2e60199888c591fe60b827"
-    }
+    "rarity": "Common"
   },
   {
-    "name": "Squid",
+    "id": 63,
+    "fileName": "squid",
     "price": 500,
-    "location": "Sea",
-    "shadow": {"size": 3},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 11, "end": 8}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3b/NH-Icon-squid.png",
-      "path": "full/5cdfe0aa009139ccea0c35aaf18a341d5bfc3884.png",
-      "checksum": "a89e09c5aaff9f35f7fb943f69ac2b81"
-    }
-  },
-  {
-    "name": "Moray eel",
-    "price": 2000,
-    "location": "Sea",
-    "shadow": {"size": 3, "comment": "(Narrow)"},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 7, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Icon-morayeel.png",
-      "path": "full/2f3f7d31bc764e33adbd0fff9b819847848e45ab.png",
-      "checksum": "c162fbb8833f8e8b7a8a035c33f0a74b"
-    }
-  },
-  {
-    "name": "Ribbon eel",
-    "price": 600,
-    "location": "Sea",
-    "shadow": {"size": 3, "comment": "(Narrow)"},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 5, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Icon-ribboneel.png",
-      "path": "full/e5134742010a5f1a9341f305bd6409b8e7c5a3db.png",
-      "checksum": "8e997cefc7858c321d6fb45414893ab2"
-    }
-  },
-  {
-    "name": "Tuna",
-    "price": 7000,
-    "location": "Pier",
-    "shadow": {"size": 6},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 10, "end": 4}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Icon-tuna.png",
-      "path": "full/e6f6795bcf78577e11019a15ed6bf8566d7a2c9a.png",
-      "checksum": "1f115851f72c0a00aab23f900c017487"
-    }
-  },
-  {
-    "name": "Blue marlin",
-    "price": 10000,
-    "location": "Pier",
-    "shadow": {"size": 6},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [
-      {"start": 10, "end": 4},
-      {"start": 6, "end": 9}
+    "altCatchPhrase": [
+      "I caught a squid! I had an inkling I might!",
+      "I caught a squid! Do they...not actually \"bloop\"?"
     ],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-bluemarlin.png",
-      "path": "full/a4abf0066fbed40be6f1f6740db28cf107dae10d.png",
-      "checksum": "47970aa08f1707e6021b08ea51e0e201"
-    }
+    "name": {
+      "en": "Squid",
+      "cn": "鱿鱼",
+      "de": "Kalmar",
+      "sp": "Calamar",
+      "fr": "Calmar",
+      "it": "Calamaro",
+      "jp": "イカ",
+      "kr": "오징어",
+      "nl": "Pijlinktvis",
+      "ru": "Кальмар"
+    },
+    "shadow": {"description": "Medium", "size": 3},
+    "active": {
+      "months": [{"start": 11, "end": 8}],
+      "hours": [{"start": 0, "end": 0}]
+    },
+    "location": "Sea",
+    "rarity": "Common"
   },
   {
-    "name": "Giant trevally",
+    "id": 64,
+    "fileName": "moray_eel",
+    "price": 2000,
+    "name": {
+      "en": "Moray eel",
+      "cn": "裸胸鳝",
+      "de": "Muräne",
+      "sp": "Morena",
+      "fr": "Murène",
+      "it": "Murena",
+      "jp": "ウツボ",
+      "kr": "곰치",
+      "nl": "Murene",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Narrow", "size": 3},
+    "active": {
+      "months": [{"start": 7, "end": 10}],
+      "hours": [{"start": 0, "end": 0}]
+    },
+    "location": "Sea",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": 65,
+    "fileName": "ribbon_eel",
+    "price": 600,
+    "name": {
+      "en": "Ribbon eel",
+      "cn": "五彩鳗",
+      "de": "Nasenmuräne",
+      "sp": "Anguila de listón azul",
+      "fr": "Murène ruban bleue",
+      "it": "Murena a nastro",
+      "jp": "ハナヒゲウツボ",
+      "kr": "리본장어",
+      "nl": "Lintmurene",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Narrow", "size": 3},
+    "active": {
+      "months": [{"start": 5, "end": 10}],
+      "hours": [{"start": 0, "end": 0}]
+    },
+    "location": "Sea",
+    "rarity": "Common"
+  },
+  {
+    "id": 66,
+    "fileName": "tuna",
+    "price": 7000,
+    "name": {
+      "en": "Tuna",
+      "cn": "鲔鱼",
+      "de": "Thunfisch",
+      "sp": "Atún",
+      "fr": "Thon",
+      "it": "Tonno",
+      "jp": "マグロ",
+      "kr": "다랑어",
+      "nl": "Tonijn",
+      "ru": "Тунец"
+    },
+    "shadow": {"description": "Largest", "size": 6},
+    "active": {
+      "months": [{"start": 10, "end": 4}],
+      "hours": [{"start": 0, "end": 0}]
+    },
+    "location": "Pier",
+    "rarity": "Rare"
+  },
+  {
+    "id": 67,
+    "fileName": "blue_marlin",
+    "price": 10000,
+    "name": {
+      "en": "Blue marlin",
+      "cn": "旗鱼",
+      "de": "Marlin",
+      "sp": "Pez espada",
+      "fr": "Marlin bleu",
+      "it": "Marlin blu",
+      "jp": "カジキ",
+      "kr": "청새치",
+      "nl": "Blauwe marlijn",
+      "ru": "Голубой марлин"
+    },
+    "shadow": {"description": "Largest", "size": 6},
+    "active": {
+      "months": [
+        {"start": 10, "end": 4},
+        {"start": 6, "end": 9}
+      ],
+      "hours": [{"start": 0, "end": 0}]
+    },
+    "location": "Pier",
+    "rarity": "Rare"
+  },
+  {
+    "id": 68,
+    "fileName": "giant_trevally",
     "price": 4500,
+    "name": {
+      "en": "Giant trevally",
+      "cn": "白面弄鱼",
+      "de": "Stachelmakrele",
+      "sp": "Jurel gigante",
+      "fr": "Carangue grosse tête",
+      "it": "Carango gigante",
+      "jp": "ロウニンアジ",
+      "kr": "무명갈전갱이",
+      "nl": "Reuzenhorsmakreel",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 4, "end": 10}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Pier",
-    "shadow": {"size": 5},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 4, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-gianttrevally.png",
-      "path": "full/0a6ee20bc3877f26313e568849eead8cb3f946bd.png",
-      "checksum": "64b39cd97c7824d7fea583282a68df11"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Mahi-mahi",
+    "id": 69,
+    "fileName": "mahi-mahi",
     "price": 6000,
+    "name": {
+      "en": "Mahi-mahi",
+      "cn": "鬼头刀",
+      "de": "Goldmakrele",
+      "sp": "Lampuga",
+      "fr": "Coryphène",
+      "it": "Lampuga",
+      "jp": "シイラ",
+      "kr": "만새기",
+      "nl": "Goudmakreel",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 4, "end": 10}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Pier",
-    "shadow": {"size": 5},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 4, "end": 10}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-mahimahi.png",
-      "path": "full/ee9037252e603f1e43237aa8965e9c32f0736e40.png",
-      "checksum": "78c512d9ab028c1f7043583a6769e4d7"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Ocean sunfish",
+    "id": 70,
+    "fileName": "ocean_sunfish",
     "price": 4000,
+    "name": {
+      "en": "Ocean sunfish",
+      "cn": "翻车鱼",
+      "de": "Mondfisch",
+      "sp": "Pez luna",
+      "fr": "Lune de mer",
+      "it": "Pesce luna",
+      "jp": "マンボウ",
+      "kr": "개복치",
+      "nl": "Klompvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Largest with fin", "size": 6},
+    "active": {
+      "months": [{"start": 6, "end": 9}],
+      "hours": [{"start": 4, "end": 21}]
+    },
     "location": "Sea",
-    "shadow": {"size": 6, "comment": "(Fin)"},
-    "hours": [{"start": 4, "end": 21}],
-    "months": [{"start": 6, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Icon-oceansunfish.png",
-      "path": "full/8962c913d2b2d6f77b640513721c18255ea91c47.png",
-      "checksum": "39e0a48072a3d0b4ba374a1857c5e039"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Ray",
+    "id": 71,
+    "fileName": "ray",
     "price": 3000,
+    "name": {
+      "en": "Ray",
+      "cn": "鳐鱼",
+      "de": "Rochen",
+      "sp": "Raya",
+      "fr": "Raie",
+      "it": "Razza",
+      "jp": "エイ",
+      "kr": "가오리",
+      "nl": "Rog",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Large", "size": 5},
+    "active": {
+      "months": [{"start": 7, "end": 11}],
+      "hours": [{"start": 4, "end": 21}]
+    },
     "location": "Sea",
-    "shadow": {"size": 5},
-    "hours": [{"start": 4, "end": 21}],
-    "months": [{"start": 7, "end": 11}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Icon-ray.png",
-      "path": "full/2c07270e3617f0ea6736ade7c95780dc5d551d08.png",
-      "checksum": "33d3d09a15a5329d2a1138bb3e927f7e"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Saw shark",
+    "id": 72,
+    "fileName": "saw_shark",
     "price": 12000,
+    "name": {
+      "en": "Saw shark",
+      "cn": "锯鲨",
+      "de": "Sägehai",
+      "sp": "Pez sierra",
+      "fr": "Requin scie",
+      "it": "Squalo sega",
+      "jp": "ノコギリザメ",
+      "kr": "톱상어",
+      "nl": "Zaaghaai",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Largest with fin", "size": 6},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "Sea",
-    "shadow": {"size": 6, "comment": "(Fin)"},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-Icon-sawshark.png",
-      "path": "full/9f44da16bb47b68c6fcff9682d6d8e296b344153.png",
-      "checksum": "e619fdbbd151db307ed1265cdbefd2cb"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Hammerhead shark",
+    "id": 73,
+    "fileName": "hammerhead_shark",
     "price": 8000,
+    "name": {
+      "en": "Hammerhead shark",
+      "cn": "双髻鲨",
+      "de": "Hammerhai",
+      "sp": "Pez martillo",
+      "fr": "Requin marteau",
+      "it": "Pesce martello",
+      "jp": "シュモクザメ",
+      "kr": "귀상어",
+      "nl": "Hamerhaai",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Largest with fin", "size": 6},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "Sea",
-    "shadow": {"size": 6, "comment": "(Fin)"},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-hammerheadshark.png",
-      "path": "full/4f04006244220f049c93821cd1aed2be440b2682.png",
-      "checksum": "261c621bf27614dc2e8fc98806e3c0bd"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Great white shark",
+    "id": 74,
+    "fileName": "great_white_shark",
     "price": 15000,
+    "name": {
+      "en": "Great white shark",
+      "cn": "鲨鱼",
+      "de": "Hai",
+      "sp": "Tiburón",
+      "fr": "Requin",
+      "it": "Squalo bianco",
+      "jp": "サメ",
+      "kr": "상어",
+      "nl": "Haai",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Largest with fin", "size": 6},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "Sea",
-    "shadow": {"size": 6, "comment": "(Fin)"},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/38/NH-Icon-greatwhiteshark.png",
-      "path": "full/25e25b1d402719646a869574576f56a44e6394c0.png",
-      "checksum": "1ba329a5c95c52e93e25d9a3ec0901be"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Whale shark",
+    "id": 75,
+    "fileName": "whale_shark",
     "price": 13000,
+    "name": {
+      "en": "Whale shark",
+      "cn": "鲸鲨",
+      "de": "Walhai",
+      "sp": "Tiburón ballena",
+      "fr": "Requin-baleine",
+      "it": "Squalo balena",
+      "jp": "ジンベエザメ",
+      "kr": "고래상어",
+      "nl": "Walvishaai",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Largest with fin", "size": 6},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 6, "comment": "(Fin)"},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-whaleshark.png",
-      "path": "full/8775595c954f12bac9a80614ac255fd5938522b6.png",
-      "checksum": "13f1145acd0cabf1865cf35cc33726f2"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Suckerfish",
+    "id": 76,
+    "fileName": "suckerfish",
     "price": 1500,
+    "name": {
+      "en": "Suckerfish",
+      "cn": "吸盘鱼",
+      "de": "Schiffshalter",
+      "sp": "Rémora",
+      "fr": "Rémora rayé",
+      "it": "Remora",
+      "jp": "コバンザメ",
+      "kr": "빨판상어",
+      "nl": "Zuigvis",
+      "ru": "Unknown"
+    },
+    "shadow": {"description": "Medium with fin", "size": 4},
+    "active": {
+      "months": [{"start": 5, "end": 9}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 4, "comment": "(Fin)"},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 5, "end": 9}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-suckerfish.png",
-      "path": "full/4c79a715223845afb61dd49d2a90268c555a93d0.png",
-      "checksum": "320a6579e487d27a9af35ae8c574f4ad"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Football fish",
+    "id": 77,
+    "fileName": "football_fish",
     "price": 2500,
+    "name": {
+      "en": "Football fish",
+      "cn": "灯笼鱼",
+      "de": "Anglerfisch",
+      "sp": "Pez balón",
+      "fr": "Poisson lanterne",
+      "it": "Pesce abissale",
+      "jp": "チョウチンアンコウ",
+      "kr": "초롱아귀",
+      "nl": "Voetbalvis",
+      "ru": "Гимантолоф"
+    },
+    "shadow": {"description": "Medium", "size": 4},
+    "active": {
+      "months": [{"start": 10, "end": 3}],
+      "hours": [{"start": 16, "end": 9}]
+    },
     "location": "Sea",
-    "shadow": {"size": 4},
-    "hours": [{"start": 16, "end": 9}],
-    "months": [{"start": 10, "end": 3}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Icon-footballfish.png",
-      "path": "full/445e49ddb096bc502de93b38fae669fad0caf540.png",
-      "checksum": "e5865aac97a72c5b4107f0f513f40ff6"
-    }
+    "rarity": "Uncommon"
   },
   {
-    "name": "Oarfish",
+    "id": 78,
+    "fileName": "oarfish",
     "price": 9000,
+    "name": {
+      "en": "Oarfish",
+      "cn": "皇带鱼",
+      "de": "Riemenfisch",
+      "sp": "Pez remo",
+      "fr": "Poisson-ruban",
+      "it": "Pesce remo",
+      "jp": "リュウグウノツカイ",
+      "kr": "산갈치",
+      "nl": "Riemvis",
+      "ru": "Сельдяной король"
+    },
+    "shadow": {"description": "Largest", "size": 6},
+    "active": {
+      "months": [{"start": 11, "end": 5}],
+      "hours": [{"start": 0, "end": 0}]
+    },
     "location": "Sea",
-    "shadow": {"size": 6},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 11, "end": 5}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Icon-oarfish.png",
-      "path": "full/574ae5f5eea5f9422d12dad9e96062b207090e4a.png",
-      "checksum": "c5d76730cfdddafe36fa720b8973d09e"
-    }
+    "rarity": "Rare"
   },
   {
-    "name": "Barreleye",
+    "id": 79,
+    "fileName": "barreleye",
     "price": 15000,
+    "name": {
+      "en": "Barreleye",
+      "cn": "太平洋桶眼鱼",
+      "de": "Glaskopffisch",
+      "sp": "Pez cabeza transparente",
+      "fr": "Macropinna",
+      "it": "Macropinna",
+      "jp": "デメニギス",
+      "kr": "데메니기스",
+      "nl": "Hemelkijker",
+      "ru": "Опистопрокт"
+    },
+    "shadow": {"description": "Small", "size": 2},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 21, "end": 4}]
+    },
     "location": "Sea",
-    "shadow": {"size": 2},
-    "hours": [{"start": 21, "end": 4}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-barreleye.png",
-      "path": "full/47f2765fe05fe29ca3933607794cec85a4bf3024.png",
-      "checksum": "abe64d03667a89b16a46d78eb94eece7"
-    }
+    "rarity": "Ultra-rare"
   },
   {
-    "name": "Coelacanth",
+    "id": 80,
+    "fileName": "coelacanth",
     "price": 15000,
-    "location": "Sea",
-    "shadow": {"size": 6},
-    "hours": [{"start": 0, "end": 0}],
-    "months": [{"start": 0, "end": 0}],
-    "image": {
-      "url": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png",
-      "path": "full/1bf6714f500489a11e7b7b46262f0ef0d97ab1cd.png",
-      "checksum": "3f4f3a709e68522f877f6168f943d112"
-    }
+    "name": {
+      "en": "Coelacanth",
+      "cn": "矛尾鱼",
+      "de": "Quastenflosser",
+      "sp": "Celacanto",
+      "fr": "Cœlacanthe",
+      "it": "Celacanto",
+      "jp": "シーラカンス",
+      "kr": "실러캔스",
+      "nl": "Coelacant",
+      "ru": "Латимерия"
+    },
+    "shadow": {"description": "Largest", "size": 6},
+    "active": {
+      "months": [{"start": 0, "end": 0}],
+      "hours": [{"start": 0, "end": 0}]
+    },
+    "location": "Sea (when raining or snowing)",
+    "rarity": "Ultra-rare"
   }
 ]

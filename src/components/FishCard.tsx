@@ -63,16 +63,17 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
       <CardContent>
         <Box display="flex">
           <img
-            src={require(`../../assets/${fish.image.path}`)}
+            src={require('../../assets/img/fish' +
+              `${fish.id}`.padStart(2, '0') +
+              '.png')}
             style={{width: '3.25rem', height: '3.25rem'}}
           />
           <Box flex={1} paddingLeft="0.5rem">
             <Typography variant="h6" component="h2">
-              {fish.name}
+              {fish.name.en}
             </Typography>
             <Typography variant="body2">
-              ฿{fish.price} • {fish.location} •{' '}
-              {shadowSizes[fish.shadow.size - 1]} {fish.shadow.comment}
+              ฿{fish.price} • {fish.location} • {fish.shadow.description}
             </Typography>
           </Box>
           <Box
@@ -99,7 +100,7 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
           >
             <DetailRow
               icon={<CalendarToday viewBox="-3 0 30 30" />}
-              periods={fish.months}
+              periods={fish.active.months}
               periodFormatter={({start, end}) =>
                 start === end
                   ? 'All year'
@@ -115,7 +116,7 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
             />
             <DetailRow
               icon={<Schedule viewBox="-3 0 30 30" />}
-              periods={fish.hours}
+              periods={fish.active.hours}
               periodFormatter={({start, end}) =>
                 start === end
                   ? 'All day'

@@ -29,8 +29,13 @@ import fishData from '../../assets/fish.json'
 
 const imageCache = (
   <Box hidden>
-    {fishData.map(({image}, i) => (
-      <img src={require(`../../assets/${image.path}`)} key={i} />
+    {fishData.map(({id}) => (
+      <img
+        src={require('../../assets/img/fish' +
+          `${id}`.padStart(2, '0') +
+          '.png')}
+        key={id}
+      />
     ))}
   </Box>
 )
@@ -222,7 +227,7 @@ const App = () => {
           </Box>
           <Grid container spacing={3}>
             {sortedFish.map((fish) => (
-              <Grid item xs={12} sm={6} md={4} lg={3} key={fish.name}>
+              <Grid item xs={12} sm={6} md={4} lg={3} key={fish.id}>
                 <FishCard fish={fish} />
               </Grid>
             ))}

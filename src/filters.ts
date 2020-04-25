@@ -97,8 +97,8 @@ export const useSort = (fishData: typeof fishJson) => {
         return sortDirection === 'asc' ? fishData : [...fishData].reverse()
       case 'name':
         return sortDirection === 'asc'
-          ? [...fishData].sort((a, b) => a.name.localeCompare(b.name))
-          : [...fishData].sort((a, b) => b.name.localeCompare(a.name))
+          ? [...fishData].sort((a, b) => a.name.en.localeCompare(b.name.en))
+          : [...fishData].sort((a, b) => b.name.en.localeCompare(a.name.en))
       case 'price':
         return sortDirection === 'asc'
           ? [...fishData].sort((a, b) => a.price - b.price)
