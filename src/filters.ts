@@ -19,12 +19,12 @@ export const useHemisphere = (fishData: typeof fishJson) => {
     'hemisphere',
     'north',
   )
-  const hemisphere = useMemo(
+  const hemisphere: 'north' | 'south' = useMemo(
     () => (storedHemisphere === 'south' ? 'south' : 'north'),
     [storedHemisphere],
   )
   const setHemisphere = useCallback(
-    (value: 'north' | 'south') => setStoredHemisphere(value),
+    (value: typeof hemisphere) => setStoredHemisphere(value),
     [setStoredHemisphere],
   )
   const hemisphereFish = useMemo(
@@ -112,8 +112,8 @@ export const useSort = (fishData: typeof fishJson) => {
         return sortDirection === 'asc' ? fishData : [...fishData].reverse()
       case 'name':
         return sortDirection === 'asc'
-          ? [...fishData].sort((a, b) => a.name.en.localeCompare(b.name.en))
-          : [...fishData].sort((a, b) => b.name.en.localeCompare(a.name.en))
+          ? [...fishData].sort((a, b) => a.name.localeCompare(b.name))
+          : [...fishData].sort((a, b) => b.name.localeCompare(a.name))
       case 'price':
         return sortDirection === 'asc'
           ? [...fishData].sort((a, b) => a.price - b.price)

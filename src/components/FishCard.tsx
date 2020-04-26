@@ -16,6 +16,7 @@ const shadowSizes = [
   'Tiny',
   'Small',
   'Medium',
+  'Narrow',
   'Large',
   'Very Large',
   'Huge',
@@ -52,6 +53,9 @@ const useStyles = makeStyles((theme) => {
       ...expandToggle,
       transform: 'rotate(180deg)',
     },
+    capitalize: {
+      textTransform: 'capitalize',
+    },
   }
 })
 
@@ -69,11 +73,17 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
             style={{width: '3.25rem', height: '3.25rem'}}
           />
           <Box flex={1} paddingLeft="0.5rem">
-            <Typography variant="h6" component="h2">
-              {fish.name.en}
+            <Typography
+              className={classes.capitalize}
+              variant="h6"
+              component="h2"
+            >
+              {fish.name}
             </Typography>
             <Typography variant="body2">
-              ฿{fish.price} • {fish.location} • {fish.shadow.description}
+              ฿{fish.price} • {fish.location} •{' '}
+              {shadowSizes[fish.shadow.size] +
+                (fish.shadow.finned ? ' (fin)' : '')}
             </Typography>
           </Box>
           <Box

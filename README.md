@@ -13,11 +13,14 @@ https://thatsokay.gitlab.io/animal-crossing
 npm install
 ```
 
-### Fetch data
+### Update data
 
-```bash
-npm run fetch
-```
+1. Download [data spreadsheet](https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4/htmlview#)
+1. Save the fish sheet as `data/fish.csv`
+1. Parse data
+    ```bash
+    npm run parse-fish
+    ```
 
 ### Start dev server
 

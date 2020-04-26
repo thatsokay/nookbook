@@ -1,1944 +1,1137 @@
 [
   {
     "id": 1,
-    "fileName": "bitterling",
-    "price": 900,
-    "name": {
-      "en": "Bitterling",
-      "cn": "红目鲫",
-      "de": "Bitterling",
-      "sp": "Amarguillo",
-      "fr": "Bouvière",
-      "it": "Rodeo",
-      "jp": "タナゴ",
-      "kr": "납줄개",
-      "nl": "Bittervoorn",
-      "ru": "Горчак"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 10, "end": 3}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "bitterling",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2215,
+    "price": 900,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 10, "end": 3}]
+    }
   },
   {
     "id": 2,
-    "fileName": "pale_chub",
-    "price": 200,
-    "name": {
-      "en": "Pale Chub",
-      "cn": "溪哥",
-      "de": "Döbel",
-      "sp": "Cacho",
-      "fr": "Chevaine",
-      "it": "Zacco",
-      "jp": "オイカワ",
-      "kr": "피라미",
-      "nl": "Japanse drakenvis",
-      "ru": "Светлый закко"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "pale chub",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2216,
+    "price": 200,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 3,
-    "fileName": "crucian_carp",
-    "price": 160,
-    "name": {
-      "en": "Crucian carp",
-      "cn": "鲫鱼",
-      "de": "Karausche",
-      "sp": "Carpín",
-      "fr": "Carassin",
-      "it": "Carassio",
-      "jp": "フナ",
-      "kr": "붕어",
-      "nl": "Kroeskarper",
-      "ru": "Карась"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "crucian carp",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 328,
+    "price": 160,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 4,
-    "fileName": "dace",
-    "price": 240,
-    "name": {
-      "en": "Dace",
-      "cn": "雅罗鱼",
-      "de": "Hasel",
-      "sp": "Leucisco",
-      "fr": "Vandoise",
-      "it": "Lasca",
-      "jp": "ウグイ",
-      "kr": "황어",
-      "nl": "Serpeling",
-      "ru": "Елец"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "dace",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2217,
+    "price": 240,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 5,
-    "fileName": "carp",
-    "price": 300,
-    "name": {
-      "en": "Carp",
-      "cn": "鲤鱼",
-      "de": "Karpfen",
-      "sp": "Carpa",
-      "fr": "Carpe",
-      "it": "Carpa",
-      "jp": "コイ",
-      "kr": "잉어",
-      "nl": "Karper",
-      "ru": "Сазан"
-    },
-    "shadow": {"description": "Large", "size": 4},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "carp",
     "location": "Pond",
-    "rarity": "Common"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2219,
+    "price": 300,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 6,
-    "fileName": "koi",
-    "price": 4000,
-    "name": {
-      "en": "Koi",
-      "cn": "锦鲤",
-      "de": "Koi-Karpfen",
-      "sp": "Koi",
-      "fr": "Carpe koï",
-      "it": "Koi",
-      "jp": "ニシキゴイ",
-      "kr": "비단잉어",
-      "nl": "Koikarper",
-      "ru": "Карп кои"
-    },
-    "shadow": {"description": "Large", "size": 4},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "koi",
     "location": "Pond",
-    "rarity": "Uncommon"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2220,
+    "price": 4000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 7,
-    "fileName": "goldfish",
-    "price": 1300,
-    "name": {
-      "en": "Goldfish",
-      "cn": "金鱼",
-      "de": "Goldfisch",
-      "sp": "Pez dorado",
-      "fr": "Poisson rouge",
-      "it": "Pesce rosso",
-      "jp": "キンギョ",
-      "kr": "금붕어",
-      "nl": "Goudvis",
-      "ru": "Золотая рыбка"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "goldfish",
     "location": "Pond",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 329,
+    "price": 1300,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 8,
-    "fileName": "pop-eyed_goldfish",
-    "price": 1300,
-    "name": {
-      "en": "Pop-eyed goldfish",
-      "cn": "龙睛金鱼",
-      "de": "Teleskopauge",
-      "sp": "Pez telescopio",
-      "fr": "Cyprin doré",
-      "it": "Pesce telescopio",
-      "jp": "デメキン",
-      "kr": "툭눈금붕어",
-      "nl": "Telescoopooggoudvis",
-      "ru": "Телескол"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "pop-eyed goldfish",
     "location": "Pond",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2221,
+    "price": 1300,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 9,
-    "fileName": "ranchu_goldfish",
-    "price": 4500,
-    "name": {
-      "en": "Ranchu goldfish",
-      "cn": "兰寿金鱼",
-      "de": "Ranchu",
-      "sp": "Ranchú",
-      "fr": "Ranchu",
-      "it": "Ranchu",
-      "jp": "ランチュウ",
-      "kr": "난주",
-      "nl": "Buffelrug",
-      "ru": "Ранчу"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "ranchu goldfish",
     "location": "Pond",
-    "rarity": "Uncommon"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 5254,
+    "price": 4500,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 10,
-    "fileName": "killifish",
-    "price": 300,
-    "name": {
-      "en": "Killifish",
-      "cn": "稻田鱼",
-      "de": "Killifisch",
-      "sp": "Killi",
-      "fr": "Fondule barré",
-      "it": "Killifish",
-      "jp": "メダカ",
-      "kr": "송사리",
-      "nl": "Killivis",
-      "ru": "Оризия"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 3, "end": 8}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "killifish",
     "location": "Pond",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2222,
+    "price": 300,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 8}]
+    }
   },
   {
     "id": 11,
-    "fileName": "crawfish",
-    "price": 200,
-    "name": {
-      "en": "Crawfish",
-      "cn": "淡水龙虾",
-      "de": "Flusskrebs",
-      "sp": "Cangrejo de río",
-      "fr": "Écrevisse",
-      "it": "Gambero",
-      "jp": "ザリガニ",
-      "kr": "가재",
-      "nl": "Rode rivierkreeft",
-      "ru": "Рак"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 3, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "crawfish",
     "location": "Pond",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2223,
+    "price": 200,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 9}]
+    }
   },
   {
     "id": 12,
-    "fileName": "soft-shelled_turtle",
-    "price": 3750,
-    "altCatchPhrase": [
-      "I caught a soft-shelled turtle! I should take a shellfie!"
-    ],
-    "name": {
-      "en": "Soft-shelled turtle",
-      "cn": "鳖",
-      "de": "Weichschildkröte",
-      "sp": "Tortuga caparazón blando",
-      "fr": "Tortue trionyx",
-      "it": "Apalone ferox",
-      "jp": "スッポン",
-      "kr": "자라",
-      "nl": "Weekschildpad",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 4},
-    "active": {
-      "months": [{"start": 7, "end": 9}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "soft-shelled turtle",
     "location": "River",
-    "rarity": "Uncommon"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2224,
+    "price": 3750,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 7, "end": 9}]
+    }
   },
   {
     "id": 13,
-    "fileName": "snapping_turtle",
-    "price": 5000,
-    "name": {
-      "en": "Snapping turtle",
-      "cn": "拟鳄龟",
-      "de": "Schnappschildkröte",
-      "sp": "Tortuga mordedora",
-      "fr": "Tortue serpentine",
-      "it": "Tartaruga azzannatrice",
-      "jp": "カミツキガメ",
-      "kr": "늑대거북",
-      "nl": "Bijtschildpad",
-      "ru": "Каймановая черепаха"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 3, "end": 10}],
-      "hours": [{"start": 21, "end": 4}]
-    },
+    "name": "snapping turtle",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 4192,
+    "price": 5000,
+    "active": {
+      "hours": [{"start": 21, "end": 4}],
+      "months": [{"start": 3, "end": 10}]
+    }
   },
   {
     "id": 14,
-    "fileName": "tadpole",
-    "price": 100,
-    "name": {
-      "en": "Tadpole",
-      "cn": "蝌蚪",
-      "de": "Kaulquappe",
-      "sp": "Renacuajo",
-      "fr": "Têtard",
-      "it": "Girino",
-      "jp": "オタマジャクシ",
-      "kr": "올챙이",
-      "nl": "Kikkervisje",
-      "ru": "Головастик"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 2, "end": 7}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "tadpole",
     "location": "Pond",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2225,
+    "price": 100,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 2, "end": 7}]
+    }
   },
   {
     "id": 15,
-    "fileName": "frog",
-    "price": 120,
-    "name": {
-      "en": "Frog",
-      "cn": "青蛙",
-      "de": "Frosch",
-      "sp": "Rana",
-      "fr": "Grenouille",
-      "it": "Rana",
-      "jp": "カエル",
-      "kr": "개구리",
-      "nl": "Kikker",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 4, "end": 8}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "frog",
     "location": "Pond",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2226,
+    "price": 120,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 4, "end": 8}]
+    }
   },
   {
     "id": 16,
-    "fileName": "freshwater_goby",
-    "price": 400,
-    "name": {
-      "en": "Freshwater goby",
-      "cn": "塘鳢鱼",
-      "de": "Flussgrundel",
-      "sp": "Gobio de río",
-      "fr": "Gobie d'eau douce",
-      "it": "Ghiozzo",
-      "jp": "ドンコ",
-      "kr": "동사리",
-      "nl": "Zoetwatergrondel",
-      "ru": "Одонтобутис"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "freshwater goby",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2227,
+    "price": 400,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 17,
-    "fileName": "loach",
-    "price": 400,
-    "name": {
-      "en": "Loach",
-      "cn": "泥鳅",
-      "de": "Bachschmerle",
-      "sp": "Locha",
-      "fr": "Loche d'étang",
-      "it": "Cobite",
-      "jp": "ドジョウ",
-      "kr": "미꾸라지",
-      "nl": "Modderkruiper",
-      "ru": "Вьюн"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 2, "end": 5}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "loach",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2228,
+    "price": 400,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 2, "end": 5}]
+    }
   },
   {
     "id": 18,
-    "fileName": "catfish",
-    "price": 800,
-    "name": {
-      "en": "Catfish",
-      "cn": "鲶鱼",
-      "de": "Katzenwels",
-      "sp": "Siluro",
-      "fr": "Silure",
-      "it": "Pesce gatto",
-      "jp": "ナマズ",
-      "kr": "메기",
-      "nl": "Meerval",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 4},
-    "active": {
-      "months": [{"start": 4, "end": 10}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "catfish",
     "location": "Pond",
-    "rarity": "Common"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2229,
+    "price": 800,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 4, "end": 10}]
+    }
   },
   {
     "id": 19,
-    "fileName": "giant_snakehead",
-    "price": 5500,
-    "name": {
-      "en": "Giant snakehead",
-      "cn": "黑鱼",
-      "de": "Schlangenkopf",
-      "sp": "Pez cabeza de serpiente",
-      "fr": "Tête-de-serpent",
-      "it": "Pesce serpente",
-      "jp": "ライギョ",
-      "kr": "가물치",
-      "nl": "Rode slangenkopvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 5, "end": 8}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "giant snakehead",
     "location": "Pond",
-    "rarity": "Rare"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": false,
+    "internalId": 2231,
+    "price": 5500,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 5, "end": 8}]
+    }
   },
   {
     "id": 20,
-    "fileName": "bluegill",
-    "price": 180,
-    "name": {
-      "en": "Giant snakehead",
-      "cn": "蓝腮太阳鱼",
-      "de": "Sonnenbarsch",
-      "sp": "Pez sol",
-      "fr": "Crapet",
-      "it": "Pesce persico",
-      "jp": "ブルーギル",
-      "kr": "블루길",
-      "nl": "Zonnebaars",
-      "ru": "Солнечник"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "bluegill",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2232,
+    "price": 180,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 21,
-    "fileName": "yellow_perch",
-    "price": 300,
-    "name": {
-      "en": "Yellow perch",
-      "cn": "黄鲈鱼",
-      "de": "Flussbarsch",
-      "sp": "Perca amarilla",
-      "fr": "Perche jaune",
-      "it": "Perca dorata",
-      "jp": "イエローパーチ",
-      "kr": "옐로우퍼치",
-      "nl": "Jackbaars",
-      "ru": "Желтый окунь"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 9, "end": 3}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "yellow perch",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2233,
+    "price": 300,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 9, "end": 3}]
+    }
   },
   {
     "id": 22,
-    "fileName": "black_bass",
-    "price": 400,
-    "name": {
-      "en": "Black bass",
-      "cn": "黑鲈鱼",
-      "de": "Barsch",
-      "sp": "Perca",
-      "fr": "Bar",
-      "it": "Boccalone",
-      "jp": "ブラックバス",
-      "kr": "큰입배스",
-      "nl": "Forelbaars",
-      "ru": "Большеротый окунь"
-    },
-    "shadow": {"description": "Medium", "size": 4},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "black bass",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2234,
+    "price": 400,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 23,
-    "fileName": "tilapia",
-    "price": 800,
-    "name": {
-      "en": "Black bass",
-      "cn": "吴郭鱼",
-      "de": "Tilapia",
-      "sp": "Tilapia",
-      "fr": "Tilapia",
-      "it": "Tilapia",
-      "jp": "ティラピア",
-      "kr": "틸라피아",
-      "nl": "Tilapia",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 5, "end": 10}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "tilapia",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 4190,
+    "price": 800,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 5, "end": 10}]
+    }
   },
   {
     "id": 24,
-    "fileName": "pike",
-    "price": 1800,
-    "name": {
-      "en": "Pike",
-      "cn": "白斑狗鱼",
-      "de": "Hecht",
-      "sp": "Lucio",
-      "fr": "Brochet",
-      "it": "Luccio nordico",
-      "jp": "パイク",
-      "kr": "강꼬치고기",
-      "nl": "Snoek",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 8, "end": 12}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "pike",
     "location": "River",
-    "rarity": "Uncommon"
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2235,
+    "price": 1800,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 8, "end": 0}]
+    }
   },
   {
     "id": 25,
-    "fileName": "pond_smelt",
-    "price": 400,
-    "name": {
-      "en": "Pond smelt",
-      "cn": "西太公鱼",
-      "de": "Stint",
-      "sp": "Eperlano",
-      "fr": "Éperlan",
-      "it": "Pingo",
-      "jp": "ワカサギ",
-      "kr": "빙어",
-      "nl": "Spiering",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 11, "end": 2}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "pond smelt",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2236,
+    "price": 400,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 11, "end": 2}]
+    }
   },
   {
     "id": 26,
-    "fileName": "sweetfish",
-    "price": 900,
-    "name": {
-      "en": "Sweetfish",
-      "cn": "香鱼",
-      "de": "Ayu",
-      "sp": "Ayu",
-      "fr": "Ayu",
-      "it": "Ayu",
-      "jp": "アユ",
-      "kr": "은어",
-      "nl": "Ayu",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 6, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "sweetfish",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2237,
+    "price": 900,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 6, "end": 9}]
+    }
   },
   {
     "id": 27,
-    "fileName": "cherry_salmon",
+    "name": "cherry salmon",
+    "location": "River (clifftop)",
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2238,
     "price": 1000,
-    "name": {
-      "en": "Cherry salmon",
-      "cn": "樱花钩吻鲑",
-      "de": "Masulachs",
-      "sp": "Salmón japonés",
-      "fr": "Saumon masou",
-      "it": "Salmone giapponese",
-      "jp": "ヤマメ",
-      "kr": "산천어",
-      "nl": "Japanse zalm",
-      "ru": "Сима"
-    },
-    "shadow": {"description": "Medium", "size": 3},
     "active": {
+      "hours": [{"start": 16, "end": 9}],
       "months": [
         {"start": 2, "end": 6},
         {"start": 8, "end": 11}
-      ],
-      "hours": [{"start": 16, "end": 9}]
-    },
-    "location": "River (Clifftop)",
-    "rarity": "Common"
+      ]
+    }
   },
   {
     "id": 28,
-    "fileName": "char",
+    "name": "char",
+    "location": "River (clifftop)",
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2239,
     "price": 3800,
-    "name": {
-      "en": "Char",
-      "cn": "花羔红点鲑",
-      "de": "Saibling",
-      "sp": "Trucha",
-      "fr": "Omble",
-      "it": "Salmerino alpino",
-      "jp": "オオイワナ",
-      "kr": "열목어",
-      "nl": "Bronforel",
-      "ru": "Голец"
-    },
-    "shadow": {"description": "Medium", "size": 3},
     "active": {
+      "hours": [{"start": 16, "end": 9}],
       "months": [
         {"start": 2, "end": 6},
         {"start": 8, "end": 11}
-      ],
-      "hours": [{"start": 16, "end": 9}]
-    },
-    "location": "River (Clifftop) & Pond",
-    "rarity": "Uncommon"
+      ]
+    }
   },
   {
     "id": 29,
-    "fileName": "golden_trout",
+    "name": "golden trout",
+    "location": "River (clifftop)",
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 3,
+    "rainChanceUp": false,
+    "internalId": 4193,
     "price": 15000,
-    "name": {
-      "en": "Golden trout",
-      "cn": "金鳟",
-      "de": "Goldforelle",
-      "sp": "Trucha dorada",
-      "fr": "Truite dorée",
-      "it": "Trota dorata",
-      "jp": "ゴールデントラウト",
-      "kr": "금송어",
-      "nl": "Goudforel",
-      "ru": "Золотая форель"
-    },
-    "shadow": {"description": "Medium", "size": 3},
     "active": {
+      "hours": [{"start": 16, "end": 9}],
       "months": [
         {"start": 2, "end": 5},
         {"start": 8, "end": 11}
-      ],
-      "hours": [{"start": 16, "end": 9}]
-    },
-    "location": "River (Clifftop)",
-    "rarity": "Ultra-rare"
+      ]
+    }
   },
   {
     "id": 30,
-    "fileName": "stringfish",
+    "name": "stringfish",
+    "location": "River (clifftop)",
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 3,
+    "rainChanceUp": false,
+    "internalId": 2241,
     "price": 15000,
-    "name": {
-      "en": "Stringfish",
-      "cn": "远东哲罗鱼",
-      "de": "Huchen",
-      "sp": "Taimén",
-      "fr": "Dai yu",
-      "it": "Taimen",
-      "jp": "イトウ",
-      "kr": "일본연어",
-      "nl": "Donauzalm",
-      "ru": "Таймень"
-    },
-    "shadow": {"description": "Large", "size": 5},
     "active": {
-      "months": [{"start": 11, "end": 3}],
-      "hours": [{"start": 16, "end": 9}]
-    },
-    "location": "River (Clifftop)",
-    "rarity": "Ultra-rare"
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 11, "end": 3}]
+    }
   },
   {
     "id": 31,
-    "fileName": "salmon",
+    "name": "salmon",
+    "location": "River (mouth)",
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2242,
     "price": 700,
-    "name": {
-      "en": "Salmon",
-      "cn": "鲑鱼",
-      "de": "Lachs",
-      "sp": "Salmón",
-      "fr": "Saumon",
-      "it": "Salmone",
-      "jp": "サケ",
-      "kr": "연어",
-      "nl": "Zalm",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 4},
     "active": {
-      "months": [{"start": 8, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
-    "location": "River (Mouth)",
-    "rarity": "Common"
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 8, "end": 9}]
+    }
   },
   {
     "id": 32,
-    "fileName": "king_salmon",
+    "name": "king salmon",
+    "location": "River (mouth)",
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2243,
     "price": 1800,
-    "name": {
-      "en": "King salmon",
-      "cn": "帝王鲑",
-      "de": "Königslachs",
-      "sp": "Salmón real",
-      "fr": "Saumon roi",
-      "it": "Salmone reale",
-      "jp": "キングサーモン",
-      "kr": "왕연어",
-      "nl": "Chinookzalm",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Largest", "size": 6},
     "active": {
-      "months": [{"start": 8, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
-    "location": "River (Mouth)",
-    "rarity": "Uncommon"
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 8, "end": 9}]
+    }
   },
   {
     "id": 33,
-    "fileName": "mitten_crab",
-    "price": 2000,
-    "name": {
-      "en": "Mitten crab",
-      "cn": "中华绒螯蟹",
-      "de": "Wollhandkrabbe",
-      "sp": "Cangrejo de Shanghái",
-      "fr": "Crabe chinois",
-      "it": "Granchio guantato",
-      "jp": "シャンハイガニ",
-      "kr": "참게",
-      "nl": "Wolhandkrab",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 8, "end": 11}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "mitten crab",
     "location": "River",
-    "rarity": "Uncommon"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2244,
+    "price": 2000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 8, "end": 11}]
+    }
   },
   {
     "id": 34,
-    "fileName": "guppy",
-    "price": 1300,
-    "name": {
-      "en": "Guppy",
-      "cn": "孔雀鱼",
-      "de": "Guppy",
-      "sp": "Gupi",
-      "fr": "Guppy",
-      "it": "Guppy",
-      "jp": "グッピー",
-      "kr": "구피",
-      "nl": "Guppy",
-      "ru": "Гуппи"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 3, "end": 11}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "guppy",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2245,
+    "price": 1300,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 3, "end": 11}]
+    }
   },
   {
     "id": 35,
-    "fileName": "nibble_fish",
-    "price": 1500,
-    "name": {
-      "en": "Nibble fish",
-      "cn": "温泉医生鱼",
-      "de": "Saugbarbe",
-      "sp": "Pez doctor",
-      "fr": "Poisson docteur",
-      "it": "Garra rufa",
-      "jp": "ドクターフィッシュ",
-      "kr": "닥터피시",
-      "nl": "Knabbelvisje",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 4, "end": 9}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "nibble fish",
     "location": "River",
-    "rarity": "Uncommon"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2246,
+    "price": 1500,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 4, "end": 9}]
+    }
   },
   {
     "id": 36,
-    "fileName": "angelfish",
-    "price": 3000,
-    "name": {
-      "en": "Angelfish",
-      "cn": "神仙鱼",
-      "de": "Skalar",
-      "sp": "Pez ángel",
-      "fr": "Poisson-ange",
-      "it": "Pesce angelo",
-      "jp": "エンゼルフィッシュ",
-      "kr": "천사어",
-      "nl": "Maanvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 4, "end": 10}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "angelfish",
     "location": "River",
-    "rarity": "Uncommon"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2247,
+    "price": 3000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 4, "end": 10}]
+    }
   },
   {
     "id": 37,
-    "fileName": "betta",
-    "price": 2500,
-    "name": {
-      "en": "Betta",
-      "cn": "斗鱼",
-      "de": "Kampffisch",
-      "sp": "Betta",
-      "fr": "Combattant",
-      "it": "Betta",
-      "jp": "ベタ",
-      "kr": "베타",
-      "nl": "Siamese kempvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 4, "end": 10}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "betta",
     "location": "River",
-    "rarity": "Uncommon"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 4191,
+    "price": 2500,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 4, "end": 10}]
+    }
   },
   {
     "id": 38,
-    "fileName": "neon_tetra",
-    "price": 500,
-    "name": {
-      "en": "Neon tetra",
-      "cn": "霓虹灯鱼",
-      "de": "Neonsalmler",
-      "sp": "Tetra neón",
-      "fr": "Néon bleu",
-      "it": "Pesce neon",
-      "jp": "ネオンテトラ",
-      "kr": "네온테트라",
-      "nl": "Neontetra",
-      "ru": "Голубой неон"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 3, "end": 11}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "neon tetra",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2248,
+    "price": 500,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 3, "end": 11}]
+    }
   },
   {
     "id": 39,
-    "fileName": "rainbowfish",
-    "price": 800,
-    "name": {
-      "en": "Rainbowfish",
-      "cn": "彩虹鱼",
-      "de": "Regenbogenfisch",
-      "sp": "Pez arcoíris",
-      "fr": "Poisson arc-en-ciel",
-      "it": "Pesce arcobaleno",
-      "jp": "レインボーフィッシュ",
-      "kr": "레인보우피시",
-      "nl": "Regenboogvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 4, "end": 10}],
-      "hours": [{"start": 9, "end": 16}]
-    },
+    "name": "rainbowfish",
     "location": "River",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 4194,
+    "price": 800,
+    "active": {
+      "hours": [{"start": 9, "end": 16}],
+      "months": [{"start": 4, "end": 10}]
+    }
   },
   {
     "id": 40,
-    "fileName": "piranha",
+    "name": "piranha",
+    "location": "River",
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2249,
     "price": 2500,
-    "name": {
-      "en": "Piranha",
-      "cn": "食人鱼",
-      "de": "Piranha",
-      "sp": "Piraña",
-      "fr": "Piranha",
-      "it": "Pesce piranha",
-      "jp": "ピラニア",
-      "kr": "피라니아",
-      "nl": "Piranha",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Small", "size": 2},
     "active": {
-      "months": [{"start": 5, "end": 9}],
       "hours": [
         {"start": 9, "end": 16},
         {"start": 21, "end": 4}
-      ]
-    },
-    "location": "River",
-    "rarity": "Uncommon"
+      ],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 41,
-    "fileName": "arowana",
-    "price": 10000,
-    "name": {
-      "en": "Arowana",
-      "cn": "骨舌鱼",
-      "de": "Arowana",
-      "sp": "Arowana",
-      "fr": "Arowana",
-      "it": "Arowana",
-      "jp": "アロワナ",
-      "kr": "아로와나",
-      "nl": "Arowana",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 4},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "arowana",
     "location": "River",
-    "rarity": "Rare"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": false,
+    "internalId": 2250,
+    "price": 10000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 42,
-    "fileName": "dorado",
-    "price": 15000,
-    "name": {
-      "en": "Dorado",
-      "cn": "黄金河虎",
-      "de": "Lachssalmler",
-      "sp": "Dorado",
-      "fr": "Dorade",
-      "it": "Dorado",
-      "jp": "ドラド",
-      "kr": "황금연어",
-      "nl": "Dorado",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 4, "end": 21}]
-    },
+    "name": "dorado",
     "location": "River",
-    "rarity": "Ultra-rare"
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 3,
+    "rainChanceUp": false,
+    "internalId": 2251,
+    "price": 15000,
+    "active": {
+      "hours": [{"start": 4, "end": 21}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 43,
-    "fileName": "gar",
-    "price": 6000,
-    "name": {
-      "en": "Gar",
-      "cn": "雀鳝",
-      "de": "Knochenhecht",
-      "sp": "Pez caimán",
-      "fr": "Gar",
-      "it": "Luccio",
-      "jp": "ガー",
-      "kr": "가아",
-      "nl": "Kaaimansnoek",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "gar",
     "location": "Pond",
-    "rarity": "Rare"
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": false,
+    "internalId": 2252,
+    "price": 6000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 44,
-    "fileName": "arapaima",
-    "price": 10000,
-    "name": {
-      "en": "Arapaima",
-      "cn": "巨骨舌鱼",
-      "de": "Arapaima",
-      "sp": "Pirarucú",
-      "fr": "Arapaïma",
-      "it": "Pirarucù",
-      "jp": "ピラルク",
-      "kr": "피라루쿠",
-      "nl": "Arapaima",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Largest", "size": 6},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "arapaima",
     "location": "River",
-    "rarity": "Rare"
+    "shadow": {"size": 6, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": true,
+    "internalId": 2253,
+    "price": 10000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 45,
-    "fileName": "saddled_bichir",
-    "price": 4000,
-    "name": {
-      "en": "Saddled bichir",
-      "cn": "恩氏多鳍鱼",
-      "de": "Flösselhecht",
-      "sp": "Bichir ensillado",
-      "fr": "Bichir",
-      "it": "Polipteride",
-      "jp": "エンドリケリー",
-      "kr": "엔드리케리",
-      "nl": "Kwastsnoek",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 4},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 21, "end": 4}]
-    },
+    "name": "saddled bichir",
     "location": "River",
-    "rarity": "Uncommon"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2254,
+    "price": 4000,
+    "active": {
+      "hours": [{"start": 21, "end": 4}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 46,
-    "fileName": "sturgeon",
+    "name": "sturgeon",
+    "location": "River (mouth)",
+    "shadow": {"size": 6, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": true,
+    "internalId": 4189,
     "price": 10000,
-    "name": {
-      "en": "Sturgeon",
-      "cn": "鲟鱼",
-      "de": "Stör",
-      "sp": "Esturión",
-      "fr": "Esturgeon",
-      "it": "Storione",
-      "jp": "チョウザメ",
-      "kr": "철갑상어",
-      "nl": "Steur",
-      "ru": "Осетр"
-    },
-    "shadow": {"description": "Largest", "size": 6},
     "active": {
-      "months": [{"start": 8, "end": 3}],
-      "hours": [{"start": 0, "end": 0}]
-    },
-    "location": "River (Mouth)",
-    "rarity": "Uncommon"
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 8, "end": 3}]
+    }
   },
   {
     "id": 47,
-    "fileName": "sea_butterfly",
-    "price": 1000,
-    "name": {
-      "en": "Sea butterfly",
-      "cn": "海蝴蝶",
-      "de": "See-Engel",
-      "sp": "Mariposa marina",
-      "fr": "Clione",
-      "it": "Cavolinia",
-      "jp": "クリオネ",
-      "kr": "클리오네",
-      "nl": "Zeevlinder",
-      "ru": "Морской ангел"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 11, "end": 3}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "sea butterfly",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2255,
+    "price": 1000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 11, "end": 3}]
+    }
   },
   {
     "id": 48,
-    "fileName": "sea_horse",
-    "price": 1100,
-    "name": {
-      "en": "Sea horse",
-      "cn": "海马",
-      "de": "Seepferdchen",
-      "sp": "Caballito de mar",
-      "fr": "Hippocampe",
-      "it": "Ippocampo",
-      "jp": "タツノオトシゴ",
-      "kr": "해마",
-      "nl": "Zeepaardje",
-      "ru": "Морской конек"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 3, "end": 11}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "sea horse",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2256,
+    "price": 1100,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 11}]
+    }
   },
   {
     "id": 49,
-    "fileName": "clownfish",
-    "price": 650,
-    "name": {
-      "en": "Clownfish",
-      "cn": "小丑鱼",
-      "de": "Anemonenfisch",
-      "sp": "Pez payaso",
-      "fr": "Poisson-clown",
-      "it": "Pesce pagliaccio",
-      "jp": "クマノミ",
-      "kr": "흰동가리",
-      "nl": "Clownvis",
-      "ru": "Рыба-клоун"
-    },
-    "shadow": {"description": "Smallest", "size": 1},
-    "active": {
-      "months": [{"start": 3, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "clown fish",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 0, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2257,
+    "price": 650,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 9}]
+    }
   },
   {
     "id": 50,
-    "fileName": "surgeonfish",
-    "price": 1000,
-    "name": {
-      "en": "Surgeonfish",
-      "cn": "拟刺尾鲷",
-      "de": "Paletten-Doktorfisch",
-      "sp": "Pez cirujano",
-      "fr": "Poisson chirurgien",
-      "it": "Pesce chirurgo",
-      "jp": "ナンヨウハギ",
-      "kr": "블루탱",
-      "nl": "Doktersvis",
-      "ru": "Осетр"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 3, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "surgeonfish",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2258,
+    "price": 1000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 9}]
+    }
   },
   {
     "id": 51,
-    "fileName": "butterfly_fish",
-    "price": 1000,
-    "name": {
-      "en": "Butterfly fish",
-      "cn": "耳带蝴蝶鱼",
-      "de": "Falterfisch",
-      "sp": "Pez mariposa",
-      "fr": "Poisson-papillon",
-      "it": "Pesce farfalla",
-      "jp": "チョウチョウウオ",
-      "kr": "나비고기",
-      "nl": "Koraalvlinder",
-      "ru": "Рыба-бабочка"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 3, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "butterfly fish",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2259,
+    "price": 1000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 9}]
+    }
   },
   {
     "id": 52,
-    "fileName": "napoleonfish",
-    "price": 10000,
-    "name": {
-      "en": "Napoleonfish",
-      "cn": "苏眉鱼",
-      "de": "Napoleonfisch",
-      "sp": "Pez napoleón",
-      "fr": "Napoléon",
-      "it": "Pesce napoleone",
-      "jp": "ナポレオンフィッシュ",
-      "kr": "나폴레옹피시",
-      "nl": "Napoleonvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Largest", "size": 6},
-    "active": {
-      "months": [{"start": 6, "end": 8}],
-      "hours": [{"start": 4, "end": 21}]
-    },
+    "name": "Napoleonfish",
     "location": "Sea",
-    "rarity": "Rare"
+    "shadow": {"size": 6, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": true,
+    "internalId": 2260,
+    "price": 10000,
+    "active": {
+      "hours": [{"start": 4, "end": 21}],
+      "months": [{"start": 6, "end": 8}]
+    }
   },
   {
     "id": 53,
-    "fileName": "zebra_turkeyfish",
-    "price": 500,
-    "name": {
-      "en": "Zebra turkeyfish",
-      "cn": "狮子鱼",
-      "de": "Rotfeuerfisch",
-      "sp": "Pez león",
-      "fr": "Poisson-scorpion",
-      "it": "Leone zebrato",
-      "jp": "ミノカサゴ",
-      "kr": "쏨뱅이",
-      "nl": "Koraalduivel",
-      "ru": "Крылатка"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 3, "end": 11}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "zebra turkeyfish",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2261,
+    "price": 500,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 11}]
+    }
   },
   {
     "id": 54,
-    "fileName": "blowfish",
-    "price": 5000,
-    "name": {
-      "en": "Blowfish",
-      "cn": "河豚",
-      "de": "Kugelfisch",
-      "sp": "Pez globo",
-      "fr": "Poisson-ballon",
-      "it": "Pesce palla",
-      "jp": "フグ",
-      "kr": "복어",
-      "nl": "Kogelvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 10, "end": 2}],
-      "hours": [{"start": 21, "end": 4}]
-    },
+    "name": "blowfish",
     "location": "Sea",
-    "rarity": "Uncommon"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2262,
+    "price": 5000,
+    "active": {
+      "hours": [{"start": 21, "end": 5}],
+      "months": [{"start": 10, "end": 2}]
+    }
   },
   {
     "id": 55,
-    "fileName": "puffer_fish",
-    "price": 250,
-    "name": {
-      "en": "Puffer fish",
-      "cn": "刺豚",
-      "de": "Igelfisch",
-      "sp": "Pez erizo",
-      "fr": "Poisson-porc-épic",
-      "it": "Pesce istrice",
-      "jp": "ハリセンボン",
-      "kr": "가시복",
-      "nl": "Egelvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 6, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "puffer fish",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2263,
+    "price": 250,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 6, "end": 9}]
+    }
   },
   {
     "id": 56,
-    "fileName": "anchovy",
-    "price": 200,
-    "name": {
-      "en": "Anchovy",
-      "cn": "凤尾鱼",
-      "de": "Sardelle",
-      "sp": "Boquerón",
-      "fr": "Anchois",
-      "it": "Acciuga",
-      "jp": "アンチョビ",
-      "kr": "멸치",
-      "nl": "Ansjovis",
-      "ru": "Хамса"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 4, "end": 21}]
-    },
+    "name": "anchovy",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 4201,
+    "price": 200,
+    "active": {
+      "hours": [{"start": 4, "end": 21}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 57,
-    "fileName": "horse_mackerel",
-    "price": 150,
-    "name": {
-      "en": "Horse mackerel",
-      "cn": "竹荚鱼",
-      "de": "Makrele",
-      "sp": "Jurel",
-      "fr": "Chinchard",
-      "it": "Sgombro",
-      "jp": "アジ",
-      "kr": "전갱이",
-      "nl": "Horsmakreel",
-      "ru": "Ставрида"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "horse mackerel",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2264,
+    "price": 150,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 58,
-    "fileName": "barred_knifejaw",
-    "price": 5000,
-    "name": {
-      "en": "Barred knifejaw",
-      "cn": "条石鲷",
-      "de": "Schnabelbarsch",
-      "sp": "Dorada japonesa",
-      "fr": "Scarus",
-      "it": "Ishidai",
-      "jp": "イシダイ",
-      "kr": "돌돔",
-      "nl": "Kraaibek",
-      "ru": "Полосатый оплегнат"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 1, "end": 11}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "barred knifejaw",
     "location": "Sea",
-    "rarity": "Uncommon"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2265,
+    "price": 5000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 2, "end": 11}]
+    }
   },
   {
     "id": 59,
-    "fileName": "sea_bass",
-    "price": 400,
-    "name": {
-      "en": "Sea bass",
-      "cn": "鲈鱼",
-      "de": "Seebarsch",
-      "sp": "Lubina",
-      "fr": "Bar commun",
-      "it": "Spigola",
-      "jp": "スズキ",
-      "kr": "농어",
-      "nl": "Zeebaars",
-      "ru": "Морской судак"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "sea bass",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2266,
+    "price": 400,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 60,
-    "fileName": "red_snapper",
-    "price": 3000,
-    "name": {
-      "en": "Red snapper",
-      "cn": "鲷鱼",
-      "de": "Kaiserschnapper",
-      "sp": "Pargo rojo",
-      "fr": "Vivaneau",
-      "it": "Lutiano rosso",
-      "jp": "タイ",
-      "kr": "도미",
-      "nl": "Rode snapper",
-      "ru": "Красный луциан"
-    },
-    "shadow": {"description": "Medium", "size": 4},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "red snapper",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2267,
+    "price": 3000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 61,
-    "fileName": "dab",
-    "price": 300,
-    "name": {
-      "en": "Dab",
-      "cn": "鲽鱼",
-      "de": "Kliesche",
-      "sp": "Gallo",
-      "fr": "Limande",
-      "it": "Platessa",
-      "jp": "カレイ",
-      "kr": "가자미",
-      "nl": "Schar",
-      "ru": "Камбала"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 9, "end": 4}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "dab",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2268,
+    "price": 300,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 9, "end": 4}]
+    }
   },
   {
     "id": 62,
-    "fileName": "olive_flounder",
-    "price": 800,
-    "name": {
-      "en": "Olive flounder",
-      "cn": "比目鱼",
-      "de": "Flunder",
-      "sp": "Rodaballo",
-      "fr": "Cardeau",
-      "it": "Sogliola",
-      "jp": "ヒラメ",
-      "kr": "넙치",
-      "nl": "Bot",
-      "ru": "Камбала"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "olive flounder",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2269,
+    "price": 800,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 63,
-    "fileName": "squid",
-    "price": 500,
-    "altCatchPhrase": [
-      "I caught a squid! I had an inkling I might!",
-      "I caught a squid! Do they...not actually \"bloop\"?"
-    ],
-    "name": {
-      "en": "Squid",
-      "cn": "鱿鱼",
-      "de": "Kalmar",
-      "sp": "Calamar",
-      "fr": "Calmar",
-      "it": "Calamaro",
-      "jp": "イカ",
-      "kr": "오징어",
-      "nl": "Pijlinktvis",
-      "ru": "Кальмар"
-    },
-    "shadow": {"description": "Medium", "size": 3},
-    "active": {
-      "months": [{"start": 11, "end": 8}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "squid",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 2, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2270,
+    "price": 500,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 11, "end": 8}]
+    }
   },
   {
     "id": 64,
-    "fileName": "moray_eel",
-    "price": 2000,
-    "name": {
-      "en": "Moray eel",
-      "cn": "裸胸鳝",
-      "de": "Muräne",
-      "sp": "Morena",
-      "fr": "Murène",
-      "it": "Murena",
-      "jp": "ウツボ",
-      "kr": "곰치",
-      "nl": "Murene",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Narrow", "size": 3},
-    "active": {
-      "months": [{"start": 7, "end": 10}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "moray eel",
     "location": "Sea",
-    "rarity": "Uncommon"
+    "shadow": {"size": 3, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2271,
+    "price": 2000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 7, "end": 10}]
+    }
   },
   {
     "id": 65,
-    "fileName": "ribbon_eel",
-    "price": 600,
-    "name": {
-      "en": "Ribbon eel",
-      "cn": "五彩鳗",
-      "de": "Nasenmuräne",
-      "sp": "Anguila de listón azul",
-      "fr": "Murène ruban bleue",
-      "it": "Murena a nastro",
-      "jp": "ハナヒゲウツボ",
-      "kr": "리본장어",
-      "nl": "Lintmurene",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Narrow", "size": 3},
-    "active": {
-      "months": [{"start": 5, "end": 10}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "ribbon eel",
     "location": "Sea",
-    "rarity": "Common"
+    "shadow": {"size": 3, "finned": false},
+    "rarity": 0,
+    "rainChanceUp": false,
+    "internalId": 2272,
+    "price": 600,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 5, "end": 10}]
+    }
   },
   {
     "id": 66,
-    "fileName": "tuna",
-    "price": 7000,
-    "name": {
-      "en": "Tuna",
-      "cn": "鲔鱼",
-      "de": "Thunfisch",
-      "sp": "Atún",
-      "fr": "Thon",
-      "it": "Tonno",
-      "jp": "マグロ",
-      "kr": "다랑어",
-      "nl": "Tonijn",
-      "ru": "Тунец"
-    },
-    "shadow": {"description": "Largest", "size": 6},
-    "active": {
-      "months": [{"start": 10, "end": 4}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "tuna",
     "location": "Pier",
-    "rarity": "Rare"
+    "shadow": {"size": 6, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": true,
+    "internalId": 2274,
+    "price": 7000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 10, "end": 4}]
+    }
   },
   {
     "id": 67,
-    "fileName": "blue_marlin",
+    "name": "blue marlin",
+    "location": "Pier",
+    "shadow": {"size": 6, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": true,
+    "internalId": 2275,
     "price": 10000,
-    "name": {
-      "en": "Blue marlin",
-      "cn": "旗鱼",
-      "de": "Marlin",
-      "sp": "Pez espada",
-      "fr": "Marlin bleu",
-      "it": "Marlin blu",
-      "jp": "カジキ",
-      "kr": "청새치",
-      "nl": "Blauwe marlijn",
-      "ru": "Голубой марлин"
-    },
-    "shadow": {"description": "Largest", "size": 6},
     "active": {
+      "hours": [{"start": 0, "end": 0}],
       "months": [
         {"start": 10, "end": 4},
         {"start": 6, "end": 9}
-      ],
-      "hours": [{"start": 0, "end": 0}]
-    },
-    "location": "Pier",
-    "rarity": "Rare"
+      ]
+    }
   },
   {
     "id": 68,
-    "fileName": "giant_trevally",
-    "price": 4500,
-    "name": {
-      "en": "Giant trevally",
-      "cn": "白面弄鱼",
-      "de": "Stachelmakrele",
-      "sp": "Jurel gigante",
-      "fr": "Carangue grosse tête",
-      "it": "Carango gigante",
-      "jp": "ロウニンアジ",
-      "kr": "무명갈전갱이",
-      "nl": "Reuzenhorsmakreel",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 4, "end": 10}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "giant trevally",
     "location": "Pier",
-    "rarity": "Uncommon"
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2276,
+    "price": 4500,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 4, "end": 10}]
+    }
   },
   {
     "id": 69,
-    "fileName": "mahi-mahi",
-    "price": 6000,
-    "name": {
-      "en": "Mahi-mahi",
-      "cn": "鬼头刀",
-      "de": "Goldmakrele",
-      "sp": "Lampuga",
-      "fr": "Coryphène",
-      "it": "Lampuga",
-      "jp": "シイラ",
-      "kr": "만새기",
-      "nl": "Goudmakreel",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 4, "end": 10}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "mahi-mahi",
     "location": "Pier",
-    "rarity": "Rare"
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": true,
+    "internalId": 4202,
+    "price": 6000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 4, "end": 10}]
+    }
   },
   {
     "id": 70,
-    "fileName": "ocean_sunfish",
-    "price": 4000,
-    "name": {
-      "en": "Ocean sunfish",
-      "cn": "翻车鱼",
-      "de": "Mondfisch",
-      "sp": "Pez luna",
-      "fr": "Lune de mer",
-      "it": "Pesce luna",
-      "jp": "マンボウ",
-      "kr": "개복치",
-      "nl": "Klompvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Largest with fin", "size": 6},
-    "active": {
-      "months": [{"start": 6, "end": 9}],
-      "hours": [{"start": 4, "end": 21}]
-    },
+    "name": "ocean sunfish",
     "location": "Sea",
-    "rarity": "Uncommon"
+    "shadow": {"size": 4, "finned": true},
+    "rarity": 1,
+    "rainChanceUp": true,
+    "internalId": 2278,
+    "price": 4000,
+    "active": {
+      "hours": [{"start": 4, "end": 21}],
+      "months": [{"start": 6, "end": 9}]
+    }
   },
   {
     "id": 71,
-    "fileName": "ray",
-    "price": 3000,
-    "name": {
-      "en": "Ray",
-      "cn": "鳐鱼",
-      "de": "Rochen",
-      "sp": "Raya",
-      "fr": "Raie",
-      "it": "Razza",
-      "jp": "エイ",
-      "kr": "가오리",
-      "nl": "Rog",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Large", "size": 5},
-    "active": {
-      "months": [{"start": 7, "end": 11}],
-      "hours": [{"start": 4, "end": 21}]
-    },
+    "name": "ray",
     "location": "Sea",
-    "rarity": "Uncommon"
+    "shadow": {"size": 5, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2277,
+    "price": 3000,
+    "active": {
+      "hours": [{"start": 4, "end": 21}],
+      "months": [{"start": 7, "end": 11}]
+    }
   },
   {
     "id": 72,
-    "fileName": "saw_shark",
-    "price": 12000,
-    "name": {
-      "en": "Saw shark",
-      "cn": "锯鲨",
-      "de": "Sägehai",
-      "sp": "Pez sierra",
-      "fr": "Requin scie",
-      "it": "Squalo sega",
-      "jp": "ノコギリザメ",
-      "kr": "톱상어",
-      "nl": "Zaaghaai",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Largest with fin", "size": 6},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "saw shark",
     "location": "Sea",
-    "rarity": "Rare"
+    "shadow": {"size": 4, "finned": true},
+    "rarity": 2,
+    "rainChanceUp": false,
+    "internalId": 2281,
+    "price": 12000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 73,
-    "fileName": "hammerhead_shark",
-    "price": 8000,
-    "name": {
-      "en": "Hammerhead shark",
-      "cn": "双髻鲨",
-      "de": "Hammerhai",
-      "sp": "Pez martillo",
-      "fr": "Requin marteau",
-      "it": "Pesce martello",
-      "jp": "シュモクザメ",
-      "kr": "귀상어",
-      "nl": "Hamerhaai",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Largest with fin", "size": 6},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "hammerhead shark",
     "location": "Sea",
-    "rarity": "Uncommon"
+    "shadow": {"size": 4, "finned": true},
+    "rarity": 1,
+    "rainChanceUp": true,
+    "internalId": 2279,
+    "price": 8000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 74,
-    "fileName": "great_white_shark",
-    "price": 15000,
-    "name": {
-      "en": "Great white shark",
-      "cn": "鲨鱼",
-      "de": "Hai",
-      "sp": "Tiburón",
-      "fr": "Requin",
-      "it": "Squalo bianco",
-      "jp": "サメ",
-      "kr": "상어",
-      "nl": "Haai",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Largest with fin", "size": 6},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "great white shark",
     "location": "Sea",
-    "rarity": "Rare"
+    "shadow": {"size": 4, "finned": true},
+    "rarity": 2,
+    "rainChanceUp": true,
+    "internalId": 2280,
+    "price": 15000,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 75,
-    "fileName": "whale_shark",
-    "price": 13000,
-    "name": {
-      "en": "Whale shark",
-      "cn": "鲸鲨",
-      "de": "Walhai",
-      "sp": "Tiburón ballena",
-      "fr": "Requin-baleine",
-      "it": "Squalo balena",
-      "jp": "ジンベエザメ",
-      "kr": "고래상어",
-      "nl": "Walvishaai",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Largest with fin", "size": 6},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "whale shark",
     "location": "Sea",
-    "rarity": "Rare"
+    "shadow": {"size": 4, "finned": true},
+    "rarity": 2,
+    "rainChanceUp": true,
+    "internalId": 2282,
+    "price": 13000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 76,
-    "fileName": "suckerfish",
-    "price": 1500,
-    "name": {
-      "en": "Suckerfish",
-      "cn": "吸盘鱼",
-      "de": "Schiffshalter",
-      "sp": "Rémora",
-      "fr": "Rémora rayé",
-      "it": "Remora",
-      "jp": "コバンザメ",
-      "kr": "빨판상어",
-      "nl": "Zuigvis",
-      "ru": "Unknown"
-    },
-    "shadow": {"description": "Medium with fin", "size": 4},
-    "active": {
-      "months": [{"start": 5, "end": 9}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "suckerfish",
     "location": "Sea",
-    "rarity": "Uncommon"
+    "shadow": {"size": 2, "finned": true},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 4203,
+    "price": 1500,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 5, "end": 9}]
+    }
   },
   {
     "id": 77,
-    "fileName": "football_fish",
-    "price": 2500,
-    "name": {
-      "en": "Football fish",
-      "cn": "灯笼鱼",
-      "de": "Anglerfisch",
-      "sp": "Pez balón",
-      "fr": "Poisson lanterne",
-      "it": "Pesce abissale",
-      "jp": "チョウチンアンコウ",
-      "kr": "초롱아귀",
-      "nl": "Voetbalvis",
-      "ru": "Гимантолоф"
-    },
-    "shadow": {"description": "Medium", "size": 4},
-    "active": {
-      "months": [{"start": 10, "end": 3}],
-      "hours": [{"start": 16, "end": 9}]
-    },
+    "name": "football fish",
     "location": "Sea",
-    "rarity": "Uncommon"
+    "shadow": {"size": 4, "finned": false},
+    "rarity": 1,
+    "rainChanceUp": false,
+    "internalId": 2273,
+    "price": 2500,
+    "active": {
+      "hours": [{"start": 16, "end": 9}],
+      "months": [{"start": 10, "end": 3}]
+    }
   },
   {
     "id": 78,
-    "fileName": "oarfish",
-    "price": 9000,
-    "name": {
-      "en": "Oarfish",
-      "cn": "皇带鱼",
-      "de": "Riemenfisch",
-      "sp": "Pez remo",
-      "fr": "Poisson-ruban",
-      "it": "Pesce remo",
-      "jp": "リュウグウノツカイ",
-      "kr": "산갈치",
-      "nl": "Riemvis",
-      "ru": "Сельдяной король"
-    },
-    "shadow": {"description": "Largest", "size": 6},
-    "active": {
-      "months": [{"start": 11, "end": 5}],
-      "hours": [{"start": 0, "end": 0}]
-    },
+    "name": "oarfish",
     "location": "Sea",
-    "rarity": "Rare"
+    "shadow": {"size": 6, "finned": false},
+    "rarity": 2,
+    "rainChanceUp": true,
+    "internalId": 2283,
+    "price": 9000,
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 11, "end": 5}]
+    }
   },
   {
     "id": 79,
-    "fileName": "barreleye",
-    "price": 15000,
-    "name": {
-      "en": "Barreleye",
-      "cn": "太平洋桶眼鱼",
-      "de": "Glaskopffisch",
-      "sp": "Pez cabeza transparente",
-      "fr": "Macropinna",
-      "it": "Macropinna",
-      "jp": "デメニギス",
-      "kr": "데메니기스",
-      "nl": "Hemelkijker",
-      "ru": "Опистопрокт"
-    },
-    "shadow": {"description": "Small", "size": 2},
-    "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 21, "end": 4}]
-    },
+    "name": "barreleye",
     "location": "Sea",
-    "rarity": "Ultra-rare"
+    "shadow": {"size": 1, "finned": false},
+    "rarity": 3,
+    "rainChanceUp": false,
+    "internalId": 4204,
+    "price": 15000,
+    "active": {
+      "hours": [{"start": 21, "end": 4}],
+      "months": [{"start": 0, "end": 0}]
+    }
   },
   {
     "id": 80,
-    "fileName": "coelacanth",
+    "name": "coelacanth",
+    "location": "Sea (raining)",
+    "shadow": {"size": 6, "finned": false},
+    "rarity": 3,
+    "rainChanceUp": true,
+    "internalId": 2284,
     "price": 15000,
-    "name": {
-      "en": "Coelacanth",
-      "cn": "矛尾鱼",
-      "de": "Quastenflosser",
-      "sp": "Celacanto",
-      "fr": "Cœlacanthe",
-      "it": "Celacanto",
-      "jp": "シーラカンス",
-      "kr": "실러캔스",
-      "nl": "Coelacant",
-      "ru": "Латимерия"
-    },
-    "shadow": {"description": "Largest", "size": 6},
     "active": {
-      "months": [{"start": 0, "end": 0}],
-      "hours": [{"start": 0, "end": 0}]
-    },
-    "location": "Sea (when raining or snowing)",
-    "rarity": "Ultra-rare"
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
   }
 ]
