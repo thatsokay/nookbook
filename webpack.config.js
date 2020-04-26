@@ -2,6 +2,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const {GenerateSW} = require('workbox-webpack-plugin')
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 const path = require('path')
 const fs = require('fs')
 
@@ -58,5 +59,6 @@ module.exports = {
         .map((file) => ({from: `public/${file}`, to: file})),
     ),
     new GenerateSW(),
+    new ForkTsCheckerWebpackPlugin(),
   ],
 }
