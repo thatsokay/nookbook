@@ -211,7 +211,7 @@ const App = () => {
             <Brightness6 className={classes.themeToggleIcon} />
           </IconButton>
           <Typography variant="h2" component="h1" align="center" gutterBottom>
-            Animal Crossing Fish
+            NookBook
           </Typography>
           <Box margin="1.5rem 0">
             {lgViewport ? (
