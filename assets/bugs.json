@@ -1,0 +1,1063 @@
+[
+  {
+    "id": 1,
+    "name": "common butterfly",
+    "location": "Flying near flowers",
+    "rarity": 0,
+    "internalId": 626,
+    "price": 160,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 4, "end": 19}],
+      "months": [{"start": 8, "end": 6}]
+    }
+  },
+  {
+    "id": 2,
+    "name": "yellow butterfly",
+    "location": "Flying near flowers",
+    "rarity": 0,
+    "internalId": 625,
+    "price": 160,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 4, "end": 19}],
+      "months": [
+        {"start": 2, "end": 6},
+        {"start": 8, "end": 10}
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "tiger butterfly",
+    "location": "Flying near flowers",
+    "rarity": 0,
+    "internalId": 583,
+    "price": 240,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 4, "end": 19}],
+      "months": [{"start": 2, "end": 9}]
+    }
+  },
+  {
+    "id": 4,
+    "name": "peacock butterfly",
+    "location": "Flying near blue/purple/black flowers",
+    "rarity": 1,
+    "internalId": 610,
+    "price": 2500,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 4, "end": 19}],
+      "months": [{"start": 2, "end": 6}]
+    }
+  },
+  {
+    "id": 5,
+    "name": "common bluebottle",
+    "location": "Flying near flowers",
+    "rarity": 0,
+    "internalId": 3477,
+    "price": 300,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 4, "end": 19}],
+      "months": [{"start": 3, "end": 8}]
+    }
+  },
+  {
+    "id": 6,
+    "name": "paper kite butterfly",
+    "location": "Flying near flowers",
+    "rarity": 0,
+    "internalId": 3478,
+    "price": 1000,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 19}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 7,
+    "name": "great purple emperor",
+    "location": "Flying near flowers",
+    "rarity": 2,
+    "internalId": 3479,
+    "price": 3000,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 4, "end": 19}],
+      "months": [{"start": 4, "end": 8}]
+    }
+  },
+  {
+    "id": 8,
+    "name": "monarch butterfly",
+    "location": "Flying near flowers",
+    "rarity": 0,
+    "internalId": 636,
+    "price": 140,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 4, "end": 17}],
+      "months": [{"start": 8, "end": 11}]
+    }
+  },
+  {
+    "id": 9,
+    "name": "emperor butterfly",
+    "location": "Flying near flowers",
+    "rarity": 1,
+    "internalId": 627,
+    "price": 4000,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [
+        {"start": 11, "end": 3},
+        {"start": 5, "end": 9}
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "agrias butterfly",
+    "location": "Flying near flowers",
+    "rarity": 1,
+    "internalId": 620,
+    "price": 3000,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 3, "end": 9}]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Rajah Brooke's birdwing",
+    "location": "Flying near flowers",
+    "rarity": 1,
+    "internalId": 584,
+    "price": 2500,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [
+        {"start": 11, "end": 2},
+        {"start": 3, "end": 9}
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Queen Alexandra's birdwing",
+    "location": "Flying near flowers",
+    "rarity": 2,
+    "internalId": 586,
+    "price": 4000,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 16}],
+      "months": [{"start": 4, "end": 9}]
+    }
+  },
+  {
+    "id": 13,
+    "name": "moth",
+    "location": "Flying near light sources",
+    "rarity": 0,
+    "internalId": 592,
+    "price": 130,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 19, "end": 4}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Atlas moth",
+    "location": "On trees (any kind)",
+    "rarity": 1,
+    "internalId": 652,
+    "price": 3000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 19, "end": 4}],
+      "months": [{"start": 3, "end": 9}]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Madagascan sunset moth",
+    "location": "Flying near flowers",
+    "rarity": 1,
+    "internalId": 3484,
+    "price": 2500,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 16}],
+      "months": [{"start": 3, "end": 9}]
+    }
+  },
+  {
+    "id": 16,
+    "name": "long locust",
+    "location": "On the ground",
+    "rarity": 0,
+    "internalId": 644,
+    "price": 200,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 19}],
+      "months": [{"start": 3, "end": 11}]
+    }
+  },
+  {
+    "id": 17,
+    "name": "migratory locust",
+    "location": "On the ground",
+    "rarity": 1,
+    "internalId": 648,
+    "price": 600,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 19}],
+      "months": [{"start": 7, "end": 11}]
+    }
+  },
+  {
+    "id": 18,
+    "name": "rice grasshopper",
+    "location": "On the ground",
+    "rarity": 0,
+    "internalId": 605,
+    "price": 400,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 19}],
+      "months": [{"start": 7, "end": 11}]
+    }
+  },
+  {
+    "id": 19,
+    "name": "grasshopper",
+    "location": "On the ground",
+    "rarity": 0,
+    "internalId": 613,
+    "price": 160,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 6, "end": 9}]
+    }
+  },
+  {
+    "id": 20,
+    "name": "cricket",
+    "location": "On the ground",
+    "rarity": 0,
+    "internalId": 617,
+    "price": 130,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 8, "end": 11}]
+    }
+  },
+  {
+    "id": 21,
+    "name": "bell cricket",
+    "location": "On the ground",
+    "rarity": 0,
+    "internalId": 642,
+    "price": 430,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 8, "end": 10}]
+    }
+  },
+  {
+    "id": 22,
+    "name": "mantis",
+    "location": "On flowers",
+    "rarity": 0,
+    "internalId": 607,
+    "price": 430,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 2, "end": 11}]
+    }
+  },
+  {
+    "id": 23,
+    "name": "orchid mantis",
+    "location": "On white flowers",
+    "rarity": 1,
+    "internalId": 598,
+    "price": 2400,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 2, "end": 11}]
+    }
+  },
+  {
+    "id": 24,
+    "name": "honeybee",
+    "location": "Flying near flowers",
+    "rarity": 0,
+    "internalId": 623,
+    "price": 200,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 2, "end": 7}]
+    }
+  },
+  {
+    "id": 25,
+    "name": "wasp",
+    "location": "Shaking trees",
+    "rarity": 0,
+    "internalId": 643,
+    "price": 2500,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 26,
+    "name": "brown cicada",
+    "location": "On hardwood/cedar trees",
+    "rarity": 0,
+    "internalId": 582,
+    "price": 250,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 27,
+    "name": "robust cicada",
+    "location": "On hardwood/cedar trees",
+    "rarity": 0,
+    "internalId": 621,
+    "price": 300,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 28,
+    "name": "giant cicada",
+    "location": "On hardwood/cedar trees",
+    "rarity": 1,
+    "internalId": 618,
+    "price": 500,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 29,
+    "name": "walker cicada",
+    "location": "On hardwood/cedar trees",
+    "rarity": 0,
+    "internalId": 649,
+    "price": 400,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 7, "end": 9}]
+    }
+  },
+  {
+    "id": 30,
+    "name": "evening cicada",
+    "location": "On hardwood/cedar trees",
+    "rarity": 0,
+    "internalId": 601,
+    "price": 550,
+    "weather": "Any weather",
+    "active": {
+      "hours": [
+        {"start": 4, "end": 8},
+        {"start": 16, "end": 19}
+      ],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 31,
+    "name": "cicada shell",
+    "location": "Shaking trees (hardwood or cedar only)",
+    "rarity": 2,
+    "internalId": 641,
+    "price": 10,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 32,
+    "name": "red dragonfly",
+    "location": "Flying",
+    "rarity": 0,
+    "internalId": 585,
+    "price": 180,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 19}],
+      "months": [{"start": 8, "end": 10}]
+    }
+  },
+  {
+    "id": 33,
+    "name": "darner dragonfly",
+    "location": "Flying",
+    "rarity": 0,
+    "internalId": 595,
+    "price": 230,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 3, "end": 10}]
+    }
+  },
+  {
+    "id": 34,
+    "name": "banded dragonfly",
+    "location": "Flying",
+    "rarity": 2,
+    "internalId": 635,
+    "price": 4500,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [{"start": 4, "end": 10}]
+    }
+  },
+  {
+    "id": 35,
+    "name": "damselfly",
+    "location": "Flying",
+    "rarity": 0,
+    "internalId": 5339,
+    "price": 500,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 10, "end": 2}]
+    }
+  },
+  {
+    "id": 36,
+    "name": "firefly",
+    "location": "Flying",
+    "rarity": 0,
+    "internalId": 603,
+    "price": 300,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 19, "end": 4}],
+      "months": [{"start": 5, "end": 6}]
+    }
+  },
+  {
+    "id": 37,
+    "name": "mole cricket",
+    "location": "Underground (dig where noise is loudest)",
+    "rarity": 0,
+    "internalId": 634,
+    "price": 500,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 10, "end": 5}]
+    }
+  },
+  {
+    "id": 38,
+    "name": "pondskater",
+    "location": "On rivers/ponds",
+    "rarity": 0,
+    "internalId": 587,
+    "price": 130,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 19}],
+      "months": [{"start": 4, "end": 9}]
+    }
+  },
+  {
+    "id": 39,
+    "name": "diving beetle",
+    "location": "On rivers/ponds",
+    "rarity": 0,
+    "internalId": 594,
+    "price": 800,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 8, "end": 19}],
+      "months": [{"start": 4, "end": 9}]
+    }
+  },
+  {
+    "id": 40,
+    "name": "giant water bug",
+    "location": "On rivers/ponds",
+    "rarity": 2,
+    "internalId": 5157,
+    "price": 2000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 19, "end": 8}],
+      "months": [{"start": 3, "end": 9}]
+    }
+  },
+  {
+    "id": 41,
+    "name": "stinkbug",
+    "location": "On flowers",
+    "rarity": 0,
+    "internalId": 608,
+    "price": 120,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 2, "end": 10}]
+    }
+  },
+  {
+    "id": 42,
+    "name": "man-faced stink bug",
+    "location": "On flowers",
+    "rarity": 1,
+    "internalId": 3483,
+    "price": 1000,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 19, "end": 8}],
+      "months": [{"start": 2, "end": 10}]
+    }
+  },
+  {
+    "id": 43,
+    "name": "ladybug",
+    "location": "On flowers",
+    "rarity": 0,
+    "internalId": 647,
+    "price": 200,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 8, "end": 17}],
+      "months": [
+        {"start": 2, "end": 6},
+        {"start": 9, "end": 10}
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "name": "tiger beetle",
+    "location": "On the ground",
+    "rarity": 1,
+    "internalId": 599,
+    "price": 1500,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 1, "end": 10}]
+    }
+  },
+  {
+    "id": 45,
+    "name": "jewel beetle",
+    "location": "On tree stumps",
+    "rarity": 1,
+    "internalId": 645,
+    "price": 2400,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 8}]
+    }
+  },
+  {
+    "id": 46,
+    "name": "violin beetle",
+    "location": "On tree stumps",
+    "rarity": 0,
+    "internalId": 650,
+    "price": 450,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [
+        {"start": 4, "end": 6},
+        {"start": 8, "end": 11}
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "name": "citrus long-horned beetle",
+    "location": "On tree stumps",
+    "rarity": 0,
+    "internalId": 609,
+    "price": 350,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 48,
+    "name": "rosalia batesi beetle",
+    "location": "On tree stumps",
+    "rarity": 1,
+    "internalId": 3487,
+    "price": 3000,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 4, "end": 9}]
+    }
+  },
+  {
+    "id": 49,
+    "name": "blue weevil beetle",
+    "location": "On palm trees",
+    "rarity": 0,
+    "internalId": 3485,
+    "price": 800,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 50,
+    "name": "dung beetle",
+    "location": "Pushing snowballs",
+    "rarity": 0,
+    "internalId": 604,
+    "price": 3000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 11, "end": 2}]
+    }
+  },
+  {
+    "id": 51,
+    "name": "earth-boring dung beetle",
+    "location": "On trees (any kind)",
+    "rarity": 0,
+    "internalId": 614,
+    "price": 300,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 6, "end": 9}]
+    }
+  },
+  {
+    "id": 52,
+    "name": "scarab beetle",
+    "location": "On trees (any kind)",
+    "rarity": 2,
+    "internalId": 639,
+    "price": 10000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 23, "end": 20}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 53,
+    "name": "drone beetle",
+    "location": "On trees (any kind)",
+    "rarity": 0,
+    "internalId": 3480,
+    "price": 200,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 5, "end": 8}]
+    }
+  },
+  {
+    "id": 54,
+    "name": "goliath beetle",
+    "location": "On palm trees",
+    "rarity": 3,
+    "internalId": 596,
+    "price": 8000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 5, "end": 9}]
+    }
+  },
+  {
+    "id": 55,
+    "name": "saw stag",
+    "location": "On trees (any kind)",
+    "rarity": 0,
+    "internalId": 632,
+    "price": 2000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 56,
+    "name": "miyama stag",
+    "location": "On trees (any kind)",
+    "rarity": 0,
+    "internalId": 624,
+    "price": 1000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 57,
+    "name": "giant stag",
+    "location": "On trees (any kind)",
+    "rarity": 2,
+    "internalId": 637,
+    "price": 10000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 23, "end": 8}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 58,
+    "name": "rainbow stag",
+    "location": "On trees (any kind)",
+    "rarity": 2,
+    "internalId": 631,
+    "price": 6000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 19, "end": 8}],
+      "months": [{"start": 5, "end": 9}]
+    }
+  },
+  {
+    "id": 59,
+    "name": "cyclommatus stag",
+    "location": "On palm trees",
+    "rarity": 3,
+    "internalId": 602,
+    "price": 8000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 60,
+    "name": "golden stag",
+    "location": "On palm trees",
+    "rarity": 3,
+    "internalId": 638,
+    "price": 12000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 61,
+    "name": "giraffe stag",
+    "location": "On palm trees",
+    "rarity": 3,
+    "internalId": 3482,
+    "price": 12000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 62,
+    "name": "horned dynastid",
+    "location": "On trees (any kind)",
+    "rarity": 0,
+    "internalId": 612,
+    "price": 1350,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 63,
+    "name": "horned atlas",
+    "location": "On palm trees",
+    "rarity": 3,
+    "internalId": 615,
+    "price": 8000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 64,
+    "name": "horned elephant",
+    "location": "On palm trees",
+    "rarity": 3,
+    "internalId": 653,
+    "price": 8000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 65,
+    "name": "horned hercules",
+    "location": "On palm trees",
+    "rarity": 3,
+    "internalId": 600,
+    "price": 12000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 17, "end": 8}],
+      "months": [{"start": 6, "end": 8}]
+    }
+  },
+  {
+    "id": 66,
+    "name": "walking stick",
+    "location": "On trees (any kind)",
+    "rarity": 1,
+    "internalId": 630,
+    "price": 600,
+    "weather": "Any weather",
+    "active": {
+      "hours": [
+        {"start": 4, "end": 8},
+        {"start": 17, "end": 19}
+      ],
+      "months": [{"start": 5, "end": 11}]
+    }
+  },
+  {
+    "id": 67,
+    "name": "walking leaf",
+    "location": "Disguised under trees",
+    "rarity": 1,
+    "internalId": 616,
+    "price": 600,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 6, "end": 9}]
+    }
+  },
+  {
+    "id": 68,
+    "name": "bagworm",
+    "location": "Shaking trees (hardwood or cedar only)",
+    "rarity": 0,
+    "internalId": 622,
+    "price": 600,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 69,
+    "name": "ant",
+    "location": "On rotten turnips",
+    "rarity": 0,
+    "internalId": 588,
+    "price": 80,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 70,
+    "name": "hermit crab",
+    "location": "Disguised on shoreline",
+    "rarity": 0,
+    "internalId": 651,
+    "price": 1000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 19, "end": 8}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 71,
+    "name": "wharf roach",
+    "location": "On beach rocks",
+    "rarity": 0,
+    "internalId": 591,
+    "price": 200,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 72,
+    "name": "fly",
+    "location": "Flying near trash (boots, tires, cans) or rotten turnips",
+    "rarity": 0,
+    "internalId": 597,
+    "price": 60,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 73,
+    "name": "mosquito",
+    "location": "Flying",
+    "rarity": 0,
+    "internalId": 606,
+    "price": 130,
+    "weather": "Any except rain",
+    "active": {
+      "hours": [{"start": 17, "end": 4}],
+      "months": [{"start": 5, "end": 9}]
+    }
+  },
+  {
+    "id": 74,
+    "name": "flea",
+    "location": "On villagers",
+    "rarity": 0,
+    "internalId": 633,
+    "price": 70,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 3, "end": 11}]
+    }
+  },
+  {
+    "id": 75,
+    "name": "snail",
+    "location": "On rocks",
+    "rarity": 0,
+    "internalId": 611,
+    "price": 250,
+    "weather": "Rain only",
+    "active": {
+      "hours": [{"start": 0, "end": 0}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 76,
+    "name": "pill bug",
+    "location": "From hitting rocks",
+    "rarity": 0,
+    "internalId": 590,
+    "price": 250,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 23, "end": 16}],
+      "months": [{"start": 8, "end": 6}]
+    }
+  },
+  {
+    "id": 77,
+    "name": "centipede",
+    "location": "From hitting rocks",
+    "rarity": 0,
+    "internalId": 628,
+    "price": 300,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 16, "end": 23}],
+      "months": [{"start": 8, "end": 6}]
+    }
+  },
+  {
+    "id": 78,
+    "name": "spider",
+    "location": "Shaking trees (hardwood or cedar only)",
+    "rarity": 0,
+    "internalId": 619,
+    "price": 600,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 19, "end": 8}],
+      "months": [{"start": 0, "end": 0}]
+    }
+  },
+  {
+    "id": 79,
+    "name": "tarantula",
+    "location": "On the ground",
+    "rarity": 0,
+    "internalId": 646,
+    "price": 8000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 19, "end": 4}],
+      "months": [{"start": 10, "end": 4}]
+    }
+  },
+  {
+    "id": 80,
+    "name": "scorpion",
+    "location": "On the ground",
+    "rarity": 0,
+    "internalId": 640,
+    "price": 8000,
+    "weather": "Any weather",
+    "active": {
+      "hours": [{"start": 19, "end": 4}],
+      "months": [{"start": 4, "end": 10}]
+    }
+  }
+]

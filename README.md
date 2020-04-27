@@ -15,11 +15,11 @@ npm install
 
 ### Update data
 
-1. Download [data spreadsheet](https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4/htmlview#)
-1. Save the fish sheet as `data/fish.csv`
+1. Open [data spreadsheet](https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4/htmlview#)
+1. Download the fish and bugs sheets as `data/fish.csv` and `data/bugs.csv`
 1. Parse data
     ```bash
-    npm run parse-fish
+    npm run parse
     ```
 
 ### Start dev server
