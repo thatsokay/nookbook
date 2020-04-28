@@ -40,11 +40,10 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
-        // No ES module so importing with `require` doesn't need `.default`.
         options: {
           outputPath: 'img',
           name: '[name].[hash:8].[ext]',
-          esModule: false,
+          esModule: false, // No ES module so importing with `require` doesn't need `.default`
         },
       },
     ],

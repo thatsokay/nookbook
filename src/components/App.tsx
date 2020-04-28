@@ -18,6 +18,7 @@ import {Brightness6, SortByAlpha, ExpandMore} from '@material-ui/icons'
 
 import RadioButtons from './RadioButtons'
 import FishCard from './FishCard'
+import BugCard from './BugCard'
 import {
   useHemisphere,
   useActiveTimeFilter,
@@ -26,12 +27,13 @@ import {
 } from '../filters'
 import {useDarkMode} from '../utilities'
 import fishData from '../../assets/fish.json'
+import bugData from '../../assets/bugs.json'
 
 const imageCache = (
   <Box hidden>
     {fishData.map(({id}) => (
       <img
-        src={require('../../assets/img/fish' +
+        src={require('../../assets/img/fish/fish' +
           `${id}`.padStart(2, '0') +
           '.png')}
         key={id}
@@ -226,6 +228,11 @@ const App = () => {
             )}
           </Box>
           <Grid container spacing={3}>
+            {bugData.map((bug) => (
+              <Grid item xs={12} sm={6} md={4} lg={3} key={bug.id}>
+                <BugCard bug={bug} />
+              </Grid>
+            ))}
             {sortedFish.map((fish) => (
               <Grid item xs={12} sm={6} md={4} lg={3} key={fish.id}>
                 <FishCard fish={fish} />

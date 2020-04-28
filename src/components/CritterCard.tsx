@@ -11,16 +11,7 @@ import {
 import {ExpandMore, CalendarToday, Schedule} from '@material-ui/icons'
 
 import fishData from '../../assets/fish.json'
-
-const shadowSizes = [
-  'Tiny',
-  'Small',
-  'Medium',
-  'Narrow',
-  'Large',
-  'Very Large',
-  'Huge',
-] as const
+import bugData from '../../assets/bugs.json'
 
 const monthNames = [
   'January',
@@ -59,32 +50,37 @@ const useStyles = makeStyles((theme) => {
   }
 })
 
-const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
+export type Fish = typeof fishData[number]
+export type Bug = typeof bugData[number]
+// Common properties between Fish and Bug
+// https://stackoverflow.com/a/47375979
+export type Critter = {
+  [K in keyof Fish & keyof Bug]: Fish[K] extends Bug[K] ? Fish[K] : never
+}
+
+interface CritterProps {
+  critter: Critter
+  imageSrc: string
+  summary: string
+}
+
+const CritterCard = ({critter, summary, imageSrc}: CritterProps) => {
   const classes = useStyles()
   const [expanded, setExpanded] = useState(false)
   return (
     <Card>
       <CardContent>
         <Box display="flex">
-          <img
-            src={require('../../assets/img/fish/fish' +
-              `${fish.id}`.padStart(2, '0') +
-              '.png')}
-            style={{width: '3.25rem', height: '3.25rem'}}
-          />
+          <img src={imageSrc} style={{width: '3.25rem', height: '3.25rem'}} />
           <Box flex={1} paddingLeft="0.5rem">
             <Typography
               className={classes.capitalize}
               variant="h6"
               component="h2"
             >
-              {fish.name}
+              {critter.name}
             </Typography>
-            <Typography variant="body2">
-              ฿{fish.price} • {fish.location} •{' '}
-              {shadowSizes[fish.shadow.size] +
-                (fish.shadow.finned ? ' (fin)' : '')}
-            </Typography>
+            <Typography variant="body2">{summary}</Typography>
           </Box>
           <Box
             onClick={() => setExpanded(!expanded)}
@@ -110,7 +106,7 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
           >
             <DetailRow
               icon={<CalendarToday viewBox="-3 0 30 30" />}
-              periods={fish.active.months}
+              periods={critter.active.months}
               periodFormatter={({start, end}) =>
                 start === end
                   ? 'All year'
@@ -126,7 +122,7 @@ const FishCard = ({fish}: {fish: typeof fishData[number]}) => {
             />
             <DetailRow
               icon={<Schedule viewBox="-3 0 30 30" />}
-              periods={fish.active.hours}
+              periods={critter.active.hours}
               periodFormatter={({start, end}) =>
                 start === end
                   ? 'All day'
@@ -168,4 +164,4 @@ const DetailRow = (props: DetailRowProps) => (
   </>
 )
 
-export default FishCard
+export default CritterCard
