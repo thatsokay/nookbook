@@ -1,4 +1,4 @@
-import React, {useMemo} from 'react'
+import React, {useState, useMemo} from 'react'
 import {
   makeStyles,
   useMediaQuery,
@@ -8,12 +8,16 @@ import {
   Container,
   Box,
   Grid,
+  Button,
   IconButton,
   Typography,
+  AppBar,
+  Toolbar,
   ExpansionPanel,
   ExpansionPanelSummary,
   ExpansionPanelDetails,
 } from '@material-ui/core'
+import {lightBlue, teal} from '@material-ui/core/colors'
 import {Brightness6, SortByAlpha, ExpandMore} from '@material-ui/icons'
 
 import RadioButtons from './RadioButtons'
@@ -65,6 +69,10 @@ const useStyles = makeStyles({
 const App = () => {
   const classes = useStyles()
 
+  const [critterType, setCritterType] = useState<'fish' | 'bugs'>('fish')
+  const handleCritterTypeChange = (critter: typeof critterType) => () =>
+    setCritterType(critter)
+
   const {hemisphere, setHemisphere, hemisphereFish} = useHemisphere(fishData)
   const {
     activeTimeFilter,
@@ -90,9 +98,34 @@ const App = () => {
       createMuiTheme({
         palette: {
           type: darkMode ? 'dark' : 'light',
+          primary:
+            critterType === 'fish'
+              ? darkMode
+                ? {
+                    light: lightBlue[600],
+                    main: lightBlue[800],
+                    dark: lightBlue[900],
+                  }
+                : {
+                    light: lightBlue[50],
+                    main: lightBlue[200],
+                    dark: lightBlue[500],
+                  }
+              : darkMode
+              ? {
+                  light: teal[400],
+                  main: teal[700],
+                  dark: teal[900],
+                }
+              : {
+                  light: teal[50],
+                  main: teal[200],
+                  dark: teal[300],
+                },
+          secondary: critterType === 'fish' ? lightBlue : teal,
         },
       }),
-    [darkMode],
+    [darkMode, critterType],
   )
   const lgViewport = useMediaQuery(theme.breakpoints.up('lg'))
 
@@ -204,42 +237,58 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       {imageCache}
+      <AppBar position="static">
+        <Container>
+          <Toolbar disableGutters>
+            <Box flexGrow={1}>
+              <Typography variant="h6">NookBook</Typography>
+            </Box>
+            <Button
+              onClick={handleCritterTypeChange('fish')}
+              color="inherit"
+              disabled={critterType === 'fish'}
+            >
+              Fish
+            </Button>
+            <Button
+              onClick={handleCritterTypeChange('bugs')}
+              color="inherit"
+              disabled={critterType === 'bugs'}
+            >
+              Bugs
+            </Button>
+            <IconButton color="inherit" onClick={() => setDarkMode(!darkMode)}>
+              <Brightness6 />
+            </IconButton>
+          </Toolbar>
+        </Container>
+      </AppBar>
       <Container>
-        <Box position="relative">
-          <IconButton
-            className={classes.themeToggleButton}
-            onClick={() => setDarkMode(!darkMode)}
-          >
-            <Brightness6 className={classes.themeToggleIcon} />
-          </IconButton>
-          <Typography variant="h2" component="h1" align="center" gutterBottom>
-            NookBook
-          </Typography>
-          <Box margin="1.5rem 0">
-            {lgViewport ? (
-              Controls
-            ) : (
-              <ExpansionPanel>
-                <ExpansionPanelSummary expandIcon={<ExpandMore />}>
-                  <Typography variant="button">Filters</Typography>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>{Controls}</ExpansionPanelDetails>
-              </ExpansionPanel>
-            )}
-          </Box>
-          <Grid container spacing={3}>
-            {bugData.map((bug) => (
-              <Grid item xs={12} sm={6} md={4} lg={3} key={bug.id}>
-                <BugCard bug={bug} />
-              </Grid>
-            ))}
-            {sortedFish.map((fish) => (
-              <Grid item xs={12} sm={6} md={4} lg={3} key={fish.id}>
-                <FishCard fish={fish} />
-              </Grid>
-            ))}
-          </Grid>
+        <Box margin="1.5rem 0">
+          {lgViewport ? (
+            Controls
+          ) : (
+            <ExpansionPanel>
+              <ExpansionPanelSummary expandIcon={<ExpandMore />}>
+                <Typography variant="button">Filters</Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>{Controls}</ExpansionPanelDetails>
+            </ExpansionPanel>
+          )}
         </Box>
+        <Grid container spacing={3}>
+          {critterType === 'fish'
+            ? sortedFish.map((fish) => (
+                <Grid item xs={12} sm={6} md={4} lg={3} key={fish.id}>
+                  <FishCard fish={fish} />
+                </Grid>
+              ))
+            : bugData.map((bug) => (
+                <Grid item xs={12} sm={6} md={4} lg={3} key={bug.id}>
+                  <BugCard bug={bug} />
+                </Grid>
+              ))}
+        </Grid>
       </Container>
     </ThemeProvider>
   )
