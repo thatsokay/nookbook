@@ -10,8 +10,7 @@ import {
 } from '@material-ui/core'
 import {ExpandMore, CalendarToday, Schedule} from '@material-ui/icons'
 
-import fishData from '../../assets/fish.json'
-import bugData from '../../assets/bugs.json'
+import {Critter} from '../types'
 
 const monthNames = [
   'January',
@@ -49,14 +48,6 @@ const useStyles = makeStyles((theme) => {
     },
   }
 })
-
-export type Fish = typeof fishData[number]
-export type Bug = typeof bugData[number]
-// Common properties between Fish and Bug
-// https://stackoverflow.com/a/47375979
-export type Critter = {
-  [K in keyof Fish & keyof Bug]: Fish[K] extends Bug[K] ? Fish[K] : never
-}
 
 interface CritterProps {
   critter: Critter

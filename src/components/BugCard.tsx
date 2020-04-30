@@ -1,10 +1,11 @@
 import React from 'react'
-import CritterCard, {Bug} from './CritterCard'
+import CritterCard from './CritterCard'
+import {Bug} from '../types'
 
 const shortenLocation = (location: string) => {
   const shorten: [RegExp, string][] = [
-    [/Flying near .+ flowers/, 'flying near flowers'],
-    [/Flying near light sources/, 'flying near light'],
+    [/Flying near .+ flowers/, 'Flying near flowers'],
+    [/Flying near light sources/, 'Flying near light'],
     [
       /Flying near trash .+ or rotten turnips/,
       'Flying near trash or rotten turnips',
