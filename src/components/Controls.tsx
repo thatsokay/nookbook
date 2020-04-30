@@ -1,9 +1,7 @@
-import React, {useMemo} from 'react'
+import React from 'react'
 import {SortByAlpha} from '@material-ui/icons'
 
 import RadioButtons from './RadioButtons'
-import FishCard from './FishCard'
-import BugCard from './BugCard'
 import {
   useHemisphere,
   useActiveTimeFilter,
@@ -12,7 +10,6 @@ import {
   useBugLocationFilter,
   useBugSort,
 } from '../filters'
-import {Fish, Bug} from '../types'
 
 export const HemisphereControl = ({
   hemisphere,

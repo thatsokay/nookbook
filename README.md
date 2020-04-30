@@ -1,9 +1,9 @@
-# Animal Crossing Fish Viewer
+# NookBook
 
 Displays the fish in Animal Crossing: New Horizons and allows for filtering and
 sorting by active time, location, price, and size.
 
-https://thatsokay.gitlab.io/animal-crossing
+https://thatsokay.gitlab.io/nookbook
 
 ## Install and run
 
