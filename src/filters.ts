@@ -145,7 +145,7 @@ export const useFishSort = (fishData: Fish[]) => {
 
 export const useBugLocationFilter = (bugData: Bug[]) => {
   const [locationFilter, setLocationFilter] = useState<
-    'all' | 'ground' | 'tree' | 'flower' | 'other'
+    'all' | 'tree' | 'flower' | 'other'
   >('all')
   const locationFilteredBugs = useMemo(() => {
     switch (locationFilter) {
@@ -154,7 +154,7 @@ export const useBugLocationFilter = (bugData: Bug[]) => {
       case 'other':
         return bugData.filter(
           (bug) =>
-            !['ground', 'tree', 'flower'].some((location) =>
+            !['tree', 'flower'].some((location) =>
               bug.location.toLowerCase().includes(location),
             ),
         )

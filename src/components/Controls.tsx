@@ -98,7 +98,6 @@ export const BugLocationControl = ({
     label="Location"
     options={[
       {name: 'All', value: 'all'},
-      {name: 'Ground', value: 'ground'},
       {name: 'Trees', value: 'tree'},
       {name: 'Flowers', value: 'flower'},
       {name: 'Other', value: 'other'},
