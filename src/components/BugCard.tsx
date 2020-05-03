@@ -1,4 +1,5 @@
 import React from 'react'
+
 import CritterCard from './CritterCard'
 import {Bug} from '../types'
 
