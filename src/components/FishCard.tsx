@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 
 import CritterCard from './CritterCard'
 import {Fish} from '../types'
@@ -25,4 +25,7 @@ const FishCard = ({fish}: {fish: Fish}) => (
   />
 )
 
-export default FishCard
+export default memo(
+  FishCard,
+  (prevProps, nextProps) => prevProps.fish.id === nextProps.fish.id,
+)

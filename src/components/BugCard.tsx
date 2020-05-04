@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 
 import CritterCard from './CritterCard'
 import {Bug} from '../types'
@@ -31,4 +31,7 @@ const BugCard = ({bug}: {bug: Bug}) => (
   />
 )
 
-export default BugCard
+export default memo(
+  BugCard,
+  (prevProps, nextProps) => prevProps.bug.id === nextProps.bug.id,
+)
