@@ -27,5 +27,9 @@ const FishCard = ({fish}: {fish: Fish}) => (
 
 export default memo(
   FishCard,
-  (prevProps, nextProps) => prevProps.fish.id === nextProps.fish.id,
+  (prevProps, nextProps) =>
+    prevProps.fish.id === nextProps.fish.id &&
+    // Check same hemisphere
+    prevProps.fish.active.months[0]?.start ===
+      nextProps.fish.active.months[0]?.start,
 )

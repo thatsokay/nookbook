@@ -33,5 +33,9 @@ const BugCard = ({bug}: {bug: Bug}) => (
 
 export default memo(
   BugCard,
-  (prevProps, nextProps) => prevProps.bug.id === nextProps.bug.id,
+  (prevProps, nextProps) =>
+    prevProps.bug.id === nextProps.bug.id &&
+    // Check same hemisphere
+    prevProps.bug.active.months[0]?.start ===
+      nextProps.bug.active.months[0]?.start,
 )
