@@ -29,14 +29,27 @@ const green = {
   dark: '#6fdb97',
 }
 
-const imageCache = (
+const fishImageCache = (
   <Box hidden>
     {fishData.map(({id}) => (
       <img
         src={require('../../assets/img/fish/fish' +
           `${id}`.padStart(2, '0') +
           '.png')}
-        key={id}
+        key={`fish-${id}`}
+      />
+    ))}
+  </Box>
+)
+
+const bugImageCache = (
+  <Box hidden>
+    {bugData.map(({id}) => (
+      <img
+        src={require('../../assets/img/bugs/ins' +
+          `${id}`.padStart(2, '0') +
+          '.png')}
+        key={`bug-${id}`}
       />
     ))}
   </Box>
@@ -65,7 +78,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      {imageCache}
+      {critterPage === 'fish' ? fishImageCache : bugImageCache}
       <AppBar position="static">
         <Container>
           <Toolbar disableGutters>
