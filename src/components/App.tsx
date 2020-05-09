@@ -11,13 +11,23 @@ import {
   AppBar,
   Toolbar,
 } from '@material-ui/core'
-import {lightBlue, teal} from '@material-ui/core/colors'
 import {Brightness6} from '@material-ui/icons'
 
 import {FishPage, BugPage} from './Pages'
 import {useDarkMode} from '../utilities'
 import fishData from '../../assets/fish.json'
 import bugData from '../../assets/bugs.json'
+
+const blue = {
+  light: '#b8f2f7',
+  main: '#87e1ea',
+  dark: '#5dcdd7',
+}
+const green = {
+  light: '#c8f9da',
+  main: '#99edb9',
+  dark: '#6fdb97',
+}
 
 const imageCache = (
   <Box hidden>
@@ -41,33 +51,12 @@ const App = () => {
   const theme = React.useMemo(
     () =>
       createMuiTheme({
+        // Default palette:
+        // https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/styles/createPalette.js#L96
         palette: {
           type: darkMode ? 'dark' : 'light',
-          primary:
-            critterPage === 'fish'
-              ? darkMode
-                ? {
-                    light: lightBlue[600],
-                    main: lightBlue[800],
-                    dark: lightBlue[900],
-                  }
-                : {
-                    light: lightBlue[50],
-                    main: lightBlue[200],
-                    dark: lightBlue[300],
-                  }
-              : darkMode
-              ? {
-                  light: teal[400],
-                  main: teal[700],
-                  dark: teal[900],
-                }
-              : {
-                  light: teal[50],
-                  main: teal[200],
-                  dark: teal[300],
-                },
-          secondary: critterPage === 'fish' ? lightBlue : teal,
+          primary: critterPage === 'fish' ? blue : green,
+          secondary: critterPage === 'fish' ? green : blue,
         },
       }),
     [darkMode, critterPage],
@@ -83,18 +72,10 @@ const App = () => {
             <Box flexGrow={1}>
               <Typography variant="h6">NookBook</Typography>
             </Box>
-            <Button
-              onClick={handleCritterTypeChange('fish')}
-              color="inherit"
-              disabled={critterPage === 'fish'}
-            >
+            <Button onClick={handleCritterTypeChange('fish')} color="inherit">
               Fish
             </Button>
-            <Button
-              onClick={handleCritterTypeChange('bugs')}
-              color="inherit"
-              disabled={critterPage === 'bugs'}
-            >
+            <Button onClick={handleCritterTypeChange('bugs')} color="inherit">
               Bugs
             </Button>
             <IconButton color="inherit" onClick={() => setDarkMode(!darkMode)}>
