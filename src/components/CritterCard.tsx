@@ -77,13 +77,15 @@ const CritterCard = ({critter, summary, imageSrc}: CritterProps) => {
             </Typography>
             <Typography variant="body2">{summary}</Typography>
           </Box>
-          <IconButton
-            className={
-              expanded ? classes.expandToggleOpen : classes.expandToggleClosed
-            }
-          >
-            <ExpandMore />
-          </IconButton>
+          <Box display="flex" alignItems="center">
+            <IconButton
+              className={
+                expanded ? classes.expandToggleOpen : classes.expandToggleClosed
+              }
+            >
+              <ExpandMore />
+            </IconButton>
+          </Box>
         </Box>
       </CardContent>
       <Collapse in={expanded}>
