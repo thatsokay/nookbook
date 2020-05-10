@@ -46,6 +46,10 @@ const useStyles = makeStyles((theme) => {
     capitalize: {
       textTransform: 'capitalize',
     },
+    cardImage: {
+      width: '3.25rem',
+      height: '3.25rem',
+    },
   }
 })
 
@@ -60,9 +64,9 @@ const CritterCard = ({critter, summary, imageSrc}: CritterProps) => {
   const [expanded, setExpanded] = useState(false)
   return (
     <Card>
-      <CardContent>
+      <CardContent onClick={() => setExpanded(!expanded)}>
         <Box display="flex">
-          <img src={imageSrc} style={{width: '3.25rem', height: '3.25rem'}} />
+          <img src={imageSrc} className={classes.cardImage} />
           <Box flex={1} paddingLeft="0.5rem">
             <Typography
               className={classes.capitalize}
@@ -73,19 +77,13 @@ const CritterCard = ({critter, summary, imageSrc}: CritterProps) => {
             </Typography>
             <Typography variant="body2">{summary}</Typography>
           </Box>
-          <Box
-            onClick={() => setExpanded(!expanded)}
-            display="flex"
-            alignItems="center"
+          <IconButton
+            className={
+              expanded ? classes.expandToggleOpen : classes.expandToggleClosed
+            }
           >
-            <IconButton
-              className={
-                expanded ? classes.expandToggleOpen : classes.expandToggleClosed
-              }
-            >
-              <ExpandMore />
-            </IconButton>
-          </Box>
+            <ExpandMore />
+          </IconButton>
         </Box>
       </CardContent>
       <Collapse in={expanded}>
