@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 import {makeStyles, Box, Paper, Typography, Link} from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
@@ -32,4 +32,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default memo(Footer)
