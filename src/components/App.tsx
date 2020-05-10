@@ -5,9 +5,11 @@ import {
   CssBaseline,
   Container,
   Box,
+  Paper,
   Button,
   IconButton,
   Typography,
+  Link,
   AppBar,
   Toolbar,
 } from '@material-ui/core'
@@ -79,31 +81,53 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       {critterPage === 'fish' ? fishImageCache : bugImageCache}
-      <AppBar position="static">
-        <Container>
-          <Toolbar disableGutters>
-            <Box flexGrow={1}>
-              <Typography variant="h6">NookBook</Typography>
-            </Box>
-            <Button onClick={handleCritterTypeChange('fish')} color="inherit">
-              Fish
-            </Button>
-            <Button onClick={handleCritterTypeChange('bugs')} color="inherit">
-              Bugs
-            </Button>
-            <IconButton color="inherit" onClick={() => setDarkMode(!darkMode)}>
-              <Brightness6 />
-            </IconButton>
-          </Toolbar>
-        </Container>
-      </AppBar>
-      <Container>
-        {critterPage === 'fish' ? (
-          <FishPage fish={fishData} />
-        ) : (
-          <BugPage bugs={bugData} />
-        )}
-      </Container>
+      <Box minHeight="100vh" display="flex" flexDirection="column">
+        <AppBar position="static">
+          <Container>
+            <Toolbar disableGutters>
+              <Box flexGrow={1}>
+                <Typography variant="h6">NookBook</Typography>
+              </Box>
+              <Button onClick={handleCritterTypeChange('fish')} color="inherit">
+                Fish
+              </Button>
+              <Button onClick={handleCritterTypeChange('bugs')} color="inherit">
+                Bugs
+              </Button>
+              <IconButton
+                color="inherit"
+                onClick={() => setDarkMode(!darkMode)}
+              >
+                <Brightness6 />
+              </IconButton>
+            </Toolbar>
+          </Container>
+        </AppBar>
+        <Box flexGrow={1} marginBottom="2rem">
+          <Container>
+            {critterPage === 'fish' ? (
+              <FishPage fish={fishData} />
+            ) : (
+              <BugPage bugs={bugData} />
+            )}
+          </Container>
+        </Box>
+        <Paper component="footer" square={true} elevation={8}>
+          <Box display="flex" justifyContent="center" padding="2rem">
+            <Typography color="textSecondary">
+              Data sourced from the{' '}
+              <Link
+                href="https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4"
+                target="_blank"
+                rel="noopener noreferrer"
+                color="inherit"
+              >
+                ACNH spreadsheet
+              </Link>
+            </Typography>
+          </Box>
+        </Paper>
+      </Box>
     </ThemeProvider>
   )
 }
