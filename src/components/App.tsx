@@ -5,30 +5,29 @@ import {
   CssBaseline,
   Container,
   Box,
-  Paper,
   Button,
   IconButton,
   Typography,
-  Link,
   AppBar,
   Toolbar,
 } from '@material-ui/core'
 import {Brightness6} from '@material-ui/icons'
 
 import {FishPage, BugPage} from './Pages'
+import Footer from './Footer'
 import {useDarkMode} from '../utilities'
 import fishData from '../../assets/fish.json'
 import bugData from '../../assets/bugs.json'
 
 const blue = {
-  light: '#b8f2f7',
+  light: '#bbffff',
   main: '#87e1ea',
-  dark: '#5dcdd7',
+  dark: '#53afb8',
 }
 const green = {
-  light: '#c8f9da',
+  light: '#ccffeb',
   main: '#99edb9',
-  dark: '#6fdb97',
+  dark: '#68ba89',
 }
 
 const fishImageCache = (
@@ -112,21 +111,7 @@ const App = () => {
             )}
           </Container>
         </Box>
-        <Paper component="footer" square={true} elevation={8}>
-          <Box display="flex" justifyContent="center" padding="2rem">
-            <Typography color="textSecondary">
-              Data sourced from the{' '}
-              <Link
-                href="https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4"
-                target="_blank"
-                rel="noopener noreferrer"
-                color="inherit"
-              >
-                ACNH spreadsheet
-              </Link>
-            </Typography>
-          </Box>
-        </Paper>
+        <Footer />
       </Box>
     </ThemeProvider>
   )
