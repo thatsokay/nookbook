@@ -51,12 +51,12 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({inject: true, template: './public/index.html'}),
-    new CopyPlugin(
-      fs
+    new CopyPlugin({
+      patterns: fs
         .readdirSync('public')
         .filter((file) => file !== 'index.html')
         .map((file) => ({from: `public/${file}`, to: file})),
-    ),
+    }),
     new GenerateSW(),
     new ForkTsCheckerWebpackPlugin(),
   ],
